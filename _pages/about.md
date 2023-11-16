@@ -14,7 +14,7 @@ I am currently a Research Associate in Asteroseismology at the [Institute of Ast
 
 My work has been [published](https://jvb11.github.io/publications) in *Astronomy & Astrophysics*. The topic of my research is centered around asteroseismology, the study of waves inside (variable) stars to characterize the internal structure of stars so that theoretical models of their evolution (and structure) can be improved. I primarily focus my [research](https://jvb11.github.io/research) on the energy exchange among (gravity) waves propagating inside (variable) stars, referred to as non-linear mode coupling. In addition, some of my research papers discussed the influence of magnetic fields on gravity waves inside stars.<sup id="a1">[1](#fn1)</sup> 
 
-[comment] # (I also maintain an active interest in (astro)chemistry and plasma physics and try to keep up with some of the recent advances within these field.)
+[comment]: # (I also maintain an active interest in (astro)chemistry and plasma physics and try to keep up with some of the recent advances within these field.)
 
 I have [teaching](https://jvb11.github.io/teaching) experience in (generic) freshman university-level physics courses, and have been a tutor in chemistry / physics / mathematics at the secondary education level. I furthermore co-authored a Python exercise (in Dutch, my mother tongue) at the freshman (university) level that taught students how to visualize physical processes on their screens.
 
