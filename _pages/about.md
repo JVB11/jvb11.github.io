@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I was a Research Associate in Asteroseismology at the [Institute of Astronomy](https://fys.kuleuven.be/ster) at [KU Leuven](https://www.kuleuven.be/english/), Belgium until December 2023, and am now exploring opportunities to continue my research career. I earned my B. Sc. and M. Sc. in Chemistry ('Chemie') from the [University of Antwerp](https://www.uantwerpen.be/en/) and my M. Sc. and Ph. D. in Astronomy & Astrophysics from [KU Leuven](https://www.kuleuven.be/english/).
+I was a Research Associate in Asteroseismology at the [Institute of Astronomy](https://fys.kuleuven.be/ster) at [KU Leuven](https://www.kuleuven.be/english/), Belgium until December 2023, after having finished my Ph. D. in September 2023, and am now exploring opportunities to continue my research career. I earned my B. Sc. and M. Sc. in Chemistry ('Chemie') from the [University of Antwerp](https://www.uantwerpen.be/en/) and my M. Sc. and Ph. D. in Astronomy & Astrophysics from [KU Leuven](https://www.kuleuven.be/english/).
 
 My work has been [published](https://jvb11.github.io/publications) in *Astronomy & Astrophysics*. The topic of my research was centered around asteroseismology, which is the study of waves inside (variable) stars with the aim of characterizing the internal structure of stars so that theoretical models of their evolution and structure can be improved. I primarily focused my [research](https://jvb11.github.io/research) on the energy exchange among (gravity) waves propagating inside (variable) stars, which is also known as non-linear (gravity) mode coupling. In addition, some of my research papers discussed the influence of magnetic fields on gravity waves inside stars.<sup id="a1">[1](#fn1)</sup> 
 
