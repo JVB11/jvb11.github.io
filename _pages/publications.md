@@ -18,6 +18,7 @@ Van Reeth T., De Cat P., Van Beeck J., et al., The near-core rotation of HD 1124
 Van Reeth T., Southworth J., Van Beeck J., Bowman D. M., V456 Cyg: An eclipsing binary with tidally perturbed g-mode pulsations, 2022, A&A, 659, A177 (nr. of citations: 10, DOI: 10.1051/0004-6361/202142833, ADS bibcode: <a href="https://ui.adsabs.harvard.edu/abs/2022A&A...659A.177V">2022A&A...659A.177V</a>)
 
 You can check out the full list of publications in my ADS Library.
+
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
