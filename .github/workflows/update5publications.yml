@@ -7,13 +7,11 @@ on:
 
 jobs:
   update_data:
-    runs-on: python:3-slim
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
-      - name: setup python
-        uses: actions/setup-python@v2
       - name: run publication update script
         env:
           ORCID: "{{ vars.ORCID }}"
