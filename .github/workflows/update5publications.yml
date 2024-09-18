@@ -25,5 +25,5 @@ jobs:
           git config user.email "${{ secrets.EMAIL }}"
           git config user.name "${{ vars.GITHUBUSERNAME }}"
           git add ./_pages/publications.md
-          git commit -m "(automatically) pushing latest version of last 5 publications"
+          git commit -m "(automatically) pushing latest version of last 5 publications" --allow-empty
           git push origin
