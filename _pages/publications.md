@@ -27,7 +27,7 @@ author_profile: true
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202142833">10.1051/0004-6361/202142833</a>, NASA ADS bibcode: <a href="https://ui.adsabs.harvard.edu/abs/2022A&A...659A.177V">2022A&A...659A.177V</a>, arXiv: <a href="https://arxiv.org/abs/2201.05359">2201.05359</a>*
 
-## View the full publications list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA).
+## View the full publication list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA).
 
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
