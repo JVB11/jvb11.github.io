@@ -23,7 +23,7 @@ jobs:
       - name: Push adjusted publications file
         run: |
           git config user.email "${{ secrets.EMAIL }}"
-          git config user.name "${{ vars.GITHUBUSERNAME }}"
+          git config user.name "${{ vars.GITHUBUSERNAME }}-bot"
           git add ./_pages/publications.md
           git commit -m "(automatically) pushing latest version of last 5 publications" --allow-empty
           git push origin
