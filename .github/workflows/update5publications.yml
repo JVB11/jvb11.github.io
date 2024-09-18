@@ -1,0 +1,24 @@
+name: update 5 latest publications
+
+on:
+  push:
+  schedule:
+    - cron: '59 17 * * *'
+
+jobs:
+  update_data:
+    runs-on: python:3.11-slim
+
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2
+      - name: setup python
+        uses: actions/setup-python@v2
+      - name: run publication update script
+        env:
+          ORCID: "{{ vars.ORCID }}"
+          ADS_API: "{{ secrets.ADS_API_TOKEN }}"
+          ADS_LIB: " {{ vars.ADS_LIBRARY_URL }} "
+        run: "python3 ./scripts/run_update_publications.py"
+      
+      
