@@ -3,7 +3,7 @@ name: update 5 latest publications
 on:
   push:
   schedule:
-    - cron: '10 22 * * *'
+    - cron: '30 22 * * *'
 
 jobs:
   update_data:
@@ -18,5 +18,10 @@ jobs:
           ADS_API: "${{ secrets.ADS_API_TOKEN }}"
           ADS_LIB: "${{ vars.ADS_LIBRARY_URL }}"
         run: "python3 ./scripts/run_update_publications.py"
-      
-      
+      - name: Push adjusted publications file
+        run: |
+          git config user.email "${{ secrets.EMAIL }}"
+          git config user.name "${{ vars.GITHUBUSERNAME }}"
+          git add ./_pages/publications.md
+          git commit -m "(automatically) pushing latest version of last 5 publications"
+          git push origin
