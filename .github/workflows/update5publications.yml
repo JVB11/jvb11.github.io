@@ -16,7 +16,7 @@ jobs:
         env:
           ORCID: "${{ vars.ORCID }}"
           ADS_API: "${{ secrets.ADS_API_TOKEN }}"
-          ADS_LIB: "${{ vars.ADS_LIBRARY_URL }} "
+          ADS_LIB: "${{ vars.ADS_LIBRARY_URL }}"
         run: "python3 ./scripts/run_update_publications.py"
       
       
