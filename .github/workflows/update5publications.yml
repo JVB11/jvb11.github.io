@@ -3,7 +3,10 @@ name: update 5 latest publications
 on:
   push:
   schedule:
-    - cron: '30 22 * * *'
+    - cron: '34 22 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   update_data:
