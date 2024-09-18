@@ -3,11 +3,11 @@ name: update 5 latest publications
 on:
   push:
   schedule:
-    - cron: '03 22 * * *'
+    - cron: '10 22 * * *'
 
 jobs:
   update_data:
-    runs-on: python:3.11-slim
+    runs-on: python:3-slim
 
     steps:
       - name: checkout repo content
