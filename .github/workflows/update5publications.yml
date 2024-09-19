@@ -2,7 +2,7 @@ name: update 5 latest publications
 
 on:
   schedule:
-    - cron: '13 04 * * *'
+    - cron: '35 18 20 * *'
 
 permissions:
   contents: write
