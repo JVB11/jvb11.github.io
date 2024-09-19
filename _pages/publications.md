@@ -28,7 +28,7 @@ author_profile: true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202142833">10.1051/0004-6361/202142833</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2022A&A...659A.177V">2022A&A...659A.177V</a>, arXiv: <a href="https://arxiv.org/abs/2201.05359">2201.05359</a>*
 
 
-(Last update: 18 September 2024)
+(Last update: 19 September 2024)
 
 ## View the full publication list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA).
 
