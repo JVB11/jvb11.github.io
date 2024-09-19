@@ -15,8 +15,6 @@ adsabs_url_base = "https://api.adsabs.harvard.edu/v1"
 ads_library_url = environ['ADS_LIB']
 markdown_path = "_pages/publications.md"
 
-print(my_orcid)
-
 # Regular expression for arXiv formatting
 arxiv_regex = re.compile(r"(https\:\/\/arxiv\.org\/abs\/)arXiv\:(\d+\.\d+)")
 date_regex = re.compile(r", ([0,1]\d)\/(20\d{2}),")
