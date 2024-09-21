@@ -1,6 +1,7 @@
 name: update 5 latest publications
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '35 20 21 * *'
 
