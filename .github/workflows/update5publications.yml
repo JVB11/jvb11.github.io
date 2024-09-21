@@ -1,0 +1,30 @@
+name: update 5 latest publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 20 21 * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update_data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2
+      - name: run publication update script
+        env:
+          ORCID: "${{ vars.ORCID }}"
+          ADS_API: "${{ secrets.ADS_API_TOKEN }}"
+          ADS_LIB: "${{ vars.ADS_LIBRARY_URL }}"
+        run: "python3 ./scripts/run_update_publications.py"
+      - name: Push adjusted publications file
+        run: |
+          git config user.email "${{ secrets.EMAIL }}"
+          git config user.name "${{ vars.GITHUBUSERNAME }}-bot"
+          git add ./_pages/publications.md
+          git commit -m "(automatically) pushing latest version of last 5 publications" --allow-empty
+          git push origin
