@@ -12,6 +12,12 @@ One such suite is the computational framework I developed for my doctoral disser
 The theoretical modeling of these vibrations - also known as stellar oscillations - has been the focus of my work for a large part of my (short academic) career.
 To perform this theoretical modeling I developed a computational framework, [AE Solver](https://github.com/JVB11/AESolver), that aims to simulate the (non-linear) energy exchange among different stellar oscillations in order to model their amplitudes in, for example, observed stellar light curves.
 
+In addition to the computational frameworks that I have developed (and the languages), I regularly use the [Modules for Experiments in Stellar Astrophysics (MESA)](https://docs.mesastar.org/en/stable/) stellar evolution code, the [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code and [Wolfram Mathematica](https://www.wolfram.com/mathematica/) in my scientific endeavors.
+More information on those code suites can be found on their respective websites.
+
+I am always actively seeking for (and passionate about) opportunities to learn more about how to use other astrophysical (or non-astrophysical) code suites for my work, so please reach out if you have interesting ideas to do so.
+Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
+
 ## Non-linear Time Series Analysis (NTSA) <a href="https://github.com/JVB11/NTSA"><img align="right" width="300" height="200" src="/images/software/NTSA_logo.png"></a>
 
 This computational framework was originally developed to detect resonances among the frequencies of stellar oscillations, in order to select targets for theoretical modeling.
