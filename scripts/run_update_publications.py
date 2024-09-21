@@ -20,7 +20,7 @@ arxiv_regex = re.compile(r"(https\:\/\/arxiv\.org\/abs\/)arXiv\:(\d+\.\d+)")
 date_regex = re.compile(r", ([0,1]\d)\/(20\d{2}),")
 
 # first get list of bibcodes of 5 latest papers associated with my orcid
-last_5_papers_query = urlencode({"q": f"orcid:{my_orcid}", "fl": "bibcode", "sort": "date desc", "rows": 5})
+last_5_papers_query = urlencode({"q": f"orcid:{my_orcid} property:article", "fl": "bibcode", "sort": "date desc", "rows": 5})
 last_5_papers_response = requests.get(
     f"{adsabs_url_base}/search/query?{last_5_papers_query}",
     headers={"Authorization": f"Bearer {my_token}"}
