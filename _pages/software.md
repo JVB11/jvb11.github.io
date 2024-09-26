@@ -1,6 +1,19 @@
 ---
 permalink: /software/
 title: "Software"
+gallery:
+    - url: software/ntsa/explained_scaled_variance.pdf
+      image_path: software/ntsa/explained_scaled_variance.pdf
+      alt: ""
+      title: ""
+    - url: software/ntsa/nr_candidate_resonances.pdf
+      image_path: software/ntsa/nr_candidate_resonances.pdf
+      alt: ""
+      title: ""
+    - url: software/ntsa/properties_resonances.pdf
+      image_path: software/ntsa/properties_resonances.pdf
+      alt: ""
+      title: ""
 ---
 
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a (variable) star that vibrates in its natural frequencies.
@@ -22,7 +35,7 @@ Although it looks promising, I do not yet have any publicly available computatio
 I am always actively seeking for (and passionate about) opportunities to learn more about how to use other astrophysical (or non-astrophysical) code suites or different computer languages for my work, so please reach out if you have interesting ideas to do so.
 Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
 
-## Non-linear Time Series Analysis (NTSA) <a href="https://github.com/JVB11/NTSA"><img align="right" width="200" height="133" src="/images/software/NTSA_logo.png"></a>
+## Non-linear Time Series Analysis (NTSA) <a href="https://github.com/JVB11/NTSA"><img align="right" width="200" height="133" src="/images/software/ntsa/NTSA_logo.png"></a>
 
 This computational framework was originally developed to detect resonances among the frequencies of stellar oscillations, in order to select targets for theoretical modeling.
 Its use for this application is highlighted in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html), where we specifically looked for three-oscillation resonances in variable stars of spectral type B[^1] that fuse hydrogen isotopes in their cores.
@@ -30,7 +43,9 @@ Its use for this application is highlighted in [Van Beeck et al. (2021)](https:/
 An article describing the generic computational framework is to be made.
 When using (part of) this code, you should therefore cite the application article, [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).[^2]
 
-## Amplitude Equations Solver (AE Solver) <a href="https://github.com/JVB11/AESolver"><img align="right" width="180" height="132" src="/images/software/AE_solver_logo.png"></a>
+{% include gallery %}
+
+## Amplitude Equations Solver (AE Solver) <a href="https://github.com/JVB11/AESolver"><img align="right" width="180" height="132" src="/images/software/aesolver/AE_solver_logo.png"></a>
 
 The theoretical formalism that forms the basis for this computational framework is described in [Van Beeck et al. (2024)](https://www.aanda.org/articles/aa/full_html/2024/07/aa48369-23/aa48369-23.html).
 When using (part of) this code, you should therefore cite that article.[^2]
