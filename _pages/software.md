@@ -18,8 +18,6 @@ More recently, I started exploring the capabilities of the [Rust language](https
 I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites/using different computer languages for my work, so please reach out if you have interesting ideas to do so.
 Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
 
-<nbsp>
-
 ## My Computational Frameworks
 
 {% include base_path %}
@@ -29,8 +27,6 @@ Reversely, if you think my software could be beneficial to you, I also encourage
 {% for post in ordered_pages %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
-
-<nbsp>
 
 ## Relevant Scientific Software Suites
 
