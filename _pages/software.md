@@ -21,7 +21,7 @@ Reversely, if you think my software could be beneficial to you, I also encourage
 
 ## Scientific Software Suites I Like to Use
 
-Additional information on these scientific software suites can be found on their respective websites, which are linked below the succinct descriptions.
+Additional information on these scientific software suites can be found on their respective websites, which are linked below the succinct descriptions in the form of clickable logos.
 
 ### Modules for Experiments in Stellar Astrophysics ([MESA](https://docs.mesastar.org/en/stable/)) + [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code
 
@@ -33,8 +33,8 @@ These baseline models were then employed in the [GYRE](https://gyre.readthedocs.
 This code can simulate non-interacting (linear) waves.
 The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver/), which simulates the non-linear interactions between oscillations.
 
-[<img src="/images/software/user/mesa-logo.png" style="width:49%; height:auto;">](https://docs.mesastar.org/en/stable/)
-[<img src="/images/software/user/gyre-logo.png" style="width:49%; height:auto;">](https://gyre.readthedocs.io/en/stable/)
+[<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; align:left;">](https://docs.mesastar.org/en/stable/)
+[<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; align:right;">](https://gyre.readthedocs.io/en/stable/)
 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
 
@@ -43,7 +43,7 @@ I have used it extensively to check my own work (written on paper) while develop
 
 [<img src="/images/software/user/wolfram.png" style="width:10%; height:auto;">](https://www.wolfram.com/mathematica/)
 
-## My Computational Frameworks
+## Computational Frameworks I developed
 
 <nbsp>
 
