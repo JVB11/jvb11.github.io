@@ -33,15 +33,15 @@ These baseline models were then employed in the [GYRE](https://gyre.readthedocs.
 This code can simulate non-interacting (linear) waves.
 The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver/), which simulates the non-linear interactions between oscillations.
 
-[<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; margin-right:10%;">](https://docs.mesastar.org/en/stable/)
-[<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin-left:10%">](https://gyre.readthedocs.io/en/stable/)
+[<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; margin-right:4%; margin-left:5%;">](https://docs.mesastar.org/en/stable/)
+[<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin-left:4%; margin-right:5%;">](https://gyre.readthedocs.io/en/stable/)
 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
 
 Described on their website as the world's definitive system for modern technical computing, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of (underlying) mathematical/theoretical frameworks.
 I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AE Solver](https://github.com/JVB11/AESolver/).
 
-[<img src="/images/software/user/wolfram.png" style="width:10%; height:auto;">](https://www.wolfram.com/mathematica/)
+[<img src="/images/software/user/wolfram.png" style="width:10%; height:auto; margin-left:45%;">](https://www.wolfram.com/mathematica/)
 
 ## Computational Frameworks I developed
 
