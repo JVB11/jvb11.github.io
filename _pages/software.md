@@ -35,7 +35,15 @@ Although it looks promising, I do not yet have any publicly available computatio
 I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites/using different computer languages for my work, so please reach out if you have interesting ideas to do so.
 Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
 
-## Non-linear Time Series Analysis (NTSA) <a href="https://github.com/JVB11/NTSA"><img align="right" width="200" height="133" src="/images/software/ntsa/NTSA_logo.png"></a>
+{% include base_path %}
+
+{% assign ordered_software_pages = site.software | sort:"order_number" %}
+
+{% for software_page in ordered_software_pages %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+
+<!-- ## Non-linear Time Series Analysis (NTSA) <a href="https://github.com/JVB11/NTSA"><img align="right" width="200" height="133" src="/images/software/ntsa/NTSA_logo.png"></a>
 
 This computational framework was originally developed to detect resonances among the frequencies of stellar oscillations, in order to select targets for theoretical modeling.
 Its use for this application is highlighted in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html), where we specifically looked for three-oscillation resonances in variable stars of spectral type B[^1] that fuse hydrogen isotopes in their cores.
@@ -51,4 +59,4 @@ The theoretical formalism that forms the basis for this computational framework 
 When using (part of) this code, you should therefore cite that article.[^2]
 
 [^1]: See for example [this wikipedia page](https://en.wikipedia.org/wiki/Stellar_classification) to learn more about stellar classification.
-[^2]: Check out the associated NASA ADS pages for the [NTSA application article](https://ui.adsabs.harvard.edu/abs/2021A%26A...655A..59V/abstract) and the [AE Solver formalism article](https://ui.adsabs.harvard.edu/abs/2024A%26A...687A.265V/abstract) to easily export the data required for citing these articles, which is available in different formats.
+[^2]: Check out the associated NASA ADS pages for the [NTSA application article](https://ui.adsabs.harvard.edu/abs/2021A%26A...655A..59V/abstract) and the [AE Solver formalism article](https://ui.adsabs.harvard.edu/abs/2024A%26A...687A.265V/abstract) to easily export the data required for citing these articles, which is available in different formats. -->
