@@ -6,17 +6,14 @@ gallery:
       image_path: software/ntsa/explained_scaled_variance.pdf
       alt: ""
       title: ""
-      background: "white"
     - url: software/ntsa/nr_candidate_resonances.pdf
       image_path: software/ntsa/nr_candidate_resonances.pdf
       alt: ""
       title: ""
-      background: "white"
     - url: software/ntsa/properties_resonances.pdf
       image_path: software/ntsa/properties_resonances.pdf
       alt: ""
       title: ""
-      background: "white"
 ---
 
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a (variable) star that vibrates in its natural frequencies.
