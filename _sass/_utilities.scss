@@ -437,12 +437,12 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .footnote {
-  color: mix(#000, $gray, 25%);
+  color: mix(#fff, $gray, 25%);
   text-decoration: none;
 }
 
 .footnotes {
-  color: mix(#000, $gray, 25%);
+  color: mix(#fff, $gray, 25%);
 
   ol, li, p {
     margin-bottom: 0;
@@ -451,7 +451,7 @@ body:hover .visually-hidden button {
 }
 
 a.reversefootnote {
-  color: $gray;
+  color: #fff;
   text-decoration: none;
 
   &:hover {
