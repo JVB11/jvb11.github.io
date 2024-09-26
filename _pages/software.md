@@ -31,9 +31,7 @@ More recently, I started exploring the capabilities of the [Rust language](https
 I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites/using different computer languages for my work, so please reach out if you have interesting ideas to do so.
 Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
 
-[^1]: Although the Rust language looks promising for the development of scientific software suites, I do not yet have any publicly available (large) computational frameworks written predominantly in this language.
-
-<nbsp>
+<!-- <nbsp>
 
 ## My Computational Frameworks
 
@@ -45,15 +43,15 @@ Reversely, if you think my software could be beneficial to you, I also encourage
   {% include archive-single.html type="grid" %}
 {% endfor %}
 
-<nbsp>
+<nbsp> -->
 
-## Relevant Scientific Software Suites
+<!-- ## Relevant Scientific Software Suites
 
 Additional information on these scientific software suites can be found on their respective websites, which are linked below the succinct descriptions.
 
-### Modules for Experiments in Stellar Astrophysics ([MESA](https://docs.mesastar.org/en/latest/)) + [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code
+### Modules for Experiments in Stellar Astrophysics ([MESA](https://docs.mesastar.org/en/stable/)) + [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code
 
-The large scientific software suite [MESA](https://docs.mesastar.org/en/latest/) is widely used by astrophysicists to simulate the evolution (life) of a star, and enables the user to specify a large variety of different hooks (that make a [MESA](https://docs.mesastar.org/en/latest/) run very customizable).
+The large scientific software suite [MESA](https://docs.mesastar.org/en/stable/) is widely used by astrophysicists to simulate the evolution (life) of a star, and enables the user to specify a large variety of different hooks (that make a [MESA](https://docs.mesastar.org/en/stable/) run very customizable).
 It assumes certain widely used simplifications (for example, assuming spherical symmetry) to be able to simulate the entire life of a star, from star birth to star death.
 
 I have used it to generate baseline models of the stellar structure at various moments throughout the evolution of star models of specific initial mass.
@@ -64,6 +62,8 @@ The models of these waves formed the input for the code suite that I developed, 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/?source=nav)
 
 Described on their website as the world's definitive system for modern technical computing, [Mathematica](https://www.wolfram.com/mathematica/?source=nav) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of (underlying) mathematical/theoretical frameworks.
-I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AE Solver](https://github.com/JVB11/AESolver).
+I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AE Solver](https://github.com/JVB11/AESolver). -->
 
 <!-- {% include scientific_software_suites %} -->
+
+[^1]: Although the Rust language looks promising for the development of scientific software suites, I do not yet have any publicly available (large) computational frameworks written predominantly in this language.
