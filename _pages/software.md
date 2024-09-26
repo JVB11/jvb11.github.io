@@ -3,19 +3,6 @@ layout: archive
 permalink: /software/
 title: "Software"
 author_profile: true
-# scientific_software_suites:
-#     - url: "https://docs.mesastar.org/en/latest/"
-#       image_path: software/user/mesa-logo.png
-#       alt: "Modules for Experiments in Stellar Astrophysics logo"
-#       title: "Modules for Experiments in Stellar Astrophysics"
-#     - url: "https://gyre.readthedocs.io/en/stable/"
-#       image_path: software/user/gyre-logo.png
-#       alt: "GYRE stellar oscillation code logo"
-#       title: "GYRE stellar oscillation code"
-#     - url: "https://www.wolfram.com/mathematica/?source=nav"
-#       image_path: software/user/wolfram.png
-#       alt: "Wolfram Mathematica"
-#       title: "Wolfram Mathematica"
 ---
 
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a (variable) star that vibrates in its natural frequencies.
@@ -31,7 +18,7 @@ More recently, I started exploring the capabilities of the [Rust language](https
 I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites/using different computer languages for my work, so please reach out if you have interesting ideas to do so.
 Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
 
-<!-- <nbsp>
+<nbsp>
 
 ## My Computational Frameworks
 
@@ -43,7 +30,7 @@ Reversely, if you think my software could be beneficial to you, I also encourage
   {% include archive-single.html type="grid" %}
 {% endfor %}
 
-<nbsp> -->
+<!-- <nbsp> -->
 
 <!-- ## Relevant Scientific Software Suites
 
