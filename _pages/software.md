@@ -33,8 +33,8 @@ These baseline models were then employed in the [GYRE](https://gyre.readthedocs.
 This code can simulate non-interacting (linear) waves.
 The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver), which simulates the non-linear interactions between oscillations.
 
-[<img src="software/user/mesa-logo.png">](https://docs.mesastar.org/en/stable/)
-[<img src="software/user/gyre-logo.png">](https://gyre.readthedocs.io/en/stable/)
+[<img src="/images/software/user/mesa-logo.png">](https://docs.mesastar.org/en/stable/)
+[<img src="/images/software/user/gyre-logo.png">](https://gyre.readthedocs.io/en/stable/)
 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/?source=nav)
 
