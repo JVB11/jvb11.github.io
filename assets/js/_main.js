@@ -27,7 +27,7 @@ $(document).ready(function(){
   $(".sticky").Stickyfill();
 
   var stickySideBar = function(){
-    var show = $(".author__urls-wrapper_DROP button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper_DROP button").is(":visible");
+    var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper button").is(":visible");
     // console.log("has button: " + $(".author__urls-wrapper button").length === 0);
     // console.log("Window Width: " + windowWidth);
     // console.log("show: " + show);
@@ -40,7 +40,7 @@ $(document).ready(function(){
     } else {
       // unfix
       Stickyfill.stop();
-      $(".author__urls_DROP").hide();
+      $(".author__urls").hide();
     }
   };
 
@@ -52,9 +52,9 @@ $(document).ready(function(){
 
   // Follow menu drop down
 
-  $(".author__urls-wrapper_DROP button").on("click", function() {
-    $(".author__urls_DROP").fadeToggle("fast", function() {});
-    $(".author__urls-wrapper_DROP button").toggleClass("open");
+  $(".author__urls-wrapper button").on("click", function() {
+    $(".author__urls").fadeToggle("fast", function() {});
+    $(".author__urls-wrapper button").toggleClass("open");
   });
 
   // init smooth scroll
