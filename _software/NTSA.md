@@ -1,11 +1,11 @@
 ---
 title: "Non-linear Time Series Analysis: NTSA"
 layout: single-portfolio
-excerpt: "<img src='/images/software/ntsa/NTSA_logo.pdf' alt=''>"
+excerpt: "<img src='/images/software/ntsa/NTSA_logo.png' alt=''>"
 collection: software
 order_number: 10
 header:
-    og_image: "software/ntsa/NTSA_logo.pdf"
+    og_image: "software/ntsa/NTSA_logo.png"
 gallery:
     - url: software/ntsa/explained_scaled_variance.pdf
       image_path: software/ntsa/explained_scaled_variance.pdf
