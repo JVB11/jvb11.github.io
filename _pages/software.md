@@ -12,7 +12,7 @@ author_profile: true
 #       image_path: software/user/gyre-logo.png
 #       alt: "GYRE stellar oscillation code logo"
 #       title: "GYRE stellar oscillation code"
-#     - url: "https://www.wolfram.com/mathematica/?source=nav"
+#     - url: "https://www.wolfram.com/mathematica/"
 #       image_path: software/user/wolfram.png
 #       alt: "Wolfram Mathematica"
 #       title: "Wolfram Mathematica"
@@ -61,7 +61,7 @@ The models of these waves formed the input for the code suite that I developed, 
 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/?source=nav)
 
-Described on their website as the world's definitive system for modern technical computing, [Mathematica](https://www.wolfram.com/mathematica/?source=nav) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of (underlying) mathematical/theoretical frameworks.
+Described on their website as the world's definitive system for modern technical computing, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of (underlying) mathematical/theoretical frameworks.
 I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AE Solver](https://github.com/JVB11/AESolver).
 
 <!-- {% include scientific_software_suites %} -->
