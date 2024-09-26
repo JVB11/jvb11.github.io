@@ -6,14 +6,17 @@ gallery:
       image_path: software/ntsa/explained_scaled_variance.pdf
       alt: ""
       title: ""
+      background: "white"
     - url: software/ntsa/nr_candidate_resonances.pdf
       image_path: software/ntsa/nr_candidate_resonances.pdf
       alt: ""
       title: ""
+      background: "white"
     - url: software/ntsa/properties_resonances.pdf
       image_path: software/ntsa/properties_resonances.pdf
       alt: ""
       title: ""
+      background: "white"
 ---
 
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a (variable) star that vibrates in its natural frequencies.
@@ -32,7 +35,7 @@ Most of my coding efforts have been made in the [Python]() language, although pa
 More recently, I started exploring the capabilities of the [Rust language](https://www.rust-lang.org) for future scientific projects.
 Although it looks promising, I do not yet have any publicly available computational frameworks that were written predominantly in this language.
 
-I am always actively seeking for (and passionate about) opportunities to learn more about how to use other astrophysical (or non-astrophysical) code suites or different computer languages for my work, so please reach out if you have interesting ideas to do so.
+I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites/using different computer languages for my work, so please reach out if you have interesting ideas to do so.
 Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
 
 ## Non-linear Time Series Analysis (NTSA) <a href="https://github.com/JVB11/NTSA"><img align="right" width="200" height="133" src="/images/software/ntsa/NTSA_logo.png"></a>
