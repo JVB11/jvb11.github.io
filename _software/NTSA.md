@@ -21,7 +21,9 @@ gallery:
       title: ""
 ---
 
-This computational framework was originally developed to detect resonances among the frequencies of stellar oscillations, in order to select targets for theoretical modeling.
+Photometric light curves measure the total brightness of a star over time, and in order to extract periodic brightness variations (as expected for a variable star) from this data product various software suites can be used.
+One such suite is this computational framework, [NTSA](https://github.com/JVB11/NTSA), that I developed for my doctoral dissertation.
+It was originally developed to detect resonances among the frequencies of stellar oscillations, in order to select targets for theoretical modeling.
 Its use for this application is highlighted in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html), where we specifically looked for three-oscillation resonances in variable stars of spectral type B[^1] that fuse hydrogen isotopes in their cores.
 
 An article describing the generic computational framework is to be made.
