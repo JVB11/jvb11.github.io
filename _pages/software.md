@@ -31,15 +31,17 @@ It assumes certain widely used simplifications (for example, assuming spherical 
 I have used it to generate baseline models of the stellar structure at various moments throughout the evolution of star models of specific initial mass.
 These baseline models were then employed in the [GYRE](https://gyre.readthedocs.io/en/stable/) oscillation code to simulate waves propagating throughout the stellar interior.
 This code can simulate non-interacting (linear) waves.
-The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver), which simulates the non-linear interactions between oscillations.
+The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver/), which simulates the non-linear interactions between oscillations.
 
-[<img src="software/user/mesa-logo.png">](https://docs.mesastar.org/en/stable/)
-[<img src="software/user/gyre-logo.png">](https://gyre.readthedocs.io/en/stable/)
+[<img src="/images/software/user/mesa-logo.png">](https://docs.mesastar.org/en/stable/)
+[<img src="/images/software/user/gyre-logo.png">](https://gyre.readthedocs.io/en/stable/)
 
-### Wolfram [Mathematica](https://www.wolfram.com/mathematica/?source=nav)
+### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
 
 Described on their website as the world's definitive system for modern technical computing, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of (underlying) mathematical/theoretical frameworks.
-I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AE Solver](https://github.com/JVB11/AESolver).
+I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AE Solver](https://github.com/JVB11/AESolver/).
+
+[<img src="/images/software/user/wolfram.png">](https://www.wolfram.com/mathematica/)
 
 ## My Computational Frameworks
 
