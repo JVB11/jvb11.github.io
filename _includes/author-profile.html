@@ -119,7 +119,11 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
     </ul>
-    <ul class="author__urls_DROP social-icons" style="background-color: black;">
+  </div>
+
+  <div class="author__urls_DROP-wrapper"></div>
+    <button class="btn btn--inverse" style="background:black">Contact Me</button>
+    <ul class="author__urls_DROP social-icons" style="background:black">
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
