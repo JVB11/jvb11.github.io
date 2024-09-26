@@ -3,19 +3,6 @@ layout: archive
 permalink: /software/
 title: "Software"
 author_profile: true
-# gallery:
-#     - url: software/ntsa/explained_scaled_variance.pdf
-#       image_path: software/ntsa/explained_scaled_variance.pdf
-#       alt: ""
-#       title: ""
-#     - url: software/ntsa/nr_candidate_resonances.pdf
-#       image_path: software/ntsa/nr_candidate_resonances.pdf
-#       alt: ""
-#       title: ""
-#     - url: software/ntsa/properties_resonances.pdf
-#       image_path: software/ntsa/properties_resonances.pdf
-#       alt: ""
-#       title: ""
 ---
 
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a (variable) star that vibrates in its natural frequencies.
@@ -37,11 +24,13 @@ Although it looks promising, I do not yet have any publicly available computatio
 I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites/using different computer languages for my work, so please reach out if you have interesting ideas to do so.
 Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
 
+<nbsp>
+
 {% include base_path %}
 
-{% assign ordered_software_pages = site.software | sort:"order_number" %}
+{% assign ordered_pages = site.software | sort:"order_number" %}
 
-{% for software_page in ordered_software_pages %}
+{% for post in ordered_pages %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
 
