@@ -1,7 +1,7 @@
 ---
 title: "Non-linear Time Series Analysis: NTSA"
 layout: single-portfolio
-excerpt: "<img src='/images/software/ntsa/NTSA_logo.png' alt='' style='width:250%; height:auto;'>"
+excerpt: "<img src='/images/software/ntsa/NTSA_logo.png' alt=''>"
 collection: software
 order_number: 10
 header:
