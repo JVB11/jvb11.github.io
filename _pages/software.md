@@ -4,15 +4,15 @@ permalink: /software/
 title: "Software"
 author_profile: true
 scientific_software_suites:
-    - url: https://docs.mesastar.org/en/latest/
+    - url: "https://docs.mesastar.org/en/latest/"
       image_path: software/user/mesa-logo.png
       alt: "Modules for Experiments in Stellar Astrophysics logo"
       title: "Modules for Experiments in Stellar Astrophysics"
-    - url: https://gyre.readthedocs.io/en/stable/
+    - url: "https://gyre.readthedocs.io/en/stable/"
       image_path: software/user/gyre-logo.png
       alt: "GYRE stellar oscillation code logo"
       title: "GYRE stellar oscillation code"
-    - url: https://www.wolfram.com/mathematica/?source=nav
+    - url: "https://www.wolfram.com/mathematica/?source=nav"
       image_path: software/user/wolfram.png
       alt: "Wolfram Mathematica"
       title: "Wolfram Mathematica"
