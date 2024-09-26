@@ -19,7 +19,7 @@ Although the Rust language looks promising for the development of scientific sof
 I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites/using different computer languages for my work, so please reach out if you have interesting ideas to do so.
 Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
 
-## Relevant Scientific Software Suites
+## Scientific Software Suites I Like to Use
 
 Additional information on these scientific software suites can be found on their respective websites, which are linked below the succinct descriptions.
 
@@ -33,15 +33,15 @@ These baseline models were then employed in the [GYRE](https://gyre.readthedocs.
 This code can simulate non-interacting (linear) waves.
 The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver/), which simulates the non-linear interactions between oscillations.
 
-[<img src="/images/software/user/mesa-logo.png">](https://docs.mesastar.org/en/stable/)
-[<img src="/images/software/user/gyre-logo.png">](https://gyre.readthedocs.io/en/stable/)
+[<img src="/images/software/user/mesa-logo.png" style="width:50%; height:auto;">](https://docs.mesastar.org/en/stable/)
+[<img src="/images/software/user/gyre-logo.png" style="width:50%; height:auto;">](https://gyre.readthedocs.io/en/stable/)
 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
 
 Described on their website as the world's definitive system for modern technical computing, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of (underlying) mathematical/theoretical frameworks.
 I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AE Solver](https://github.com/JVB11/AESolver/).
 
-[<img src="/images/software/user/wolfram.png">](https://www.wolfram.com/mathematica/)
+[<img src="/images/software/user/wolfram.png" style="width:20%; height:auto;">](https://www.wolfram.com/mathematica/)
 
 ## My Computational Frameworks
 
