@@ -18,15 +18,7 @@ More recently, I started exploring the capabilities of the [Rust language](https
 I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites/using different computer languages for my work, so please reach out if you have interesting ideas to do so.
 Reversely, if you think my software could be beneficial to you, I also encourage you to contact me.
 
-## My Computational Frameworks
-
-{% include base_path %}
-
-{% assign ordered_pages = site.software | sort:"order_number" %}
-
-{% for post in ordered_pages %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
+[^1]: Although the Rust language looks promising for the development of scientific software suites, I do not yet have any publicly available (large) computational frameworks written predominantly in this language.
 
 ## Relevant Scientific Software Suites
 
@@ -47,4 +39,16 @@ The models of these waves formed the input for the code suite that I developed, 
 Described on their website as the world's definitive system for modern technical computing, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of (underlying) mathematical/theoretical frameworks.
 I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AE Solver](https://github.com/JVB11/AESolver).
 
-[^1]: Although the Rust language looks promising for the development of scientific software suites, I do not yet have any publicly available (large) computational frameworks written predominantly in this language.
+## My Computational Frameworks
+
+<nbsp>
+
+{
+{% include base_path %}
+
+{% assign ordered_pages = site.software | sort:"order_number" %}
+
+{% for post in ordered_pages %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+}
