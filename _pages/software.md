@@ -1,19 +1,21 @@
 ---
+layout: archive
 permalink: /software/
 title: "Software"
-gallery:
-    - url: software/ntsa/explained_scaled_variance.pdf
-      image_path: software/ntsa/explained_scaled_variance.pdf
-      alt: ""
-      title: ""
-    - url: software/ntsa/nr_candidate_resonances.pdf
-      image_path: software/ntsa/nr_candidate_resonances.pdf
-      alt: ""
-      title: ""
-    - url: software/ntsa/properties_resonances.pdf
-      image_path: software/ntsa/properties_resonances.pdf
-      alt: ""
-      title: ""
+author_profile: true
+# gallery:
+#     - url: software/ntsa/explained_scaled_variance.pdf
+#       image_path: software/ntsa/explained_scaled_variance.pdf
+#       alt: ""
+#       title: ""
+#     - url: software/ntsa/nr_candidate_resonances.pdf
+#       image_path: software/ntsa/nr_candidate_resonances.pdf
+#       alt: ""
+#       title: ""
+#     - url: software/ntsa/properties_resonances.pdf
+#       image_path: software/ntsa/properties_resonances.pdf
+#       alt: ""
+#       title: ""
 ---
 
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a (variable) star that vibrates in its natural frequencies.
