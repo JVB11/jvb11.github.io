@@ -1,7 +1,7 @@
 ---
 title: "Amplitude equations solver: AESolver"
 layout: single-portfolio
-excerpt: "<img src='/images/software/aesolver/AE_solver_logo.png' alt=''>"
+excerpt: "<img src='/images/software/aesolver/AE_solver_logo.png' alt='' style='width:40%; height:auto; margin-left:4%; margin-right:5%;'>"
 collection: software
 order_number: 20
 header:
