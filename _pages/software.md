@@ -3,17 +3,6 @@ layout: archive
 permalink: /software/
 title: "Software"
 author_profile: true
-gallery_mesa_gyre:
-    - url: software/user/mesa-logo.png
-      image_path: software/user/mesa-logo.png
-      alt: "Modules for Experiments in Stellar Astrophysics (MESA)"
-      title: "Modules for Experiments in Stellar Astrophysics (MESA)"
-      hyperlink: "https://docs.mesastar.org/en/stable/"
-    - url: software/user/gyre-logo.png
-      image_path: software/user/gyre-logo.png
-      alt: "GYRE stellar oscillation code"
-      title: "GYRE stellar oscillation code"
-      hyperlink: "https://gyre.readthedocs.io/en/stable/"
 ---
 
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a (variable) star that vibrates in its natural frequencies.
@@ -44,7 +33,8 @@ These baseline models were then employed in the [GYRE](https://gyre.readthedocs.
 This code can simulate non-interacting (linear) waves.
 The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver), which simulates the non-linear interactions between oscillations.
 
-{% include gallery_mesa_gyre %}
+[<img src="software/user/mesa-logo.png">](https://docs.mesastar.org/en/stable/)
+[<img src="software/user/gyre-logo.png">](https://gyre.readthedocs.io/en/stable/)
 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/?source=nav)
 
