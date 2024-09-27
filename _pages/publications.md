@@ -5,6 +5,57 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Highlights
+
+{% include base_path %}
+{% assign number_printed = 0 %}
+{% for publi in site.data.publication_highlights %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+{% if publi.rotate %}
+<div class="col-sm-6 clearfix">
+  <div class="well">
+    <pubtit>{{ publi.title }}</pubtit>
+    <img src="{{ publication_highlights | prepend: '/images/' | prepend: base_path }}{{ publi.image }}" class="img-responsive" width="33%" style="float: left; transform:rotate(270deg);" />
+    <p>{{ publi.description }}</p>
+    <p><em>{{ publi.authors }}</em></p>
+    <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+    <p>{{ publi.news }}</p>
+  </div>
+</div>
+{% else %}
+<div class="col-sm-6 clearfix">
+  <div class="well">
+    <pubtit>{{ publi.title }}</pubtit>
+    <img src="{{ publication_highlights | prepend: '/images/' | prepend: base_path }}{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
+    <p>{{ publi.description }}</p>
+    <p><em>{{ publi.authors }}</em></p>
+    <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+    <p>{{ publi.news }}</p>
+  </div>
+</div>
+{% endif %}
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<p> &nbsp; </p>
+
 ## Check out my five most recent publications
 
 + **Van Beeck J.**, Van Hoolst T., Aerts C., Fuller J., Non-linear three-mode coupling of gravity modes in rotating slowly pulsating B stars. Stationary solutions and modeling potential, July 2024, A&A, 687, A265 (Nr. of citations: 4)
