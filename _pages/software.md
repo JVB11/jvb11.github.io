@@ -40,7 +40,7 @@ The models of these waves formed the input for the code suite that I developed, 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
 
 Described on their website as *the world's definitive system for modern technical computing*, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of mathematical/theoretical frameworks.
-I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AE Solver](https://github.com/JVB11/AESolver/).
+I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AESolver](https://github.com/JVB11/AESolver/).
 
 [<img src="/images/software/user/wolfram.png" style="width:10%; height:auto; margin-left:45%;">](https://www.wolfram.com/mathematica/)
 

@@ -48,7 +48,7 @@
 
     {% if post.excerpt and post.collection == 'software' and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="width:40%; height:auto;">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
         <div class="container">
           {{ post.excerpt }}
           <div class="overlay">
