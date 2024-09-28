@@ -5,47 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Highlights
-
-{% include base_path %}
-{% assign number_printed = 0 %}
-{% for publi in site.data.publication_highlights %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <div class="well">
-    <pubtit>{{ publi.title }}:<br>{{ publi.subtitle }}</pubtit>
-    <figure>
-      <img src="{{ base_path }}/images/publication_highlights/{{ publi.image }}" class="img-responsive" width="75%" height="auto" style="padding: inherit; margin: auto; float: right;" />
-      <figcaption>{{ publi.imagedescription }}</figcaption>
-    </figure>
-    <p>{{ publi.description | markdownify }}</p>
-    <p><em>{{ publi.authors }}</em></p>
-    <p><strong><a href="{{ publi.link.url }}" target="_blank">{{ publi.link.display }}</a></strong></p>
-    <p>{{ publi.news | markdownify }}</p>
-  </div>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-<p> &nbsp; </p>
-
 ## Check out my five most recent publications
 
 + **Van Beeck J.**, Van Hoolst T., Aerts C., Fuller J., Non-linear three-mode coupling of gravity modes in rotating slowly pulsating B stars. Stationary solutions and modeling potential, July 2024, A&A, 687, A265 (Nr. of citations: 4)
@@ -73,12 +32,43 @@ author_profile: true
 
 ## View the full publication list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA).
 
-<!-- {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+## Key Works
 
 {% include base_path %}
+{% assign number_printed = 0 %}
+{% for publi in site.data.publication_highlights %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <div class="well">
+    <pubtit>{{ publi.title }}:<br>{{ publi.subtitle }}</pubtit>
+    <figure width="75%" height="auto" style="padding: inherit; margin: auto; float: right;">
+      <img src="{{ base_path }}/images/publication_highlights/{{ publi.image }}" class="img-responsive" width="75%" height="auto" style="padding: inherit; margin: auto; float: right;" />
+      <figcaption>{{ publi.imagedescription }}</figcaption>
+    </figure>
+    <p>{{ publi.description | markdownify }}</p>
+    <p><em>{{ publi.authors }}</em></p>
+    <p><strong><a href="{{ publi.link.url }}" target="_blank">{{ publi.link.display }}</a></strong></p>
+    <p>{{ publi.news | markdownify }}</p>
+  </div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<p> &nbsp; </p>
