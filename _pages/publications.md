@@ -17,18 +17,6 @@ author_profile: true
 <div class="row">
 {% endif %}
 
-{% if publi.rotate %}
-<div class="col-sm-6 clearfix">
-  <div class="well">
-    <pubtit>{{ publi.title }}</pubtit>
-    <img src="{{ base_path }}/images/publication_highlights/{{ publi.image }}" class="img-responsive" width="33%" style="float: left; transform:rotate(270deg);" />
-    <p>{{ publi.description }}</p>
-    <p><em>{{ publi.authors }}</em></p>
-    <p><strong><a href="{{ publi.link.url }}" target="_blank">{{ publi.link.display }}</a></strong></p>
-    <p>{{ publi.news }}</p>
-  </div>
-</div>
-{% else %}
 <div class="col-sm-6 clearfix">
   <div class="well">
     <pubtit>{{ publi.title }}</pubtit>
@@ -39,7 +27,6 @@ author_profile: true
     <p>{{ publi.news }}</p>
   </div>
 </div>
-{% endif %}
 
 {% assign number_printed = number_printed | plus: 1 %}
 
