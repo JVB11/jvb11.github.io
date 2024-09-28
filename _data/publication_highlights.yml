@@ -6,7 +6,6 @@
     url: https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html
     display: A&A Vol. 655, A59 (November 2021)
   news: Check out the [NTSA](https://github.com/JVB11/NTSA) computational framework, which was developed for and used in this work. A succinct description of its capabilities is discussed on this [page]({{ base_path }}/software/NTSA).
-  rotate: false
 
 - title: "Non-linear three-mode coupling of gravity modes in rotating slowly pulsating B stars: Stationary solutions and modeling potential"
   image: coupling_triads.pdf
@@ -16,4 +15,3 @@
     url: https://www.aanda.org/articles/aa/full_html/2024/07/aa48369-23/aa48369-23.html
     display: A&A Vol. 687, A265 (July 2024)
   news: Check out the [AESolver](https://github.com/JVB11/AESolver) computational framework, which was developed for and used in this work. A succinct description of its capabilities is discussed on this [page]({{ base_path }}/software/AESolver).
-  rotate: true
