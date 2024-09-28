@@ -1,6 +1,5 @@
-- titles:
-    main: "Detection of non-linear resonances among gravity modes of slowly pulsating B stars"
-    sub: "Results from five iterative pre-whitening strategies"
+- title: "Detection of non-linear resonances among gravity modes of slowly pulsating B stars"
+  subtitle: "Results from five iterative pre-whitening strategies"
   image:
     name: light_curve_ntsa.png
     description: Example of a photometric light curve of a [slowly pulsating B star](https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star), as measured by the [NASA Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_space_telescope).
@@ -11,9 +10,8 @@
     display: A&A Vol. 655, A59 (November 2021)
   news: You may also want to check out the <a href="https://github.com/JVB11/NTSA">NTSA</a> computational framework, which was used in this work. A succinct description of its capabilities is discussed on [this page]({{ base_path }}/software/NTSA).
 
-- titles:
-    main: "Non-linear three-mode coupling of gravity modes in rotating slowly pulsating B stars"
-    sub: "Stationary solutions and modeling potential"
+- title: "Non-linear three-mode coupling of gravity modes in rotating slowly pulsating B stars"
+  subtitle: "Stationary solutions and modeling potential"
   image:
     name: coupling_triads_dark_mode.pdf
     description: "Overview of triads of interacting oscillation modes: Orange circles indicate oscillation modes that naturally occur (i.e., are linearly [driven](https://en.wikipedia.org/wiki/Driven_oscillations)) within the star (model). Purple squares indicate oscillation modes that would not be sustained (i.e., linearly [damped](https://en.wikipedia.org/wiki/Damping)) within the star without non-linear energy exchange among the modes in the triad."

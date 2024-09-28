@@ -44,7 +44,7 @@ author_profile: true
 
 <div class="col-sm-6 clearfix">
   <div class="well">
-    <pubtit>{{ publi.titles.main }}:<br>{{ publi.titles.sub }}</pubtit>
+    <pubtit>{{ publi.title }}:<br>{{ publi.subtitle }}</pubtit>
     <figure width="75%" height="auto" style="padding: inherit; margin: auto; float: right;">
       <img src="{{ base_path }}/images/publication_highlights/{{ publi.image.name }}" class="img-responsive" width="75%" height="auto" style="padding: inherit; margin: auto; float: right;" />
       <figcaption>{{ publi.image.description | markdownify }}</figcaption>
