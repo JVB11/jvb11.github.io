@@ -7,12 +7,15 @@ redirect_from:
   - /resume
 ---
 
-On this page you may download two different CV's: a full-length version and an abridged version (that adheres to most of the AAS guidelines for postdoctoral applications).
+You may download a PDF copy of my CV [from this page](/files/pdf/short_CV_Jordan_Van_Beeck.pdf).
+It is also shown in the window below.
+
+<!-- On this page you may download two different CV's: a full-length version and an abridged version (that adheres to most of the AAS guidelines for postdoctoral applications).
 You may download a PDF copy of my full-length CV [on this page](/files/pdf/CV_Jordan_Van_Beeck.pdf), whereas the abridged version is downloadable [from this page](/files/pdf/short_CV_Jordan_Van_Beeck.pdf).
-For your convenience, both are shown in a window below:
+For your convenience, both are shown in a window below: -->
 
-_Abridged CV_
-<iframe title="Abridged CV" src="/files/pdf/short_CV_Jordan_Van_Beeck.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+_Curriculum Vitae_
+<iframe title="Curriculum Vitae" src="/files/pdf/short_CV_Jordan_Van_Beeck.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
-_Full-length CV_
-<iframe title="Full-length CV" src="/files/pdf/CV_Jordan_Van_Beeck.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<!-- _Full-length CV_
+<iframe title="Full-length CV" src="/files/pdf/CV_Jordan_Van_Beeck.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe> -->
