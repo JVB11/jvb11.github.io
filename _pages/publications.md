@@ -20,11 +20,12 @@ author_profile: true
 <div class="col-sm-6 clearfix">
   <div class="well">
     <pubtit>{{ publi.title }}</pubtit>
+    <p>{{ publi.subtitle }}</p>
     <img src="{{ base_path }}/images/publication_highlights/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
     <p>{{ publi.description }}</p>
     <p><em>{{ publi.authors }}</em></p>
     <p><strong><a href="{{ publi.link.url }}" target="_blank">{{ publi.link.display }}</a></strong></p>
-    <p>{{ publi.news }}</p>
+    <p>{{ publi.news | markdownify }}</p>
   </div>
 </div>
 
