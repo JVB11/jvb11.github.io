@@ -47,7 +47,7 @@ author_profile: true
     <pubtit>{{ publi.title }}:<br>{{ publi.subtitle }}</pubtit>
     <figure width="75%" height="auto" style="padding: inherit; margin: auto; float: right;">
       <img src="{{ base_path }}/images/publication_highlights/{{ publi.image }}" class="img-responsive" width="75%" height="auto" style="padding: inherit; margin: auto; float: right;" />
-      <figcaption>{{ publi.imagedescription }}</figcaption>
+      <figcaption>{{ publi.imagedescription | markdownify }}</figcaption>
     </figure>
     <p>{{ publi.description | markdownify }}</p>
     <p><em>{{ publi.authors }}</em></p>
