@@ -7,16 +7,16 @@ order_number: 10
 header:
     og_image: "software/ntsa/NTSA_logo.png"
 gallery:
-    - url: software/ntsa/explained_scaled_variance.pdf
-      image_path: software/ntsa/explained_scaled_variance.pdf
+    - url: software/ntsa/explained_scaled_variance.svg
+      image_path: software/ntsa/explained_scaled_variance.svg
       alt: ""
       title: ""
-    - url: software/ntsa/nr_candidate_resonances.pdf
-      image_path: software/ntsa/nr_candidate_resonances.pdf
+    - url: software/ntsa/nr_candidate_resonances.svg
+      image_path: software/ntsa/nr_candidate_resonances.svg
       alt: ""
       title: ""
-    - url: software/ntsa/properties_resonances.pdf
-      image_path: software/ntsa/properties_resonances.pdf
+    - url: software/ntsa/properties_resonances.svg
+      image_path: software/ntsa/properties_resonances.svg
       alt: ""
       title: ""
 ---
