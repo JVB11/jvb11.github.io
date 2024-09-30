@@ -4,3 +4,4 @@ package-lock.json
 .bundle/
 instructions_for_compilation_etc.md
 scripts/get_png_transparent_bg.py
+scripts/get_png_dark_mode.py
