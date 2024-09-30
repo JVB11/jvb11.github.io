@@ -34,7 +34,7 @@ Originally, the main purpose of this framework was to detect [resonances](https:
 
 _**Applications**_
 
-Use of [NTSA]() for the detection of resonant combination frequencies is highlighted in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html), where we specifically searched for three-mode resonances in light curves of variable stars of spectral type B[^1] that fuse hydrogen isotopes in their cores (i.e., stars on the [main sequence](https://en.wikipedia.org/wiki/Main_sequence)), which are the so-called [slowly pulsating B (SPB) stars](https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star).
+Use of [NTSA](https://github.com/JVB11/NTSA) for the detection of resonant combination frequencies is highlighted in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html), where we specifically searched for three-mode resonances in light curves of variable stars of spectral type B[^1] that fuse hydrogen isotopes in their cores (i.e., stars on the [main sequence](https://en.wikipedia.org/wiki/Main_sequence)), which are the so-called [slowly pulsating B (SPB) stars](https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star).
 
 _**Citations/using this code**_
 
