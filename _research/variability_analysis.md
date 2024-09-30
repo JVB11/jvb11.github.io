@@ -18,7 +18,7 @@ $$ F(t_i) = \beta_0 + \sum_{j=1}^{n_{\rm f}} A_j \sin\left[2\pi\nu_jt_i + \phi_j
 where $\beta_0$ is a parameter that corrects for a detrending offset, and the parameters with subscript $j$ relate to the amplitudes ($A_j$), (temporal) frequencies ($\nu_j$) and phases ($\phi_j$) at a specific time $t_i$ for which the stellar brightness was observed.
 
 The frequencies of such variability models are then compared with the theoretically predicted oscillation frequencies of linear oscillation theory to assess which stellar structure (and evolution) models fit the observed variability best.
-Doing so thus allows the (linear) asteroseismologist to constrain (numerical implementations of) stellar structure models.
+Doing so thus allows the (linear) asteroseismologist to constrain (numerical implementations of) stellar structure and evolution models.
 
 _For additional technical details on harmonic analysis, I refer the interested reader towards section 2 of [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html)._
 
@@ -57,7 +57,9 @@ It is therefore a long-term goal to include functionality in the [NTSA](https://
 
 ### Publications
 
-<small>Van Beeck J., Bowman D. M., Pedersen M. G., Van Reeth T., Van Hoolst T., Aerts C.; Detection of non-linear resonances among gravity modes of slowly pulsating B stars: results from five iterative pre-whitening strategies. November 2021, Astronomy & Astrophysics, Vol. 655, A59. [HTML](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html) [PDF](https://www.aanda.org/articles/aa/pdf/2021/11/aa41572-21.pdf)
+<br />
+
+Van Beeck J., Bowman D. M., Pedersen M. G., Van Reeth T., Van Hoolst T., Aerts C.; Detection of non-linear resonances among gravity modes of slowly pulsating B stars: results from five iterative pre-whitening strategies. November 2021, Astronomy & Astrophysics, Vol. 655, A59. [HTML](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html) [PDF](https://www.aanda.org/articles/aa/pdf/2021/11/aa41572-21.pdf)
 
 Van Reeth T., Southworth J., Van Beeck J., Bowman D. M.; V456 Cyg: an eclipsing binary with tidally perturbed g-mode pulsations. March 2022, Astronomy & Astrophysics, Vol. 659, A177. [HTML](https://www.aanda.org/articles/aa/full_html/2022/03/aa42833-21/aa42833-21.html) [PDF](https://www.aanda.org/articles/aa/pdf/2022/03/aa42833-21.pdf)
 
@@ -66,4 +68,3 @@ Van Reeth T., De Cat P., Van Beeck J., Prat V., Wright D. J., Lehmann H., Chene 
 Van Reeth T., Johnston C., Southworth J., Fuller J., Bowman D. M., Poniatowski L., Van Beeck J.; Tidally perturbed gravity-mode pulsations in a sample of close eclipsing binaries. March 2023, Astronomy & Astrophysics, Vol. 671, A121. [HTML](https://www.aanda.org/articles/aa/full_html/2023/03/aa45460-22/aa45460-22.html) [PDF](https://www.aanda.org/articles/aa/pdf/2023/03/aa45460-22.pdf)
 
 Fritzewski D. J., Van Reeth T., Aerts C., Van Beeck J., Gossage S., Li G.; Age-dating the young open cluster UBC1 with g-mode asteroseismology, gyrochronology, and isochrone fitting. January 2024, Astronomy & Astrophysics, Vol. 681, A13. [HTML](https://www.aanda.org/articles/aa/full_html/2024/01/aa47618-23/aa47618-23.html) [PDF](https://www.aanda.org/articles/aa/pdf/2024/01/aa47618-23.pdf)
-</small>
