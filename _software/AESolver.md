@@ -17,7 +17,7 @@ To model the (non-linear) energy exchange among oscillation modes, I developed a
 _**Purpose**_
 
 Modeling within the linear approximation offers the asteroseismologist theoretically predicted observables - oscillation mode frequencies - that are to be compared to the observed variability frequencies.
-Simulates the non-linear energy exchange among oscillation modes, so that mode amplitudes can be modelled (and compared to observed amplitudes).
+This computational framework simulates the non-linear energy exchange among oscillation modes, so that mode amplitudes can be modelled (and compared to observed amplitudes).
 The computed amplitudes (more specifically, their ratios in resonant triads) can then be contrasted with observed variability amplitudes detected in photometric light curves of variable stars.
 
 _**Applications**_
