@@ -9,16 +9,15 @@ Throughout the course of my academic career I have worked with different scienti
 Such vibrations cause the star to periodically dim and brighten, which can be observed in astronomical data products, such as the photometric light curves (of specific variable stars) that I have studied in my doctoral dissertation.
 
 I regularly use the [Modules for Experiments in Stellar Astrophysics (MESA)](https://docs.mesastar.org/en/stable/) stellar evolution code, the [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code and [Wolfram Mathematica](https://www.wolfram.com/mathematica/) in my scientific endeavors.
-A succinct description of these computational frameworks is given below.
+A succinct description of these computational frameworks is given below in the '*scientific software suites I like to use*' section.
 
-I am also a developer of computational frameworks/scientific software suites.
-Most of my coding efforts for the development of these frameworks have been made in the [Python](https://www.python.org) language, although parts of my frameworks have been written in [C++](https://isocpp.org/), [Fortran](https://fortran-lang.org/) and [Cython](https://cython.org).
+I am also a developer of computational frameworks/scientific software suites (see the '*computational frameworks I developed*' section).
+When developing these frameworks, I mostly have made use of the [Python](https://www.python.org) language, although parts of my frameworks have been written in [C++](https://isocpp.org/), [Fortran](https://fortran-lang.org/) and [Cython](https://cython.org).
 More recently, I started exploring the capabilities of the [Rust language](https://www.rust-lang.org) for future scientific projects.
 Although the Rust language looks promising for the development of scientific software suites, I do not yet have any publicly available (large) computational frameworks written predominantly in this language.
 
-> I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites/using different computer languages for my work. 
-> *Please reach out if you have interesting ideas to do so.*
-> *If you think my software could be beneficial to you, I also encourage you to contact me.*
+> I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites and/or using different computer languages for my work. 
+> If you think my software could be beneficial to you or if you have ideas on how to improve my software suites (and their documentation), I encourage you to reach out/contact me.
 
 ## Scientific Software Suites I Like to Use
 
