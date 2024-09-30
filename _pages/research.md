@@ -8,4 +8,4 @@ I have primarily worked on topics related to asteroseismology of intermediate-ma
 
 For more information on my research, click the links below.
 
-
+{% include my-research-gallery.html %}
