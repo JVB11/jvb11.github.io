@@ -12,16 +12,14 @@ I am a theoretical astrophysicist who investigates the dynamical processes happe
 To do so, I was trained as an [asteroseismologist](https://en.wikipedia.org/wiki/Asteroseismology) during my PhD and 3-month Post-doctoral position at [KU Leuven](https://www.kuleuven.be/english/), under the watchful/supervisory eyes of [Prof. Conny Aerts](https://fys.kuleuven.be/ster/staff/conny-aerts), [Prof. Tim Van Hoolst](https://www.kuleuven.be/wieiswie/en/person/00012864) and [Prof. Dominic Bowman](https://dbowman234.github.io).
 
 My work spans different sub-fields of asteroseismology, the study of waves/oscillation modes inside (variable) stars with the aim to constrain stellar structure and evolution.
-While my latest theoretical work was focused on the (non-linear) energy exchange among the oscillation modes, I have also worked on characterizing the influence of an internal stellar magnetic field on mode frequencies.
-I also do not shy away from more observationally oriented projects and led a project to characterize the variability of a large sample of [slowly pulsating B stars](https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star).
+While my latest theoretical work focused on the (non-linear) energy exchange among the oscillation modes, I have also worked on characterizing the influence of an internal stellar magnetic field on mode frequencies.
+I do not shy away from more observationally oriented projects and have led a project to characterize the variability of a large sample of [slowly pulsating B stars](https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star).
 For more information on all this, please check out my [research](https://jvb11.github.io/research) and [software](https://jvb11.github.io/software) pages.
 
 In addition to my research I am (easily) excited by (computational/plasma/theoretical) astrophysics as a whole, developing software that is freely available for potential users ([FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)) in a variety of computer languages, certain fields of chemistry (astro/computational/theoretical/analytical), and [teaching](https://jvb11.github.io/teaching) students about the universe (i.e., teaching physics/chemistry).
 On a more personal level, I am also easily excited by a variety of sports, glorious food, and enjoying great-looking locations on our planet with lovely company.
 
-**After an appointment as research associate in Asteroseismology at the [Institute of Astronomy](https://fys.kuleuven.be/ster) at [KU Leuven](https://www.kuleuven.be/english/) I am ready to start a new adventure within stellar astrophysics. My CV may be downloaded [here](https://jvb11.github.io/cv).**
-
-[Contact me](mailto:jordan.vanbeeck@protonmail.com){: .btn}
+**After an 3-month appointment as a post-doctoral research associate in Asteroseismology at the [Institute of Astronomy](https://fys.kuleuven.be/ster) at [KU Leuven](https://www.kuleuven.be/english/) I am ready to start a new adventure within stellar astrophysics. My CV may be downloaded on [this page](https://jvb11.github.io/cv) and contact details can be found in the dropdown menu (on mobile) or the navigation bar on the left of this page (on pc).**
 
 <!-- I was a Research Associate in Asteroseismology at the [Institute of Astronomy](https://fys.kuleuven.be/ster) at [KU Leuven](https://www.kuleuven.be/english/), Belgium until December 2023, after having finished my Ph. D. in September 2023, and am now exploring opportunities to continue my research career. I earned my B. Sc. and M. Sc. in Chemistry ('Chemie') from the [University of Antwerp](https://www.uantwerpen.be/en/) and my M. Sc. and Ph. D. in Astronomy & Astrophysics from [KU Leuven](https://www.kuleuven.be/english/). -->
 
