@@ -3,9 +3,9 @@ title: "Variability Analysis of Stars"
 layout: single-portfolio
 collection: research
 order_number: 10
-img: "light_curve_gridded.png"
+img: "light_curve.png"
 header:
-    og_image: "research/light_curve_gridded.png"
+    og_image: "research/light_curve.png"
 ---
 
 ## Harmonic Analysis (Asteroseismology)
