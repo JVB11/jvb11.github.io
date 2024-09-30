@@ -8,12 +8,12 @@ header:
     og_image: "research/coupling_triads_dark_mode.svg"
 ---
 
-Non-linear Coupling Model
-=========================
+## Non-linear Coupling Model
 
-Modeling Potential
-==================
 
-Relevant Publications & Software
-================================
+## Modeling Potential
+
+
+## Relevant Publications & Software
+
 

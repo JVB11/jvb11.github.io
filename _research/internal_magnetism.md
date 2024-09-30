@@ -8,11 +8,11 @@ header:
     og_image: "research/internal_magnetic_field.png"
 ---
 
-Magnetic Field Model
-====================
+## Magnetic Field Model
 
-Magneto-Asteroseismology
-========================
+
+## Magneto-Asteroseismology
+
 
 Frequency Perturbation Model
 ----------------------------
@@ -20,5 +20,5 @@ Frequency Perturbation Model
 Parameter Influence
 -------------------
 
-Relevant Publications & Software
-================================
+## Relevant Publications & Software
+

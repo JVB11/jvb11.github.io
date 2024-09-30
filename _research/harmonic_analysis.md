@@ -8,12 +8,12 @@ header:
     og_image: "research/explained_scaled_variance.svg"
 ---
 
-Robust Frequency Analysis
-=========================
+## Robust Frequency Analysis
 
-Resonant Frequency Detection
-============================
 
-Relevant Publications & Software
-================================
+## Resonant Frequency Detection
+
+
+## Relevant Publications & Software
+
 
