@@ -3,9 +3,9 @@ title: "Variability Analysis of Stars"
 layout: single-portfolio
 collection: research
 order_number: 10
-img: "explained_scaled_variance.svg"
+img: "light_curve_gridded.png"
 header:
-    og_image: "research/explained_scaled_variance.svg"
+    og_image: "research/light_curve_gridded.png"
 ---
 
 ## Harmonic Analysis (Asteroseismology)
@@ -28,7 +28,7 @@ _For additional technical details on harmonic analysis, I refer the interested r
 One often undefined source of uncertainty when performing such analysis is the lack of assessment of how various approaches systematically influence results.
 
 We employed five different strategies that emulate various approaches taken in literature and assessed their capacity for modeling the light curves.
-This resulted in robust variability models (that take into account systematics) for a sample of slowly pulsating B stars in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).
+This resulted in robust variability models (that take into account systematics) for a sample of slowly pulsating B stars observed by the NASA Kepler space telescope in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).
 Other works have used the same computational framework to characterize variability in the light curves of close ellipsing binaries with tidally perturbed gravity-mode oscillations, HD 112429 (where it was used to measure near-core rotation), and identified g-mode pulsators of the young open cluster UBC1 (to age-date the cluster).
 
 ## Resonant Frequency Detection
@@ -56,8 +56,6 @@ Other examples include various transient astronomical events (also called transi
 It is therefore a long-term goal to include functionality in the [NTSA](https://github.com/JVB11/NTSA) framework that can detect such non-harmonic behavior.
 
 ### Publications
-
-<br />
 
 Van Beeck J., Bowman D. M., Pedersen M. G., Van Reeth T., Van Hoolst T., Aerts C.; Detection of non-linear resonances among gravity modes of slowly pulsating B stars: results from five iterative pre-whitening strategies. November 2021, Astronomy & Astrophysics, Vol. 655, A59. [HTML](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html) [PDF](https://www.aanda.org/articles/aa/pdf/2021/11/aa41572-21.pdf)
 
