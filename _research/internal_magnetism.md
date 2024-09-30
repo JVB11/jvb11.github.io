@@ -1,11 +1,24 @@
 ---
-title: "Harmonic Analysis of Variable Stars"
+title: "Internal Stellar Magnetism"
 layout: single-portfolio
 collection: research
-order_number: 10
-img: "explained_scaled_variance.svg"
+order_number: 20
+img: "internal_magnetic_field.png"
 header:
-    og_image: "research/explained_scaled_variance.svg"
+    og_image: "research/internal_magnetic_field.png"
 ---
 
-Testing
+Magnetic Field Model
+====================
+
+Magneto-Asteroseismology
+========================
+
+Frequency Perturbation Model
+----------------------------
+
+Parameter Influence
+-------------------
+
+Relevant Publications & Software
+================================
