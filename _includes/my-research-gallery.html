@@ -1,0 +1,15 @@
+{% include base_path %}
+
+<div class="my-image-gallery">
+    {% assign sorted = site.research | sort: 'order_number' %}
+    {% for file in sorted %}
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="{{ base_path }}{{ file.url }}" rel="permalink">{{ file.title }}</a>
+        </h2>
+        <div class="my-box">
+            <a href="{{ base_path }}{{ file.url }}" rel="permalink">
+                <img src="{{ file.img | prepend: '/images/research/' | prepend: base_path }}" alt="" class="my-img-gallery">
+            </a>
+        </div>
+    {% endfor %}
+</div>
