@@ -14,11 +14,11 @@ header:
 ## Magneto-Asteroseismology
 
 
-Frequency Perturbation Model
-----------------------------
+### Frequency Perturbation Model
 
-Parameter Influence
--------------------
+
+### Parameter Influence
+
 
 ## Relevant Publications & Software
 
