@@ -17,7 +17,7 @@ More recently, I started exploring the capabilities of the [Rust language](https
 Although the Rust language looks promising for the development of scientific software suites, I do not yet have any publicly available (large) computational frameworks written predominantly in this language.
 
 > I am always actively seeking for (and passionate about) opportunities to learn more about other astrophysical (or non-astrophysical) code suites and/or using different computer languages for my work. 
-> If you think my software could be beneficial to you or if you have ideas on how to improve my software suites (and their documentation), I encourage you to reach out/contact me.
+> If you think my software could be beneficial to you or if you have ideas on how to improve my software suites (and their documentation), I encourage you to [reach out/contact me](mailto:jordan.vanbeeck@protonmail.com){: .btn}.
 
 ## Scientific Software Suites I Like to Use
 
