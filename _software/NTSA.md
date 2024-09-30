@@ -44,4 +44,4 @@ When using (part of) this code, you should therefore cite the application articl
 [^1]: See for example [this wikipedia page](https://en.wikipedia.org/wiki/Stellar_classification) to learn more about stellar classification.
 [^2]: Check out the associated NASA ADS page for the [NTSA application article](https://ui.adsabs.harvard.edu/abs/2021A%26A...655A..59V/abstract) to easily export the data required for citing this article, which is available in different formats.
 
-{% include gallery %}
+<!-- {% include gallery %} -->
