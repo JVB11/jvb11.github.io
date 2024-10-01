@@ -6,15 +6,6 @@ order_number: 30
 img: "coupling_triads_dark_mode.svg"
 header:
     og_image: "research/coupling_triads_dark_mode.svg"
-gallery:
-    - url: research/coupling_triads_dark_mode.svg
-      image_path: research/coupling_triads_dark_mode.svg
-      alt: "Schematic overview of triads of interacting oscillation modes."
-      title: "Schematic overview of triads of interacting oscillation modes. Orange circles indicate oscillation modes that naturally occur (i.e., are linearly driven) within the star (model). Purple squares indicate oscillation modes that would not be sustained (i.e., linearly damped) within the star without non-linear energy exchange among the modes in the triad."
-    - url: research/mode_coupling/coupling_profile.svg
-      image_path: research/mode_coupling/coupling_profile.svg
-      alt: "Example of a profile of the mode coupling coefficient in the stellar model interior."
-      title: "Mode energy exchange efficiency/mode coupling coefficient $\eta$ of a specific gravity mode triad in the interior of a slowly pulsating B star model (blue) vs. the squared <a href='https://en.wikipedia.org/wiki/Brunt–Väisälä_frequency'>buoyancy frequency</a> $N^2$ (a measure of the stability of a fluid to vertical displacements; it is a measure of stratification). On the x-axis we show the radial coordinate $r$ divided by the stellar model radius $R$ (i.e., $r/R = 1$ is the location of the stellar surface, and $r/R = 0$ is the center of the model). Most of the coupling for this triad occurs just above the stellar core, which is denoted by the large jump in buoyancy frequency near $r/R$ approximately equal to $0.1$."
 ---
 
 ## Non-linear Resonant Coupling & Modeling potential
@@ -29,23 +20,24 @@ We therefore examined how the lowest-order (three-mode) non-linear resonant coup
 In [Van Beeck et al. 2024](https://www.aanda.org/articles/aa/full_html/2024/07/aa48369-23/aa48369-23.html) we showed that the ratios of stationary amplitudes of 3 resonantly interacting modes could aid future (non-linear) asteroseismic modeling, serving as a constraint additional to the (linear) pulsation frequencies/periods.
 Non-stationary amplitudes could also be simulated using our framework.
 Higher-order coupling networks and inter-mode coupling (e.g., coupling between rossby and gravity modes) should be explored in the future to assess the effect self-saturation will have.
+There's plenty of work left to do!
 
-The framework we developed currently only considers 1-dimensional (MESA) stellar structure models.
+The framework we developed currently only considers 1-dimensional ([MESA](https://docs.mesastar.org/en/stable/)) stellar structure models.
 Any improvements in the description of opacity in the stellar interior will affect linear excitation properties of oscillation modes, which also is translated in the non-linear coupling properties.
 Multi-dimensional magneto-hydrodynamic (or hydrodynamic) simulations of the stellar structure could therefore be very beneficial in proving that our coupling results hold for more intricate stellar structures (and especially different opacity profiles).
-It is my goal to adapt the [AESolver](https://github.com/JVB11/AESolver) software suite to use such simulation input in the near future, so that we can advance knowledge of mode selection and mode amplitude limitation.
+It is my goal to adapt the [AESolver](https://github.com/JVB11/AESolver) software suite to use such simulation input.
 
 {% include base_path %}
 
 <figure>
   <a href="{{ '/images/research/coupling_triads_dark_mode.svg' | prepend: base_path }}" class="image-popup" title="Schematic overview of triads of interacting oscillation modes.">
-    <img src="{{ '/images/research/coupling_triads_dark_mode.svg' | prepend: base_path }}" alt="Schematic overview of triads of interacting oscillation modes." max-width="49%">
+    <img src="{{ '/images/research/coupling_triads_dark_mode.svg' | prepend: base_path }}" alt="Schematic overview of triads of interacting oscillation modes." max-width="100%">
   </a>
   <figcaption>Schematic overview of triads of interacting oscillation modes. Orange circles indicate oscillation modes that naturally occur (i.e., are linearly driven) within the star (model). Purple squares indicate oscillation modes that would not be sustained (i.e., linearly damped) within the star without non-linear energy exchange among the modes in the triad.</figcaption>
 </figure>
 <figure>
   <a href="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" class="image-popup" title="Example of a profile of the mode coupling coefficient in the stellar model interior.">
-    <img src="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" alt="Example of a profile of the mode coupling coefficient in the stellar model interior." max-width="49%">
+    <img src="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" alt="Example of a profile of the mode coupling coefficient in the stellar model interior." max-width="100%">
   </a>
   <figcaption>Mode energy exchange efficiency/mode coupling coefficient $\eta$ of a specific gravity mode triad in the interior of a slowly pulsating B star model (blue) vs. the squared <a href='https://en.wikipedia.org/wiki/Brunt–Väisälä_frequency'>buoyancy frequency</a> $N^2$ (a measure of the stability of a fluid to vertical displacements; it is a measure of stratification). On the x-axis we show the radial coordinate $r$ divided by the stellar model radius $R$ (i.e., $r/R = 1$ is the location of the stellar surface, and $r/R = 0$ is the center of the model). Most of the coupling for this triad occurs just above the stellar core, which is denoted by the large jump in buoyancy frequency near $r/R \approx 0.1$.</figcaption>
 </figure>
