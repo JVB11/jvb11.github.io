@@ -66,6 +66,8 @@ As an example of such variability, non-linear mode coupling theories predict tim
 Other examples include various transient astronomical events (also called transients), such as different types of ([super](https://en.wikipedia.org/wiki/Supernova))[novas](https://en.wikipedia.org/wiki/Nova) or [tidal disruption events](https://en.wikipedia.org/wiki/Tidal_disruption_event) (among others).
 It is therefore a long-term goal to include functionality in the [NTSA](https://github.com/JVB11/NTSA) framework that can detect such non-harmonic behavior.
 
+{% include figure popup=true image_path="software/ntsa/NTSA_logo.png" caption="[NTSA](https://github.com/JVB11/NTSA)" %}
+
 ### Publications
 
 **Van Beeck J.**, Bowman D. M., Pedersen M. G., Van Reeth T., Van Hoolst T., Aerts C.; Detection of non-linear resonances among gravity modes of slowly pulsating B stars: results from five iterative pre-whitening strategies. November 2021, Astronomy & Astrophysics, Vol. 655, A59. [HTML](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html) [PDF](https://www.aanda.org/articles/aa/pdf/2021/11/aa41572-21.pdf)
