@@ -3,9 +3,9 @@ title: "Internal Stellar Magnetism"
 layout: single-portfolio
 collection: research
 order_number: 20
-img: "internal_magnetic_field.png"
+img: "magnetic_cover.jpg"
 header:
-    og_image: "research/internal_magnetic_field.png"
+    og_image: "research/magnetic_cover.jpg"
 ---
 
 ## Magnetic Field Model
