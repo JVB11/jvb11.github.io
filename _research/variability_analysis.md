@@ -42,6 +42,8 @@ We employed five different strategies that emulate various approaches taken in l
 This resulted in robust variability models (that take into account systematics) for a sample of slowly pulsating B stars observed by the [NASA Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_space_telescope) in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).
 Other works have used the same computational framework to characterize variability in the light curves of close ellipsing binaries with tidally perturbed gravity-mode oscillations, [HD 112429](https://en.wikipedia.org/wiki/8_Draconis) (where it was used to measure near-core rotation), and identified g-mode pulsators of the young open cluster UBC1 (to age-date the cluster).
 
+{% include figure popup=true image_path="research/variability_analysis/explained_scaled_variances.svg" caption="Percentage of explained scaled variance of the light curves of a sample of slowly pulsating B (SPB) stars that was subjected to 5 different harmonic analysis/prewhitening procedures. A further subdivision of the SPB stars was made based on features in their Fourier amplitude spectra (see Van Beeck et al. 2021)." alt="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA." %}
+
 ## Resonant Frequency Detection
 
 > Linear asteroseismology employs oscillation mode frequencies to model waves propagating in stellar interiors (and constrain the numerical implementations of physical laws included in these models of the stellar interior).
@@ -52,7 +54,7 @@ To explain why some modes are excited and others are damped - the problem of mod
 The lowest-order non-linear coupling theories describe interactions between sets of 3 modes, or triads, with [resonant](https://en.wikipedia.org/wiki/Resonance) interactions being the strongest.
 
 One important goal of my research is thus to identify and characterize the parameters of modes in resonance with each other.
-An example of the detection of resonant triads is given in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).
+An example of the detection of resonant triads is given in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html) (more specifically, check out the fourth section).
 
 ## Relevant Publications & Software
 
