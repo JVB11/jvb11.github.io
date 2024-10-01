@@ -20,12 +20,8 @@ We therefore examined how the lowest-order (three-mode) non-linear resonant coup
 In [Van Beeck et al. 2024](https://www.aanda.org/articles/aa/full_html/2024/07/aa48369-23/aa48369-23.html) we showed that the ratios of stationary amplitudes of 3 resonantly interacting modes could aid future (non-linear) asteroseismic modeling, serving as a constraint additional to the (linear) pulsation frequencies/periods.
 Non-stationary amplitudes could also be simulated using our framework.
 Higher-order coupling networks and inter-mode coupling (e.g., coupling between rossby and gravity modes) should be explored in the future to assess the effect self-saturation will have.
+Wave-driven angular momentum transport is also affected by non-linear mode coupling, which we have not yet considered in our current models.
 There's plenty of work left to do!
-
-The framework we developed currently only considers 1-dimensional ([MESA](https://docs.mesastar.org/en/stable/)) stellar structure models.
-Any improvements in the description of opacity in the stellar interior will affect linear excitation properties of oscillation modes, which also is translated in the non-linear coupling properties.
-Multi-dimensional magneto-hydrodynamic (or hydrodynamic) simulations of the stellar structure could therefore be very beneficial in proving that our coupling results hold for more intricate stellar structures (and especially different opacity profiles).
-It is my goal to adapt the [AESolver](https://github.com/JVB11/AESolver) software suite to use such simulation input.
 
 {% include base_path %}
 
@@ -35,6 +31,7 @@ It is my goal to adapt the [AESolver](https://github.com/JVB11/AESolver) softwar
   </a>
   <figcaption>Schematic overview of triads of interacting oscillation modes. Orange circles indicate oscillation modes that naturally occur (i.e., are linearly driven) within the star (model). Purple squares indicate oscillation modes that would not be sustained (i.e., linearly damped) within the star without non-linear energy exchange among the modes in the triad.</figcaption>
 </figure>
+
 <figure>
   <a href="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" class="image-popup" title="Example of a profile of the mode coupling coefficient in the stellar model interior.">
     <img src="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" alt="Example of a profile of the mode coupling coefficient in the stellar model interior." min-width="80%" max-width="100%">
@@ -48,6 +45,11 @@ It is my goal to adapt the [AESolver](https://github.com/JVB11/AESolver) softwar
 
 Check out the [AESolver](https://github.com/JVB11/AESolver) computational framework that we developed for the purpose of simulating (resonant) non-linear mode three-mode coupling in rotating stars.
 A succinct description of this software suite is given on the [relevant software page](https://jvb11.github.io/software/AESolver/).
+
+The framework we developed currently only considers 1-dimensional ([MESA](https://docs.mesastar.org/en/stable/)) stellar structure models as input.
+Any improvements in the description of opacity in the stellar interior will affect linear excitation properties of oscillation modes, which also is translated in the non-linear coupling properties and transport of angular momentum.
+Multi-dimensional magneto-hydrodynamic (or hydrodynamic) simulations of the stellar interior could therefore be very beneficial in proving that our coupling results hold for more intricate stellar structures (and different opacity profiles).
+It is my goal to adapt the [AESolver](https://github.com/JVB11/AESolver) software suite to use such simulation input to validate (or disprove) our conclusions.
 
 <figure>
   <a href="{{ '/images/software/aesolver/AE_solver_logo.png' | prepend: base_path }}" class="image-popup">
