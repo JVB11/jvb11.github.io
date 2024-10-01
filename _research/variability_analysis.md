@@ -45,8 +45,8 @@ Other works have used the same computational framework to characterize variabili
 {% include base_path %}
 
 <figure>
-  <a href="{{ '/images/research/variability_analysis/explained_scaled_variance.svg' | prepend: base_path }}" class="image-popup" title="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA.">
-    <img src="{{ '/images/research/variability_analysis/explained_scaled_variance.svg' | prepend: base_path }}" alt="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA." max-width="100%">
+  <a href="{{ '/images/research/variability_analysis/explained_scaled_variance.png' | prepend: base_path }}" class="image-popup" title="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA.">
+    <img src="{{ '/images/research/variability_analysis/explained_scaled_variance.png' | prepend: base_path }}" alt="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA." max-width="100%">
   </a>
   <figcaption>Percentage of explained scaled variance of the light curves of a sample of slowly pulsating B (SPB) stars that was subjected to 5 different harmonic analysis/prewhitening procedures. A further subdivision of the SPB stars was made based on features in their Fourier amplitude spectra (see <a href="https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html">Van Beeck et al. 2021</a>).</figcaption>
 </figure>
