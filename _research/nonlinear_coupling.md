@@ -27,14 +27,14 @@ There's plenty of work left to do!
 
 <figure style="display:table;">
   <a href="{{ '/images/research/coupling_triads_dark_mode.svg' | prepend: base_path }}" class="image-popup" title="Schematic overview of triads of interacting oscillation modes.">
-    <img src="{{ '/images/research/coupling_triads_dark_mode.svg' | prepend: base_path }}" alt="Schematic overview of triads of interacting oscillation modes." style="width:40%; height:auto; margin-right:4%; margin-left:5%;">
+    <img src="{{ '/images/research/coupling_triads_dark_mode.svg' | prepend: base_path }}" alt="Schematic overview of triads of interacting oscillation modes." style="width:100%; height:auto;">
   </a>
   <figcaption style="display: table-caption; caption-side: bottom;">Schematic overview of triads of interacting oscillation modes. Orange circles indicate oscillation modes that naturally occur (i.e., are linearly driven) within the star (model). Purple squares indicate oscillation modes that would not be sustained (i.e., linearly damped) within the star without non-linear energy exchange among the modes in the triad.</figcaption>
 </figure>
 
 <figure style="display:table;">
   <a href="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" class="image-popup" title="Example of a profile of the mode coupling coefficient in the stellar model interior.">
-    <img src="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" alt="Example of a profile of the mode coupling coefficient in the stellar model interior." style="width:40%; height:auto; margin-right:4%; margin-left:5%;">
+    <img src="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" alt="Example of a profile of the mode coupling coefficient in the stellar model interior." style="width:100%; height:auto;">
   </a>
   <figcaption style="display: table-caption; caption-side: bottom;">Mode energy exchange efficiency/mode coupling coefficient $\eta$ of a specific gravity mode triad in the interior of a slowly pulsating B star model (blue) vs. the squared <a href='https://en.wikipedia.org/wiki/Brunt–Väisälä_frequency'>buoyancy frequency</a> $N^2$ (a measure of the stability of a fluid to vertical displacements; it is a measure of stratification). On the x-axis we show the radial coordinate $r$ divided by the stellar model radius $R$ (i.e., $r/R = 1$ is the location of the stellar surface, and $r/R = 0$ is the center of the model). Most of the coupling for this triad occurs just above the stellar core, which is denoted by the large jump in buoyancy frequency near $r/R \approx 0.1$.</figcaption>
 </figure>
