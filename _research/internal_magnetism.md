@@ -16,21 +16,19 @@ It extends down to the stellar centre even though the actual magnetic field stru
 Similarly, the field near the stellar surface would also be affected by the local low density.
 
 It is an open question how stable this magnetic field configuration is within the interiors of the intermediate-mass main sequence stars that we simulated (see e.g., [Kaufman et al. 2022](https://academic.oup.com/mnras/article/517/3/3332/6748231) for information on the stability of such fields in the interior of [red giants](https://en.wikipedia.org/wiki/Red_giant)).
-I therefore have a long-term interest in magneto-hydrodynamic simulations that improve our understanding of the magnetized stellar interior. 
 
 {% include base_path %}
 
 <kdb>
 <div class="container">
-<figure style="display:table; float:left; margin-right:20%; width:20%; width:60%;">
+<figure style="display:table; float:left; margin-right:20%; margin-left:20%; width:60%;">
   <a href="{{ '/images/research/magnetism/internal_magnetic_field.svg' | prepend: base_path }}" class="image-popup" title="Normalized representation of a dipolar axisymmetric magnetic field.">
     <img src="{{ '/images/research/magnetism/internal_magnetic_field.svg' | prepend: base_path }}" alt="Normalized representation of a dipolar axisymmetric magnetic field." style="width:100%; height:auto;">
   </a>
-  <figcaption style="display: table-caption; caption-side: bottom;">Normalized representation of a dipolar (axisymmetric) magnetic field of a specific model of an intermediate-mass main sequence star. Stream lines represent normalized poloidal field component (line width proportional to their amplitude) and the colored contours represent the normalized toroidal component. The normalized magnetic field strength shown in this figure is multiplied with a scaling factor before computing magnetic mode frequency shifts.</figcaption>
+  <figcaption style="display: table-caption; caption-side: bottom;">Normalized representation of a dipolar (axisymmetric) magnetic field of a specific model of an intermediate-mass main sequence star representative for the <a href='https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star'>slowly pulsating B star</a> HD 43317. Stream lines represent normalized poloidal field component (line width proportional to their amplitude) and the colored contours represent the normalized toroidal component. The normalized magnetic field strength shown in this figure is multiplied with a scaling factor $B_0$ before computing magnetic mode frequency shifts.</figcaption>
 </figure>
 </div>
 </kdb>
-
 
 ## Magneto-Asteroseismology
 
@@ -41,19 +39,22 @@ The computed shifts are therefore only valid if the magnetic field is _'weak eno
 Our proof-of-concept studies, [Prat et al. (2019)](https://www.aanda.org/articles/aa/full_html/2019/07/aa35462-19/aa35462-19.html) and [Prat et al. (2020)](https://www.aanda.org/articles/aa/full_html/2020/04/aa37398-19/aa37398-19.html) computed magnetically influenced period spacing patterns - the main observable for gravity modes in magnetic variable stars - for HD 43317, a rapidly rotating, magnetic B-type star with detected gravity modes.
 The main effect on these patterns that we observed in these studies is the presence of a specific sawtooth pattern compared to the patterns influenced by internal rotation alone.
 In later works, we (and others) showed however that these sawtooth patterns are likely not physical, as the shifts imparted on the oscillation modes included in the pattern are not perturbative (and therefore our model would not hold; see e.g., [Van Beeck et al. 2020](https://www.aanda.org/articles/aa/full_html/2020/06/aa37363-19/aa37363-19.html)).
-Instead, the main effect on the period spacing pattern observable (due to the magnetic field) is a (mode-dependent) slope change compared to the rotationally influenced pattern.
+Instead, the main effect on the period spacing pattern observable (due to the magnetic field) was found to be a (mode-geometry-dependent) slope change compared to the rotationally influenced pattern.
+We showed that this effect is further modified by variations in internal mixing, rotation rate, metallicity and mass of the stellar evolution/structure models.
+
+In addition to the stability arguments raised above, it also remains an open question how more realistic magnetic field configurations change (i) the computed perturbative magnetic frequency shifts (and the corresponding period spacing patterns) and (ii) the perturbative nature of these shifts (i.e., are fields weaker/stronger so that more/less magnetive frequency shifts can be described perturbatively).
+I therefore have a long-term interest in magneto-hydrodynamic simulations that improve our understanding of the magnetized stellar interior and theoretical work that computes non-perturbative magnetic frequency shifts (such as [Rui, Ong and Mathis, 2024](https://academic.oup.com/mnras/article/527/3/6346/7408611)). 
 
 <kdb>
 <div class="container">
-<figure style="display:table; float:left; margin-right:20%; width:20%; width:60%;">
+<figure style="display:table; float:left; margin-right:20%; margin-left:20%; width:60%;">
   <a href="{{ '/images/research/magnetism/magnetic_slopes.svg' | prepend: base_path }}" class="image-popup" title="Effect of an internal (dipolar, axisymmetric) magnetic field on gravity mode period spacing patterns in a slowly pulsating B star model.">
     <img src="{{ '/images/research/magnetism/magnetic_slopes.svg' | prepend: base_path }}" alt="Effect of an internal (dipolar, axisymmetric) magnetic field on gravity mode period spacing patterns in a slowly pulsating B star model." style="width:100%; height:auto;">
   </a>
-  <figcaption style="display: table-caption; caption-side: bottom;">Inferred magneto-rotationally modified period spacing pattern slopes $\Sigma$ as a function of $B_0$ (in G) for different nonradial mode geometry (in terms of the azimuthal wavenumber m) of dipole modes propagating in a slowly pulsating B star model. Dashed and solid lines indicate estimated slopes around the $n = −30$ and $n = −40$ mode, and the shaded bands indicate $95%$ confidence intervals.</figcaption>
+  <figcaption style="display: table-caption; caption-side: bottom;">Inferred magneto-rotationally modified period spacing pattern slopes $\Sigma$ as a function of magnetic field scaling factor $B_0$ (in G) for different nonradial mode geometry (in terms of the azimuthal wavenumber $m$) of dipole ($l=1$) modes propagating in a $3$ M$_\odot$ <a href='https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star'>slowly pulsating B star</a> model. Dashed and solid lines indicate estimated slopes around the $n = −30$ and $n = −40$ mode (where $n$ is the radial order), and the shaded bands indicate $95$% confidence intervals. Check out section 1.2 of <a href='https://fys.kuleuven.be/ster/pub/phd-thesis-jordan-van-beeck/PhD_Thesis_Jordan_Van_Beeck_Digital_Version.pdf'>my PhD thesis</a> for more information on quantum numbers that are used to label oscillation modes.</figcaption>
 </figure>
 </div>
 </kdb>
-
 
 ## Relevant Publications & Software
 
