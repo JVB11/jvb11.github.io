@@ -63,11 +63,12 @@ Other works have used the same computational framework to characterize variabili
 It is clear however that using only the variability frequencies leaves much of the information in the variability model $F(t_i)$ unused.
 Linear theory also cannot explain why some oscillation modes are sustained (and observed) for long periods inside stars.
 
-To explain why some modes are excited and others are damped - the problem of mode selection - a [non-linear](https://en.wikipedia.org/wiki/Nonlinear_system) wave formalism is required because this model can explain (significant) energy exchanges/coupling between modes.
+To explain why some modes are excited and others are damped - the problem of mode selection - a [non-linear](https://en.wikipedia.org/wiki/Nonlinear_system) wave formalism is required because this model can simulate (significant, non-linear) energy exchanges/coupling between modes that might be of importance for mode excitation.
 The lowest-order non-linear coupling theories describe interactions between sets of 3 modes, or triads, with [resonant](https://en.wikipedia.org/wiki/Resonance) interactions being the strongest.
 
 One important goal of my research is to identify and characterize the parameters of resonantly interacting oscillation modes.
 An example of the detection of resonant triads is given in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html) (more specifically, check out their fourth section).
+I also find the construction of artificially intelligent models to detect non-linear resonances in variable stars intriguing. 
 
 ## Relevant Publications & Software
 
@@ -76,10 +77,10 @@ An example of the detection of resonant triads is given in [Van Beeck et al. (20
 Check out the [NTSA](https://github.com/JVB11/NTSA) computational framework that we developed for the purpose of robust frequency analysis and the detection of resonant frequencies.
 A succinct description of this software suite is given on the [relevant software page](https://jvb11.github.io/software/NTSA/).
 
-While this framework is currently limited to harmonic analysis for analyzing variability, some (baby) steps have been made towards extensions that can model types of non-harmonic variability.
+While this framework is currently limited to harmonic analysis for analyzing variability, some (baby) steps have been taken towards extensions that can model types of non-harmonic variability.
 As an example of physically relevant situations in which non-harmonic variability is expected, non-linear mode coupling theories predict time-variable mode parameters of interacting modes when certain (selection) conditions are fulfilled.
 Other examples of such situations include various transient astronomical events (also called transients), such as different types of ([super](https://en.wikipedia.org/wiki/Supernova))[novas](https://en.wikipedia.org/wiki/Nova) or [tidal disruption events](https://en.wikipedia.org/wiki/Tidal_disruption_event) (among others).
-It is therefore a long-term goal to include functionality in the [NTSA](https://github.com/JVB11/NTSA) framework that can detect and characterize such non-harmonic behavior.
+It is therefore a long-term goal of mine to include functionality in the [NTSA](https://github.com/JVB11/NTSA) framework that can detect and characterize such non-harmonic behavior.
 
 <figure style="float:left; margin-right:20%; margin-left:20%; width:60%;">
   <a href="{{ '/images/software/ntsa/NTSA_logo.png' | prepend: base_path }}" class="image-popup">
