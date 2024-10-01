@@ -10,14 +10,24 @@ header:
 
 ## Magnetic Field Model
 
+For our work on stellar magnetism we used a model of an internal (stellar) magnetic field that is [dipolar](https://en.wikipedia.org/wiki/Dipole) and [axisymmetric](https://en.wikipedia.org/wiki/Axial_symmetry) or oblique with respect to the [axis of rotation](https://en.wikipedia.org/wiki/Rotation) (i.e., the magnetic field axis is inclined with respect to the axis of rotation).
+This field aims to represent a [field with fossil origin](https://en.wikipedia.org/wiki/Fossil_stellar_magnetic_field).
+It extends down to the stellar centre even though the actual magnetic field structure in the stellar core would likely be more complex due to interactions with dynamo-driven field that is likely present within the core.
+
+{% include base_path %}
+
+<kdb>
+<div class="container">
+<figure style="display:table; float:left; margin-right:20%; width:20%; width:60%;">
+  <a href="{{ '/images/research/magnetism/internal_magnetic_field.svg' | prepend: base_path }}" class="image-popup" title="Schematic overview of triads of interacting oscillation modes.">
+    <img src="{{ '/images/research/magnetism/internal_magnetic_field.svg' | prepend: base_path }}" alt="Schematic overview of triads of interacting oscillation modes." style="width:100%; height:auto;">
+  </a>
+  <figcaption style="display: table-caption; caption-side: bottom;">Normalized representation of a dipolar (axisymmetric) magnetic field used in the perturbative computations of the magnetic frequency shifts. Stream lines represent normalized poloidal field component (line width proportional to their amplitude) and the colored contours represent the normalized toroidal component.</figcaption>
+</figure>
+</div>
+</kdb>
 
 ## Magneto-Asteroseismology
-
-
-### Frequency Perturbation Model
-
-
-### Parameter Influence
 
 
 ## Relevant Publications & Software
