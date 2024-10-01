@@ -50,7 +50,7 @@ We employed five different strategies that emulate various approaches taken in l
 This resulted in robust variability models (that take into account systematics) for a sample of slowly pulsating B stars observed by the [NASA Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_space_telescope) in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).
 Other works have used the same computational framework to characterize variability in the light curves of close ellipsing binaries with tidally perturbed gravity-mode oscillations, [HD 112429](https://en.wikipedia.org/wiki/8_Draconis) (where it was used to measure near-core rotation), and identified g-mode pulsators of the young open cluster UBC1 (to age-date the cluster).
 
-<figure>
+<figure style="float:left; margin-right:20%; margin-left:20%; width:60%;">
   <a href="{{ '/images/research/variability_analysis/explained_scaled_variance.png' | prepend: base_path }}" class="image-popup" title="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA.">
     <img src="{{ '/images/research/variability_analysis/explained_scaled_variance.png' | prepend: base_path }}" alt="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA." max-width="100%">
   </a>
@@ -81,7 +81,7 @@ As an example of such variability, non-linear mode coupling theories predict tim
 Other examples include various transient astronomical events (also called transients), such as different types of ([super](https://en.wikipedia.org/wiki/Supernova))[novas](https://en.wikipedia.org/wiki/Nova) or [tidal disruption events](https://en.wikipedia.org/wiki/Tidal_disruption_event) (among others).
 It is therefore a long-term goal to include functionality in the [NTSA](https://github.com/JVB11/NTSA) framework that can detect such non-harmonic behavior.
 
-<figure>
+<figure style="float:left; margin-right:20%; margin-left:20%; width:60%;">
   <a href="{{ '/images/software/ntsa/NTSA_logo.png' | prepend: base_path }}" class="image-popup">
     <img src="{{ '/images/software/ntsa/NTSA_logo.png' | prepend: base_path }}" alt="Logo of the NTSA software suite">
   </a>

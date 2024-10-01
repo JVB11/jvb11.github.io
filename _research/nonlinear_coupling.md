@@ -54,7 +54,7 @@ Any improvements in the description of opacity in the stellar interior will affe
 Multi-dimensional magneto-hydrodynamic (or hydrodynamic) simulations of the stellar interior could therefore be very beneficial in proving that our coupling results hold for more intricate stellar structures (and different opacity profiles).
 It is my goal to adapt the [AESolver](https://github.com/JVB11/AESolver) software suite to use such simulation input to validate (or disprove) our conclusions.
 
-<figure>
+<figure style="float:left; margin-right:20%; margin-left:20%; width:60%;">
   <a href="{{ '/images/software/aesolver/AE_solver_logo.png' | prepend: base_path }}" class="image-popup">
     <img src="{{ '/images/software/aesolver/AE_solver_logo.png' | prepend: base_path }}" alt="Logo of the AESolver software suite">
   </a>
