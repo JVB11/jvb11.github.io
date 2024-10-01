@@ -8,7 +8,7 @@ date: 2022-09-30
 location: "Leuven, Belgium"
 ---
 
-> After a year-long break due to my long research stay at the California Institute of Technology (as mentioned on my CV), I resumed my work as a teaching assistant for this course for one more academic year (2022-2023).
+> After a year-long break due to my long research stay at the California Institute of Technology, I resumed my work as a teaching assistant for this course for one more academic year (2022-2023).
 
 The title of this course can be translated into English as 'Physics with elements of mathematics I' (taught in the first semester).
 It was an introductory physics course for the first-year students in the bachelor of science in pharmaceutical sciences at [KU Leuven](https://www.kuleuven.be/english/), which was taught in Dutch.[^1]
