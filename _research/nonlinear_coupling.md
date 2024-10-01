@@ -27,7 +27,7 @@ There's plenty of work left to do!
 
 <kdb>
 <div class="container">
-<figure style="display:table; float:left; margin-right:5%;">
+<figure style="display:table; float:left; margin-right:20%;">
   <a href="{{ '/images/research/coupling_triads_dark_mode.svg' | prepend: base_path }}" class="image-popup" title="Schematic overview of triads of interacting oscillation modes.">
     <img src="{{ '/images/research/coupling_triads_dark_mode.svg' | prepend: base_path }}" alt="Schematic overview of triads of interacting oscillation modes." style="width:100%; height:auto;">
   </a>
