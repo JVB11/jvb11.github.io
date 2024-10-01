@@ -40,7 +40,7 @@ There's plenty of work left to do!
 </figure>
 </div>
 
-<br></br>
+<br>
 
 ## Relevant Publications & Software
 
