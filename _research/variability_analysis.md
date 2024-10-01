@@ -14,7 +14,7 @@ gallery:
     - url: research/variability_analysis/residual_amplitude_spectrum_example.png
       image_path: research/variability_analysis/residual_amplitude_spectrum_example.png
       alt: "Example of a resulting amplitude spectrum of a variable star obtained by Fourier Analysis"
-      title: "Fourier amplitude spectrum of KIC6352430, a slowly pulsating B star observed by the NASA Kepler space telescope. On the y-axis the variability amplitudes are displayed in parts per million, whereas the x-axis shows the (temporal) variability frequencies ($\omega/2\pi = \nu$). In grey we show the Fourier amplitude spectrum of the original light curve, whereas the orange spectrum denotes the variability of the residuals after the iterative procedure has come to an end (because a certain stopping criterion was triggered; see Van Beeck et al. 2021)."
+      title: "Fourier amplitude spectrum of KIC6352430, a slowly pulsating B star observed by the NASA Kepler space telescope. On the y-axis the variability amplitudes are displayed in parts per million, whereas the x-axis shows the (temporal) variability frequencies. In grey we show the Fourier amplitude spectrum of the original light curve, whereas the orange spectrum denotes the variability of the residuals after the iterative procedure has come to an end (because a certain stopping criterion was triggered; see Van Beeck et al. 2021)."
 ---
 
 ## Harmonic Analysis ([Asteroseismology](https://en.wikipedia.org/wiki/Asteroseismology))
@@ -24,7 +24,7 @@ This harmonic analysis consists of a (iterative) [Fourier decomposition](https:/
 
 $$ F(t_i) = \beta_0 + \sum_{j=1}^{n_{\rm f}} A_j \sin\left[2\pi\nu_jt_i + \phi_j\right] $$
 
-where $\beta_0$ is a parameter that corrects for a detrending offset, and the parameters with subscript $j$ relate to the amplitudes ($A_j$), (temporal) frequencies ($\nu_j$) and phases ($\phi_j$) at a specific time $t_i$ for which the stellar brightness was observed.
+where $\beta_0$ is a parameter that corrects for a detrending offset, and the parameters with subscript $j$ relate to the amplitudes ($A_j$), (temporal) frequencies ($\nu_j = \omega_j / 2\pi$) and phases ($\phi_j$) at a specific time $t_i$ for which the stellar brightness was observed.
 
 The frequencies of such variability models are then compared with the theoretically predicted oscillation frequencies of [linear](https://en.wikipedia.org/wiki/Linear_system) oscillation theory to assess which stellar structure (and evolution) models fit the observed variability best.
 Doing so thus allows the asteroseismologist to constrain (numerical implementations of) stellar structure and evolution models.
