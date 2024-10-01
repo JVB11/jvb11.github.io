@@ -8,19 +8,19 @@ header:
     og_image: "research/light_curve.png"
 ---
 
-## Harmonic Analysis (Asteroseismology)
+## Harmonic Analysis ([Asteroseismology](https://en.wikipedia.org/wiki/Asteroseismology))
 
-To describe the variability in brightness of a variable star it is quite common that harmonic analysis is used.
-This harmonic analysis consists of a (iterative) Fourier decomposition of the observed signal, resulting in parameters that describe the variability using a sum-of-sines or variability model $F(t_i)$ for the observed (photometric) light curve:
+To describe the variability in brightness of a [variable star](https://en.wikipedia.org/wiki/Variable_star) it is quite common that [harmonic analysis](https://en.wikipedia.org/wiki/Harmonic_analysis) is used.
+This harmonic analysis consists of a (iterative) [Fourier decomposition](https://en.wikipedia.org/wiki/Fourier_analysis) of the observed signal, resulting in parameters that describe the variability using a sum-of-sines or variability model $F(t_i)$ for the observed (photometric) light curve:
 
 $$ F(t_i) = \beta_0 + \sum_{j=1}^{n_{\rm f}} A_j \sin\left[2\pi\nu_jt_i + \phi_j\right] $$
 
 where $\beta_0$ is a parameter that corrects for a detrending offset, and the parameters with subscript $j$ relate to the amplitudes ($A_j$), (temporal) frequencies ($\nu_j$) and phases ($\phi_j$) at a specific time $t_i$ for which the stellar brightness was observed.
 
-The frequencies of such variability models are then compared with the theoretically predicted oscillation frequencies of linear oscillation theory to assess which stellar structure (and evolution) models fit the observed variability best.
-Doing so thus allows the (linear) asteroseismologist to constrain (numerical implementations of) stellar structure and evolution models.
+The frequencies of such variability models are then compared with the theoretically predicted oscillation frequencies of [linear](https://en.wikipedia.org/wiki/Linear_system) oscillation theory to assess which stellar structure (and evolution) models fit the observed variability best.
+Doing so thus allows the asteroseismologist to constrain (numerical implementations of) stellar structure and evolution models.
 
-_For additional technical details on harmonic analysis, I refer the interested reader towards section 2 of [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html)._
+_For additional technical details on harmonic analysis in the context of asteroseismology, I refer the interested reader towards section 2 of [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html)._
 
 ## Robust Frequency Analysis
 
@@ -37,8 +37,8 @@ Other works have used the same computational framework to characterize variabili
 It is clear however that using only the variability frequencies leaves much of the information in the variability model $F(t_i)$ unused.
 Linear theory also cannot explain why some oscillation modes are sustained (and observed) for long periods inside stars.
 
-To explain why some modes are excited and others are damped - the problem of mode selection - a non-linear wave formalism is required (i.e., we enter the realms of non-linear asteroseismology) as this model can explain (significant) energy exchanges/coupling between modes.
-The lowest-order non-linear coupling theories describe interactions between sets of 3 modes, or triads, with resonant interactions being the strongest.
+To explain why some modes are excited and others are damped - the problem of mode selection - a [non-linear](https://en.wikipedia.org/wiki/Nonlinear_system) wave formalism is required (i.e., we enter the realms of non-linear asteroseismology) as this model can explain (significant) energy exchanges/coupling between modes.
+The lowest-order non-linear coupling theories describe interactions between sets of 3 modes, or triads, with [resonant](https://en.wikipedia.org/wiki/Resonance) interactions being the strongest.
 
 One important goal of my research is thus to identify and characterize the parameters of modes in resonance with each other.
 An example of the detection of resonant triads is given in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).
@@ -50,9 +50,9 @@ An example of the detection of resonant triads is given in [Van Beeck et al. (20
 Check out the [NTSA](https://github.com/JVB11/NTSA) computational framework that we developed for the purpose of robust frequency analysis and the detection of resonant frequencies.
 A succinct description of this software suite is given on the [relevant software page](https://jvb11.github.io/software/NTSA/).
 
-While this framework is currently limited to harmonic analysis approaches for analyzing variability, some (baby) steps have been made towards expansions that can model other types of variability.
-As an example of non-harmonic variability, non-linear mode coupling theories predict time-variable mode parameters (of interacting modes) when certain conditions are fulfilled.
-Other examples include various transient astronomical events (also called transients), such as different types of (super)novas or tidal disruption events (among others).
+While this framework is currently limited to harmonic analysis approaches for analyzing variability, some (baby) steps have been made towards expansions that can model types of non-harmonic variability.
+As an example of such variability, non-linear mode coupling theories predict time-variable mode parameters (of interacting modes) when certain conditions are fulfilled.
+Other examples include various transient astronomical events (also called transients), such as different types of ([super](https://en.wikipedia.org/wiki/Supernova))[novas](https://en.wikipedia.org/wiki/Nova) or [tidal disruption events](https://en.wikipedia.org/wiki/Tidal_disruption_event) (among others).
 It is therefore a long-term goal to include functionality in the [NTSA](https://github.com/JVB11/NTSA) framework that can detect such non-harmonic behavior.
 
 ### Publications
