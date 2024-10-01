@@ -42,9 +42,11 @@ We employed five different strategies that emulate various approaches taken in l
 This resulted in robust variability models (that take into account systematics) for a sample of slowly pulsating B stars observed by the [NASA Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_space_telescope) in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).
 Other works have used the same computational framework to characterize variability in the light curves of close ellipsing binaries with tidally perturbed gravity-mode oscillations, [HD 112429](https://en.wikipedia.org/wiki/8_Draconis) (where it was used to measure near-core rotation), and identified g-mode pulsators of the young open cluster UBC1 (to age-date the cluster).
 
+{% include base_path %}
+
 <figure>
-  <a href="research/variability_analysis/explained_scaled_variances.svg" class="image-popup" title="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA.">
-    <img src="research/variability_analysis/explained_scaled_variances.svg" alt="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA.">
+  <a href="{{ '/images/research/variability_analysis/explained_scaled_variances.svg' | prepend: base_path }}" class="image-popup" title="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA.">
+    <img src="{{ '/images/research/variability_analysis/explained_scaled_variances.svg' | prepend: base_path }}" alt="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA.">
   </a>
   <figcaption>Percentage of explained scaled variance of the light curves of a sample of slowly pulsating B (SPB) stars that was subjected to 5 different harmonic analysis/prewhitening procedures. A further subdivision of the SPB stars was made based on features in their Fourier amplitude spectra (see Van Beeck et al. 2021).</figcaption>
 </figure>
@@ -74,8 +76,8 @@ Other examples include various transient astronomical events (also called transi
 It is therefore a long-term goal to include functionality in the [NTSA](https://github.com/JVB11/NTSA) framework that can detect such non-harmonic behavior.
 
 <figure>
-  <a href="software/ntsa/NTSA_logo.png" class="image-popup">
-    <img src="software/ntsa/NTSA_logo.png" alt="Logo of the NTSA software suite">
+  <a href="{{ '/images/software/ntsa/NTSA_logo.png' | prepend: base_path }}" class="image-popup">
+    <img src="{{ '/images/software/ntsa/NTSA_logo.png' | prepend: base_path }}" alt="Logo of the NTSA software suite">
   </a>
 </figure>
 
