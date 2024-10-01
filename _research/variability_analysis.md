@@ -11,8 +11,8 @@ gallery:
       image_path: research/light_curve.png
       alt: "Example of a photometric light curve as observed by the NASA Kepler space telescope."
       title: "Photometric light curve of KIC6352430, a slowly pulsating B star observed by the NASA Kepler space telescope."
-    - url: research/variability_analysis/residual_amplitude_spectrum_example.svg
-      image_path: research/variability_analysis/residual_amplitude_spectrum_example.svg
+    - url: research/variability_analysis/residual_amplitude_spectrum_example.png
+      image_path: research/variability_analysis/residual_amplitude_spectrum_example.png
       alt: "Example of a resulting amplitude spectrum of a variable star obtained by Fourier Analysis"
       title: "Fourier amplitude spectrum of KIC6352430, a slowly pulsating B star observed by the NASA Kepler space telescope."
 ---
