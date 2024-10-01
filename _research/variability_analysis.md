@@ -6,15 +6,6 @@ order_number: 10
 img: "light_curve.png"
 header:
     og_image: "research/light_curve.png"
-gallery:
-    - url: research/light_curve.png
-      image_path: research/light_curve.png
-      alt: "Example of a photometric light curve as observed by the NASA Kepler space telescope."
-      title: "Photometric light curve of KIC6352430, a slowly pulsating B star observed by the NASA Kepler space telescope. On the y-axis you may find flux (in parts per million) relative to a baseline value, whereas on the x-axis the time coordinate is displayed in terms of Barycentric Julian dates relative to a reference date."
-    - url: research/variability_analysis/residual_amplitude_spectrum_example.png
-      image_path: research/variability_analysis/residual_amplitude_spectrum_example.png
-      alt: "Example of a resulting amplitude spectrum of a variable star obtained by Fourier Analysis"
-      title: "Fourier amplitude spectrum of KIC6352430, a slowly pulsating B star observed by the NASA Kepler space telescope. On the y-axis the variability amplitudes are displayed in parts per million, whereas the x-axis shows the (temporal) variability frequencies. In grey we show the Fourier amplitude spectrum of the original light curve, whereas the orange spectrum denotes the variability of the residuals after the iterative procedure has come to an end (because a certain stopping criterion was triggered; see Van Beeck et al. 2021)."
 ---
 
 ## Harmonic Analysis ([Asteroseismology](https://en.wikipedia.org/wiki/Asteroseismology))
@@ -31,7 +22,24 @@ Doing so thus allows the asteroseismologist to constrain (numerical implementati
 
 _For additional technical details on harmonic analysis in the context of asteroseismology, I refer the interested reader towards section 2 of [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html)._
 
-{% include gallery %}
+{% include base_path %}
+
+<kdb>
+<div class="container">
+<figure style="display:table; float:left; margin-right:6%; width:47%;">
+  <a href="{{ '/images/research/light_curve.png' | prepend: base_path }}" class="image-popup" title="Example of a photometric light curve as observed by the NASA Kepler space telescope.">
+    <img src="{{ '/images/research/light_curve.png' | prepend: base_path }}" alt="Example of a photometric light curve as observed by the NASA Kepler space telescope." style="width:100%; height:auto;">
+  </a>
+  <figcaption style="display: table-caption; caption-side: bottom;">Photometric light curve of KIC6352430, a <a href='https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star'>slowly pulsating B star</a> observed by the <a href='https://en.wikipedia.org/wiki/Kepler_space_telescope'>NASA Kepler space telescope</a>. On the y-axis you may find flux (in parts per million) relative to a baseline value, whereas on the x-axis the time coordinate is displayed in terms of <a href='https://en.wikipedia.org/wiki/Barycentric_Julian_Date'>Barycentric Julian dates</a> relative to a reference date.</figcaption>
+</figure>
+<figure style="display:table; float:left; margin-right:auto; width:47%;">
+  <a href="{{ '/images/research/variability_analysis/residual_amplitude_spectrum_example.png' | prepend: base_path }}" class="image-popup" title="Example of a resulting amplitude spectrum of a variable star obtained by Fourier Analysis.">
+    <img src="{{ '/images/research/variability_analysis/residual_amplitude_spectrum_example.png' | prepend: base_path }}" alt="Example of a resulting amplitude spectrum of a variable star obtained by Fourier Analysis." style="width:100%; height:auto;">
+  </a>
+  <figcaption style="display: table-caption; caption-side: bottom;">Fourier amplitude spectrum of KIC6352430, a <a href='https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star'>slowly pulsating B star</a> observed by the <a href='https://en.wikipedia.org/wiki/Kepler_space_telescope'>NASA Kepler space telescope</a>. On the y-axis the variability amplitudes are displayed in parts per million, whereas the x-axis shows the (temporal) variability frequencies. In grey we show the Fourier amplitude spectrum of the original light curve, whereas the orange spectrum denotes the variability of the residuals after the iterative procedure has come to an end (because a certain stopping criterion was triggered; see <a href='https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html'>Van Beeck et al. 2021</a>).</figcaption>
+</figure>
+</div>
+</kdb>
 
 ## Robust Frequency Analysis
 
@@ -41,8 +49,6 @@ One often undefined source of uncertainty when performing such analysis is the l
 We employed five different strategies that emulate various approaches taken in literature and assessed their capacity for modeling the light curves.
 This resulted in robust variability models (that take into account systematics) for a sample of slowly pulsating B stars observed by the [NASA Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_space_telescope) in [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).
 Other works have used the same computational framework to characterize variability in the light curves of close ellipsing binaries with tidally perturbed gravity-mode oscillations, [HD 112429](https://en.wikipedia.org/wiki/8_Draconis) (where it was used to measure near-core rotation), and identified g-mode pulsators of the young open cluster UBC1 (to age-date the cluster).
-
-{% include base_path %}
 
 <figure>
   <a href="{{ '/images/research/variability_analysis/explained_scaled_variance.png' | prepend: base_path }}" class="image-popup" title="Explained Scaled Variances obtained by analyzing a sample of SPB stars using the 5 strategies embedded in NTSA.">
