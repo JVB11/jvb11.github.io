@@ -33,7 +33,7 @@ There's plenty of work left to do!
   </a>
   <figcaption style="display: table-caption; caption-side: bottom;">Schematic overview of triads of interacting oscillation modes. Orange circles indicate oscillation modes that naturally occur (i.e., are linearly driven) within the star (model). Purple squares indicate oscillation modes that would not be sustained (i.e., linearly damped) within the star without non-linear energy exchange among the modes in the triad.</figcaption>
 </figure>
-<figure style="display:table; float:left; margin-right:3px;">
+<figure style="display:table; float:left; margin-right:auto;">
   <a href="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" class="image-popup" title="Example of a profile of the mode coupling coefficient in the stellar model interior.">
     <img src="{{ '/images/research/mode_coupling/coupling_profile.svg' | prepend: base_path }}" alt="Example of a profile of the mode coupling coefficient in the stellar model interior." style="width:100%; height:auto;">
   </a>
