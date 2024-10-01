@@ -6,6 +6,15 @@ order_number: 10
 img: "light_curve.png"
 header:
     og_image: "research/light_curve.png"
+gallery:
+    - url: /images/research/light_curve.png
+      image_path: /images/research/light_curve.png
+      alt: "Example of a photometric light curve as observed by the NASA Kepler space telescope."
+      title: "Photometric light curve of KIC6352430, a slowly pulsating B star observed by the NASA Kepler space telescope."
+    - url: /images/research/variability/analysis/residual_amplitude_spectrum_example.svg
+      image_path: /images/research/variability/analysis/residual_amplitude_spectrum_example.svg
+      alt: "Example of a resulting amplitude spectrum of a variable star obtained by Fourier Analysis"
+      title: "Fourier amplitude spectrum of KIC6352430, a slowly pulsating B star observed by the NASA Kepler space telescope."
 ---
 
 ## Harmonic Analysis ([Asteroseismology](https://en.wikipedia.org/wiki/Asteroseismology))
@@ -21,6 +30,8 @@ The frequencies of such variability models are then compared with the theoretica
 Doing so thus allows the asteroseismologist to constrain (numerical implementations of) stellar structure and evolution models.
 
 _For additional technical details on harmonic analysis in the context of asteroseismology, I refer the interested reader towards section 2 of [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html)._
+
+{% include gallery %}
 
 ## Robust Frequency Analysis
 
