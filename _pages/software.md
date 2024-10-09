@@ -8,7 +8,7 @@ author_profile: true
 > I highly recommend reading the FAIR (Findable, Accessible, Interoperable and Reusable) principles for Research Software (FAIR4RS principles, described in [this Nature publication](https://www.nature.com/articles/s41597-022-01710-x)) when developing software for the purpose of advancing your research.
 >
 > While I am a big proponent of these principles, I also recognize that the software I develop/have developed needs updates to fully adhere to them; this is a work in progress.
-{width="100%" border-left="100% solid #0066b2" border-bottom="100% solid #0066b2"}
+{:width="100%" border-left="100% solid #0066b2" border-bottom="100% solid #0066b2"}
 
 <!-- <figure>
   <blockquote class="big-custom-blockquote">
