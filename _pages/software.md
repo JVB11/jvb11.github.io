@@ -5,6 +5,10 @@ title: "Software"
 author_profile: true
 ---
 
+> [!IMPORTANT]
+> I highly recommend reading the FAIR (Findable, Accessible, Interoperable and Reusable) principles for Research Software (FAIR4RS principles, outlined in [this Nature publication](https://www.nature.com/articles/s41597-022-01710-x)) when developing your own software for the purpose of advancing your research.
+> While I am a big proponent of these principles, I recognize that the software I develop/have developed needs updates to fully adhere to them; this is a work in progress.
+
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a ([variable](https://en.wikipedia.org/wiki/Variable_star)) star that vibrates in its natural frequencies.
 Such vibrations cause the star to periodically dim and brighten, which can be observed in astronomical data products, such as the [photometric](https://en.wikipedia.org/wiki/Photometry_(astronomy)) light curves (of specific variable stars) that I have studied in my doctoral dissertation.
 
