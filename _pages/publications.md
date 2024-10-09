@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+excerpt: "This page contains a list of my five most recent publications, and shows some key works."
 permalink: /publications/
 author_profile: true
 ---
