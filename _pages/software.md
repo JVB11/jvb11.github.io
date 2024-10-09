@@ -5,9 +5,22 @@ title: "Software"
 author_profile: true
 ---
 
-> [!IMPORTANT]
-> I highly recommend reading the FAIR (Findable, Accessible, Interoperable and Reusable) principles for Research Software (FAIR4RS principles, outlined in [this Nature publication](https://www.nature.com/articles/s41597-022-01710-x)) when developing your own software for the purpose of advancing your research.
-> While I am a big proponent of these principles, I recognize that the software I develop/have developed needs updates to fully adhere to them; this is a work in progress.
+<style>
+big-blockquote > p {font-style:italic;font-size:32px;line-height:44px;font-weight:500;padding-bottom:27px;}
+big-blockquote {width: 100%!important;padding: 45px 0 5px 40px!important;margin-bottom: 30px;margin-top: 30px;margin-left: -8%;border-left: 5px solid #0066b2;border-bottom: 5px solid #0066b2;position: relative;}
+big-blockquote:before {content: ""!important;position: absolute!important;width: 10%;height: 100%!important;top: 0;left: -1px;border-top: 5px solid #0066b2;}
+big-blockquote:after {content: "";position: absolute;width: 100%;height: 15%;bottom: -5px;left: 0;box-shadow: inset -5px 0 0 0 #0066b2;}
+</style>
+
+<div class="my-big-blockquote">
+<figure class="p-5">
+  <big-blockquote class="blockquote border-start border-3 border-info ps-4">
+  <p>I highly recommend reading the FAIR (Findable, Accessible, Interoperable and Reusable) principles for Research Software (FAIR4RS principles, described in <a href=https://www.nature.com/articles/s41597-022-01710-x>this Nature publication</a>) when developing your own software for the purpose of advancing your research.<br />
+  While I am a big proponent of these principles, I recognize that the software I develop/have developed needs updates to fully adhere to them; this is a work in progress.</p>
+  </big-blockquote>
+</figure>
+<div />
+<br />
 
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a ([variable](https://en.wikipedia.org/wiki/Variable_star)) star that vibrates in its natural frequencies.
 Such vibrations cause the star to periodically dim and brighten, which can be observed in astronomical data products, such as the [photometric](https://en.wikipedia.org/wiki/Photometry_(astronomy)) light curves (of specific variable stars) that I have studied in my doctoral dissertation.
