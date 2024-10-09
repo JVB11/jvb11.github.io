@@ -2,6 +2,7 @@
 layout: archive
 permalink: /software/
 title: "Software"
+excerpt: "This page contains a description of my view on research software. It also describes which scientific software suites I for advancing my research, and which software suites I developed for this same purpose."
 author_profile: true
 ---
 

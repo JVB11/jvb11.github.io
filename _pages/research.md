@@ -1,6 +1,7 @@
 ---
 permalink: /research/
 title: "Research"
+excerpt: "This page contains a generic overview of my current and past research."
 ---
 
 I am a asteroseismologist/theoretical astrophysicist trained in chemistry and astrophysics.

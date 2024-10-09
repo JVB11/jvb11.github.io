@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Curriculum Vitae"
+excerpt: "This page contains a PDF copy of my CV."
 permalink: /cv/
 author_profile: true
 redirect_from:
