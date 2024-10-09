@@ -5,13 +5,10 @@ title: "Software"
 author_profile: true
 ---
 
-<div style="border-left: 3px solid #0066b2; border-bottom: 3px solid #0066b2; padding: 1% 0% 1% 1%!important; font-style:italic; border-top: 3px solid #0066b2; padding-bottom: 0px; border-right: 3px solid #0066b2;">
+<!-- <div style="border-left: 3px solid #0066b2; border-bottom: 3px solid #0066b2; padding: 1% 0% 1% 1%!important; font-style:italic; border-top: 3px solid #0066b2; padding-bottom: 0px; border-right: 3px solid #0066b2;">
   <p style="margin-bottom: 0px;">I highly recommend reading the FAIR (Findable, Accessible, Interoperable and Reusable) principles for Research Software (FAIR4RS principles, described in <a href="https://www.nature.com/articles/s41597-022-01710-x">this Nature publication</a>) when developing software for the purpose of advancing your research. While I am a big proponent of these principles, I also recognize that the software I develop/have developed needs updates to fully adhere to them; this is a work in progress.</p>
 </div>
-<br />
-
-I highly recommend reading the FAIR (Findable, Accessible, Interoperable and Reusable) principles for Research Software (FAIR4RS principles, described in <a href="https://www.nature.com/articles/s41597-022-01710-x">this Nature publication</a>) when developing software for the purpose of advancing your research. While I am a big proponent of these principles, I also recognize that the software I develop/have developed needs updates to fully adhere to them; this is a work in progress.
-{: .p-4 .bg-orange-100 .text-orange-700 .border-l-4 . border-orange-500 .text-sm }
+<br /> -->
 
 <!-- <figure>
   <blockquote class="big-custom-blockquote">
@@ -19,6 +16,8 @@ I highly recommend reading the FAIR (Findable, Accessible, Interoperable and Reu
   While I am a big proponent of these principles, I recognize that the software I develop/have developed needs updates to fully adhere to them; this is a work in progress.</p>
   </blockquote>
 </figure> -->
+
+{% include research-software-FAIR-blockquote.html %}
 
 Throughout the course of my academic career I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a ([variable](https://en.wikipedia.org/wiki/Variable_star)) star that vibrates in its natural frequencies.
 Such vibrations cause the star to periodically dim and brighten, which can be observed in astronomical data products, such as the [photometric](https://en.wikipedia.org/wiki/Photometry_(astronomy)) light curves (of specific variable stars) that I have studied in my doctoral dissertation.
