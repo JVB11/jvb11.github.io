@@ -8,7 +8,7 @@ author_profile: true
 <style>
 .big-custom-blockquote {
     font-style:italic;
-    font-size:16px;
+    font-size:20px;
     line-height:24px;
     font-weight:50;
     padding-bottom:0px;
@@ -16,7 +16,7 @@ author_profile: true
     padding: 1.5% 1.5% 5px 1.5%!important;
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: -3%;
+    margin-left: 0px;
     border-left: 5px solid #0066b2;
     border-bottom: 5px solid #0066b2;
     position: relative;
