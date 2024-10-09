@@ -8,15 +8,15 @@ author_profile: true
 <style>
 .big-custom-blockquote {
     font-style:italic;
-    font-size:32px;
-    line-height:44px;
-    font-weight:500;
-    padding-bottom:27px;
+    font-size:16px;
+    line-height:24px;
+    font-weight:50;
+    padding-bottom:0px;
     width: 100%!important;
-    padding: 45px 0 5px 40px!important;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-left: -8%;
+    padding: 1.5% 1.5% 5px 1.5%!important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: -3%;
     border-left: 5px solid #0066b2;
     border-bottom: 5px solid #0066b2;
     position: relative;
