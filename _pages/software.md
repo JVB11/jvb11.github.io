@@ -70,17 +70,17 @@ I do not yet have any publicly available repositories that predominantly rely up
 
 ### Modules for Experiments in Stellar Astrophysics ([MESA](https://docs.mesastar.org/en/stable/)) + [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code
 
-[<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; margin-top:0%; margin-right:0%; margin-left:3%; margin-bottom:3%; float:right;">](https://docs.mesastar.org/en/stable/)The publicly availabe large scientific software suite [MESA](https://docs.mesastar.org/en/stable/) is widely used by astrophysicists to simulate the evolution (life) of a star, and enables the user to specify a large variety of different hooks (that make a [MESA](https://docs.mesastar.org/en/stable/) run very customizable).
+[<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; margin-top:1%; margin-right:0%; margin-left:3%; margin-bottom:3%; float:right;">](https://docs.mesastar.org/en/stable/)The publicly availabe large scientific software suite [MESA](https://docs.mesastar.org/en/stable/) is widely used by astrophysicists to simulate the evolution (life) of a star, and enables the user to specify a large variety of different hooks (that make a [MESA](https://docs.mesastar.org/en/stable/) run very customizable).
 It assumes certain widely used simplifications (for example, spherical symmetry) to be able to simulate how a star evolves from its birth to its death.
 I have used [MESA](https://docs.mesastar.org/en/stable/) to generate baseline models of the stellar structure at various moments throughout the evolution of star models of specific mass at starbirth.
 
-[<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin-top:0%; margin-right:3%; margin-left:0%; margin-bottom:0%; float:left;">](https://gyre.readthedocs.io/en/stable/)Such baseline models were then employed as input for the publicly available [GYRE](https://gyre.readthedocs.io/en/stable/) oscillation code to simulate waves propagating throughout the stellar interior. 
+[<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin-top:1%; margin-right:3%; margin-left:0%; margin-bottom:0%; float:left;">](https://gyre.readthedocs.io/en/stable/)Such baseline models were then employed as input for the publicly available [GYRE](https://gyre.readthedocs.io/en/stable/) oscillation code to simulate waves propagating throughout the stellar interior. 
 [GYRE](https://gyre.readthedocs.io/en/stable/) can simulate non-interacting (linear) waves. 
 The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver/), which simulates non-linear interactions between oscillations. <br>
 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
 
-[<img src="/images/software/user/wolfram.png" style="width:18%; height:auto; margin-top:0%; margin-right:0%; margin-left:3%; margin-bottom:0%; float:right;">](https://www.wolfram.com/mathematica/)Described on their website as *the world's definitive system for modern technical computing*, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of mathematical/theoretical frameworks.
+[<img src="/images/software/user/wolfram.png" style="width:14%; height:auto; margin-top:1%; margin-right:0%; margin-left:3%; margin-bottom:1%; float:right;">](https://www.wolfram.com/mathematica/)Described on their website as *the world's definitive system for modern technical computing*, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of mathematical/theoretical frameworks.
 I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AESolver](https://github.com/JVB11/AESolver/).
 
 ## Computational Frameworks I developed
