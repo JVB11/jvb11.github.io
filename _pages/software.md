@@ -76,11 +76,11 @@ I have used [MESA](https://docs.mesastar.org/en/stable/) to generate baseline mo
 
 [<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin:3%; float:left;">](https://gyre.readthedocs.io/en/stable/)Such baseline models were then employed as input for the publicly available [GYRE](https://gyre.readthedocs.io/en/stable/) oscillation code to simulate waves propagating throughout the stellar interior. 
 [GYRE](https://gyre.readthedocs.io/en/stable/) can simulate non-interacting (linear) waves. 
-The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver/), which simulates non-linear interactions between oscillations. 
+The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver/), which simulates non-linear interactions between oscillations. <br>
 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
 
-[<img src="/images/software/user/wolfram.png" style="width:20%; height:auto; margin:3%; float:right;">](https://www.wolfram.com/mathematica/)Described on their website as *the world's definitive system for modern technical computing*, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of mathematical/theoretical frameworks.
+[<img src="/images/software/user/wolfram.png" style="width:18%; height:auto; margin:3%; float:right;">](https://www.wolfram.com/mathematica/)Described on their website as *the world's definitive system for modern technical computing*, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of mathematical/theoretical frameworks.
 I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AESolver](https://github.com/JVB11/AESolver/).
 
 ## Computational Frameworks I developed
