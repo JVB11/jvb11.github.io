@@ -66,7 +66,7 @@ I do not yet have any publicly available repositories that predominantly rely up
 
 ## Scientific Software Suites I Like to Use
 
-> *Additional information on these scientific software suites can be found on their respective websites, whose hyperlinks are provided below the succinct descriptions in the form of clickable logos.*
+> *Additional information about these scientific software suites can be found on their websites, which can be accessed by clicking on the logos.*
 
 ### Modules for Experiments in Stellar Astrophysics ([MESA](https://docs.mesastar.org/en/stable/)) + [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code
 
@@ -78,15 +78,10 @@ I have used it to generate baseline models of the stellar structure at various m
 [GYRE](https://gyre.readthedocs.io/en/stable/) can simulate non-interacting (linear) waves. 
 The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver/), which simulates non-linear interactions between oscillations. 
 
-<!-- [<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; margin-right:4%; margin-left:5%;">](https://docs.mesastar.org/en/stable/)
-[<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin-left:4%; margin-right:5%;">](https://gyre.readthedocs.io/en/stable/) -->
-
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
 
-Described on their website as *the world's definitive system for modern technical computing*, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of mathematical/theoretical frameworks.
+Described on their website as *the world's definitive system for modern technical computing*, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of mathematical/theoretical frameworks.[<img src="/images/software/user/wolfram.png" style="width:20%; height:auto; margin:10%; float:right;">](https://www.wolfram.com/mathematica/)
 I have used it extensively to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AESolver](https://github.com/JVB11/AESolver/).
-
-[<img src="/images/software/user/wolfram.png" style="width:20%; height:auto; margin-left:40%;">](https://www.wolfram.com/mathematica/)
 
 ## Computational Frameworks I developed
 
