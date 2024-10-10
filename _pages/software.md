@@ -71,11 +71,11 @@ I do not yet have any publicly available repositories that predominantly rely up
 ### Modules for Experiments in Stellar Astrophysics ([MESA](https://docs.mesastar.org/en/stable/)) + [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code
 
 The publicly availabe large scientific software suite [MESA](https://docs.mesastar.org/en/stable/) is widely used by astrophysicists to simulate the evolution (life) of a star, and enables the user to specify a large variety of different hooks (that make a [MESA](https://docs.mesastar.org/en/stable/) run very customizable).
-It assumes certain widely used simplifications (for example, spherical symmetry) to be able to simulate how a star evolves from its birth to its death. [<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; margin:auto; float:right; display:block;">](https://docs.mesastar.org/en/stable/)
+It assumes certain widely used simplifications (for example, spherical symmetry) to be able to simulate how a star evolves from its birth to its death. [<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; margin:5%; float:right;">](https://docs.mesastar.org/en/stable/)
 I have used it to generate baseline models of the stellar structure at various moments throughout the evolution of star models of specific mass at starbirth.
 
 Such baseline models were then employed as input for the publicly available [GYRE](https://gyre.readthedocs.io/en/stable/) oscillation code to simulate waves propagating throughout the stellar interior. 
-[<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin:auto; float:left; display:block;">](https://gyre.readthedocs.io/en/stable/)[GYRE](https://gyre.readthedocs.io/en/stable/) can simulate non-interacting (linear) waves. 
+[<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin:5%; float:left;">](https://gyre.readthedocs.io/en/stable/)[GYRE](https://gyre.readthedocs.io/en/stable/) can simulate non-interacting (linear) waves. 
 The models of these waves formed the input for the code suite that I developed, [AE Solver](https://github.com/JVB11/AESolver/), which simulates non-linear interactions between oscillations. 
 
 <!-- [<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; margin-right:4%; margin-left:5%;">](https://docs.mesastar.org/en/stable/)
