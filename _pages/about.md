@@ -18,7 +18,7 @@ redirect_from:
     width: 100%!important;
     padding: 1% 1.5% 1% 1.5%!important;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 15px;
     margin-left: 0px;
     border-left: 5px solid #C73A52;
     border-bottom: 5px solid #C73A52;
