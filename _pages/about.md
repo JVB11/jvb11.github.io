@@ -16,7 +16,7 @@ redirect_from:
     font-weight:500;
     padding-bottom:0px;
     width: 100%!important;
-    padding: 6% 1.5% -1% 1.5%!important;
+    padding: 1% 1.5% 4% 1.5%!important;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 0px;
