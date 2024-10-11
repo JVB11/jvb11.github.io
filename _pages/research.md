@@ -5,11 +5,10 @@ excerpt: "This page contains a generic overview of my current and past research.
 ---
 
 I am a asteroseismologist/theoretical astrophysicist trained in chemistry and astrophysics.
-I primarily work on topics related to asteroseismology of (single) intermediate-mass main sequence stars, but have also collaborated on analyses of tidally perturbed oscillations in eclipsing binaries and the age-dating of clusters using asteroseismology.
+I have primarily worked on topics related to asteroseismology of (single) intermediate-mass main sequence stars, but have also collaborated on analyses of tidally perturbed oscillations in eclipsing binaries and the age-dating of clusters using asteroseismology.
 
-My interests are however not limited to this subset of astrophysics and I would be eager to collaborate/work on topics in different sub-fields of astrophysics, chemistry and astronomy.
-I am for example currently very interested in the use of multi-dimensional (magneto-)hydrodynamical simulations of stars to further some of my research goals (see e.g., my research on [non-linear oscillation mode coupling](https://jvb11.github.io/research/nonlinear_coupling/) and [internal magnetic fields](https://jvb11.github.io/research/internal_magnetism/)), and in various methods of detecting variability in stars (see e.g., [my research on variability detection](https://jvb11.github.io/research/variability_analysis/)).
-
-For more information on my research, click the links below.
+My interests are not limited to this subset of astrophysics and I would be eager to collaborate on topics in different sub-fields of astrophysics, chemistry and astronomy.
+For example, my current interests range from the use of magneto-hydrodynamical simulations to employing various methods of variability detection to further some of my research goals.
+For more information on my research (and its goals), click the hyperlinks or figures below.
 
 {% include my-research-gallery.html %}
