@@ -52,7 +52,7 @@ with open(markdown_path, "r") as f:
 # change the content
 ## find location of headers that indicate which part of the markdown file to edit
 i1 = my_markdown.index("## Check out my five most recent publications\n")
-i2 = my_markdown.index(f"## Key Works (view the full publication list in my [ADS library]({ads_library_url}))\n")
+i2 = my_markdown.index(f"## Check out my key works (view the full publication list in my [ADS library]({ads_library_url}))\n")
 ## create a list of the export string
 my_split = [f"{x}\n" for x in formatted_export_string.split("\n")]
 ## now generate the new markdown file content

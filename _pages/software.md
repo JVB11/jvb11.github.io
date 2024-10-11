@@ -48,16 +48,16 @@ I have worked with different scientific software suites to interpret observed as
 Such vibrations/oscillations cause the star to periodically dim and brighten, which can be observed in astronomical data products, such as the [photometric](https://en.wikipedia.org/wiki/Photometry_(astronomy)) light curves (of specific variable stars) that I have studied in my doctoral dissertation - these were observed by the [NASA Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_space_telescope).
 
 I use several scientific software suites for my scientific endeavors - these software suites are typically [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (with the exception of Wolfram [Mathematica](https://www.wolfram.com/mathematica/)).
-An overview of the suites I regularly use can be found below in the [*scientific software suites I like to use* section](#scientific-software-suites-i-like-to-use).
+An overview of the suites I regularly use can be found below in the [*scientific software suites I like to use*](#scientific-software-suites-i-like-to-use) section.
 
-I also develop computational frameworks for research purposes - check them out in the [*computational frameworks I developed* section](#computational-frameworks-i-developed) below.
+I also develop computational frameworks for research purposes - check them out in the [*computational frameworks I developed*](#computational-frameworks-i-developed) section below.
 Most of my own code has been written in the [Python](https://www.python.org) language, although parts of my frameworks make use of modules written in [C++](https://isocpp.org/), [Fortran](https://fortran-lang.org/) and [Cython](https://cython.org).
 More recently, I started exploring the capabilities of the [Rust language](https://www.rust-lang.org) and the [Julia language](https://julialang.org) for future scientific projects.
 
 <figure>
   <blockquote class="big-custom-blockquote">
   <p>Writing (research) software is one of my passions, and I regularly like to challenge myself to learn more about different (typically astrophysical) software suites/different programming languages.</p> 
-  <p>If you share this passion and want to develop your own (research) software, I highly recommend reading and applying the FAIR (Findable, Accessible, Interoperable and Reusable) principles for Research Software (FAIR4RS principles, described in <a href="https://www.nature.com/articles/s41597-022-01710-x">this Nature publication</a>).</p>
+  <p>If you share this passion and want to develop your own (research) software, I highly recommend reading and applying the FAIR (Findable, Accessible, Interoperable and Reusable) principles for Research Software (FAIR4RS principles, which are described in <a href="https://www.nature.com/articles/s41597-022-01710-x">this Nature publication</a>).</p>
   </blockquote>
 </figure>
 
@@ -83,6 +83,7 @@ I have used it to check my own work (written on paper) while developing the theo
 ## Computational Frameworks I developed
 
 > Click on the hyperlinks or logos below to find out more about my computational frameworks!
+>
 > If you think my software is interesting and could be beneficial to you, or if you have ideas on how to improve my software suites and their documentation, I encourage you to reach out/contact me.
 
 <nbsp>
