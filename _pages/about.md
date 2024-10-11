@@ -16,7 +16,7 @@ redirect_from:
     font-weight:500;
     padding-bottom:0px;
     width: 100%!important;
-    padding: 2% 1.5% 1% 1.5%!important;
+    padding: 5% 1.5% 1% 1.5%!important;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 0px;
@@ -58,9 +58,7 @@ On a more personal level, I am also excited by a variety of sports, glorious foo
 
 <figure>
   <blockquote class="big-custom-blockquote">
-  <b>
-  <p>After a 3-month appointment as a post-doctoral research associate in Asteroseismology at the <a href="https://fys.kuleuven.be/ster/">Institute of Astronomy</a> at <a href="https://www.kuleuven.be/english/">KU Leuven</a> I am ready to start a new astrophysical adventure.</p>
-  <p>My CV may be downloaded on <a href="https://jvb11.github.io/cv/">this page</a> and contact details can be found by clicking on the 'contact me' button on top of this page or in the navigation bar on the left of this page (on wide screens).</p>
-  </b>
+    <b><p>After a 3-month appointment as a post-doctoral research associate in Asteroseismology at the <a href="https://fys.kuleuven.be/ster/">Institute of Astronomy</a> at <a href="https://www.kuleuven.be/english/">KU Leuven</a> I am ready to start a new astrophysical adventure.</p>
+    <p>My CV may be downloaded on <a href="https://jvb11.github.io/cv/">this page</a> and contact details can be found by clicking on the 'contact me' button on top of this page or in the navigation bar on the left of this page (on wide screens).</p></b>
   </blockquote>
 </figure>
