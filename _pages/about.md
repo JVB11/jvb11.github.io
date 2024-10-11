@@ -20,8 +20,8 @@ redirect_from:
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 0px;
-    border-left: 5px solid #800020;
-    border-bottom: 5px solid #800020;
+    border-left: 5px solid #C73A52;
+    border-bottom: 5px solid #C73A52;
     position: relative;
 }
 
@@ -32,7 +32,7 @@ redirect_from:
     height: 100%!important;
     top: 0;
     left: -1px;
-    border-top: 5px solid #800020;
+    border-top: 5px solid #C73A52;
 }
 
 .big-custom-blockquote::after {
@@ -42,7 +42,7 @@ redirect_from:
     height: 15%;
     bottom: -5px;
     left: 0;
-    box-shadow: inset -5px 0 0 0 #800020;
+    box-shadow: inset -5px 0 0 0 #C73A52;
 }
 </style>
 
@@ -58,6 +58,9 @@ On a more personal level, I am also excited by a variety of sports, glorious foo
 
 <figure>
   <blockquote class="big-custom-blockquote">
-  <p><b>After a 3-month appointment as a post-doctoral research associate in Asteroseismology at the <a href="https://fys.kuleuven.be/ster/">Institute of Astronomy</a> at <a href="https://www.kuleuven.be/english/">KU Leuven</a> I am ready to start a new astrophysical adventure. My CV may be downloaded on <a href="https://jvb11.github.io/cv/">this page</a> and contact details can be found by clicking on the 'contact me' button on top of this page or in the navigation bar on the left of this page (on wide screens).</b></p>
+  <b>
+  <p>After a 3-month appointment as a post-doctoral research associate in Asteroseismology at the <a href="https://fys.kuleuven.be/ster/">Institute of Astronomy</a> at <a href="https://www.kuleuven.be/english/">KU Leuven</a> I am ready to start a new astrophysical adventure.</p>
+  <p>My CV may be downloaded on <a href="https://jvb11.github.io/cv/">this page</a> and contact details can be found by clicking on the 'contact me' button on top of this page or in the navigation bar on the left of this page (on wide screens).</p>
+  </b>
   </blockquote>
 </figure>
