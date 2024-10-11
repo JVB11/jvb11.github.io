@@ -31,7 +31,7 @@ author_profile: true
 
 (Last update: 28 September 2024)
 
-## Key Works (view the full publication list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA))
+## Check out my key works (view the full publication list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA))
 
 {% include base_path %}
 {% assign number_printed = 0 %}
