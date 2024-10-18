@@ -46,11 +46,13 @@ redirect_from:
 }
 </style>
 
+<img src="/images/about_me/word_cloud_website.svg" style="width:40%; height:auto; margin-top:1%; margin-right:0%; margin-left:3%; margin-bottom:3%; float:right;">
 I am a theoretical astrophysicist who investigates the dynamical processes happening inside stars by studying the waves in their interior.
 To do so, I was trained as an [asteroseismologist](https://en.wikipedia.org/wiki/Asteroseismology) during my PhD and 3-month post-doctoral position at [KU Leuven](https://www.kuleuven.be/english/), under the watchful/supervisory eyes of [Prof. Conny Aerts](https://fys.kuleuven.be/ster/staff/conny-aerts), [Prof. Tim Van Hoolst](https://www.kuleuven.be/wieiswie/en/person/00012864) and [Prof. Dominic Bowman](https://dbowman234.github.io).
 
 My work spans different sub-fields of [asteroseismology](https://en.wikipedia.org/wiki/Asteroseismology), the study of waves/oscillation modes inside ([variable](https://en.wikipedia.org/wiki/Variable_star)) stars with the aim to constrain stellar [structure](https://en.wikipedia.org/wiki/Stellar_structure) and [evolution](https://en.wikipedia.org/wiki/Stellar_evolution) models.
 I strive to research what makes stars 'tick': what are causes of stellar variability (at different stages of evolution) and how is this observed, what is the link with their [winds](https://en.wikipedia.org/wiki/Stellar_wind)/[activity](https://en.wikipedia.org/wiki/Stellar_magnetic_field#Surface_activity), how are oscillation modes generated in their interior and how do they (stars in [multiple star systems](https://en.wikipedia.org/wiki/Star_system#Multiple_star_systems) and multiple oscillation modes) interact with each other, how can all of this knowledge be used to improve stellar structure models, and what does this imply for their evolution and [remnants](https://en.wikipedia.org/wiki/Stellar_evolution#Stellar_remnants).
+A word cloud containing Astronomy thesaurus keywords that describe my research can be found on the right.
 For more information on my work that tackles some of these topics, please check out my [research](https://jvb11.github.io/research) and [software](https://jvb11.github.io/software) pages.
 
 In addition to my research I am excited by astrophysics as a whole, developing software that is freely available for potential users ([FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)) in a variety of programming languages, certain fields of chemistry (astro/computational/theoretical/analytical), and [teaching](https://jvb11.github.io/teaching) students about the universe (i.e., teaching physics/chemistry).
