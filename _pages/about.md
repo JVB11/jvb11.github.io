@@ -46,7 +46,7 @@ redirect_from:
 }
 </style>
 
-<img src="/images/about_me/word_cloud_website.svg" style="width:40%; height:auto; margin-top:1%; margin-right:0%; margin-left:3%; margin-bottom:3%; float:right;">
+<img src="/images/about_me/transparent_word_cloud_website.svg" style="width:40%; height:auto; margin-top:1%; margin-right:0%; margin-left:3%; margin-bottom:3%; float:right;">
 I am a theoretical astrophysicist who investigates the dynamical processes happening inside stars by studying the waves in their interior.
 To do so, I was trained as an [asteroseismologist](https://en.wikipedia.org/wiki/Asteroseismology) during my PhD and 3-month post-doctoral position at [KU Leuven](https://www.kuleuven.be/english/), under the watchful/supervisory eyes of [Prof. Conny Aerts](https://fys.kuleuven.be/ster/staff/conny-aerts), [Prof. Tim Van Hoolst](https://www.kuleuven.be/wieiswie/en/person/00012864) and [Prof. Dominic Bowman](https://dbowman234.github.io).
 
