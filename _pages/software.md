@@ -82,9 +82,9 @@ I have used it to check my own work (written on paper) while developing the theo
 
 ## Computational Frameworks I developed
 
-> Click on the hyperlinks or logos below to find out more about my computational frameworks!
->
-> If you think my software is interesting and could be beneficial to you, or if you have ideas on how to improve my software suites and their documentation, I encourage you to reach out/contact me.
+Click on the hyperlinks or logos below to find out more about my computational frameworks!
+
+If you think my software is interesting and could be beneficial to you, or if you have ideas on how to improve my software suites and their documentation, I encourage you to reach out/contact me.
 
 <nbsp>
 
