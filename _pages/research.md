@@ -11,7 +11,7 @@ While my latest theoretical work focused on the ([non-linear](https://en.wikiped
 I also do not shy away from more observationally oriented projects and have led a project to characterize the variability of a large sample of [slowly pulsating B stars](https://en.wikipedia.org/wiki/Slowly_pulsating_B-type_star).
 
 My interests are not limited to this subset of astrophysics and I would be eager to collaborate on topics in different sub-fields of astrophysics, chemistry and astronomy.
-For example, I am currently intrigued by topics ranging from the use of (magneto-)hydrodynamical simulations and the study of (slow) chaos in astrophysics to employing various methods of variability detection to further some of my research goals.
+For example, I am currently intrigued by topics ranging from the use of ([magneto-](https://en.wikipedia.org/wiki/Magnetohydrodynamics))[hydrodynamical](https://en.wikipedia.org/wiki/Fluid_dynamics) simulations and the study of (slow) [chaos](https://en.wikipedia.org/wiki/Chaos_theory) in astrophysics to employing various methods of variability detection to further some of my research goals.
 For more information on my research (and its goals), click the hyperlinks or figures below.
 
 ## Research Interests
