@@ -12,7 +12,7 @@ author_profile: true
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202348369">10.1051/0004-6361/202348369</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2024A&A...687A.265V">2024A&A...687A.265V</a>, arXiv: <a href="https://arxiv.org/abs/2311.02972">2311.02972</a>*
 
-+ Fritzewski D. J., Van Reeth T., Aerts C., **Van Beeck J.**, Gossage S., Li G., Age-dating the young open cluster UBC 1 with g-mode asteroseismology, gyrochronology, and isochrone fitting, January 2024, A&A, 681, A13 (Nr. of citations: 9)
++ Fritzewski D. J., Van Reeth T., Aerts C., **Van Beeck J.**, Gossage S., Li G., Age-dating the young open cluster UBC 1 with g-mode asteroseismology, gyrochronology, and isochrone fitting, January 2024, A&A, 681, A13 (Nr. of citations: 10)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202347618">10.1051/0004-6361/202347618</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2024A&A...681A..13F">2024A&A...681A..13F</a>, arXiv: <a href="https://arxiv.org/abs/2310.18426">2310.18426</a>*
 
@@ -29,7 +29,7 @@ author_profile: true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202142833">10.1051/0004-6361/202142833</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2022A&A...659A.177V">2022A&A...659A.177V</a>, arXiv: <a href="https://arxiv.org/abs/2201.05359">2201.05359</a>*
 
 
-(Last update: 21 February 2025)
+(Last update: 21 March 2025)
 
 ## Check out my key works (view the full publication list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA))
 
