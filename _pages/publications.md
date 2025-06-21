@@ -8,7 +8,7 @@ author_profile: true
 
 ## Check out my five most recent publications
 
-+ **Van Beeck J.**, Van Hoolst T., Aerts C., Fuller J., Non-linear three-mode coupling of gravity modes in rotating slowly pulsating B stars. Stationary solutions and modeling potential, July 2024, A&A, 687, A265 (Nr. of citations: 6)
++ **Van Beeck J.**, Van Hoolst T., Aerts C., Fuller J., Non-linear three-mode coupling of gravity modes in rotating slowly pulsating B stars. Stationary solutions and modeling potential, July 2024, A&A, 687, A265 (Nr. of citations: 7)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202348369">10.1051/0004-6361/202348369</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2024A&A...687A.265V">2024A&A...687A.265V</a>, arXiv: <a href="https://arxiv.org/abs/2311.02972">2311.02972</a>*
 
@@ -29,7 +29,7 @@ author_profile: true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202142833">10.1051/0004-6361/202142833</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2022A&A...659A.177V">2022A&A...659A.177V</a>, arXiv: <a href="https://arxiv.org/abs/2201.05359">2201.05359</a>*
 
 
-(Last update: 21 May 2025)
+(Last update: 21 June 2025)
 
 ## Check out my key works (view the full publication list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA))
 
