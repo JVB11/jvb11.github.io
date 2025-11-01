@@ -8,8 +8,8 @@ redirect_from:
   - /resume
 ---
 
-[<img src="/images/cv/file-pdf-solid-full.svg" style="width:50%; height:auto; margin-top:1%; margin-right:0%; margin-left:0%; margin-bottom:3%; float:right;">](/files/pdf/CV_Jordan_Van_Beeck.pdf)
-[<img src="/images/cv/file-pdf-regular-full.svg" style="width:50%; height:auto; margin-top:1%; margin-right:0%; margin-left:0%; margin-bottom:3%; float:right;">](/files/pdf/short_CV_Jordan_Van_Beeck.pdf)
+[<img src="/images/cv/file-pdf-solid-full.svg" style="width:25%; height:auto; margin-top:1%; margin-right:25%; margin-left:0%; margin-bottom:3%; float:right;">](/files/pdf/CV_Jordan_Van_Beeck.pdf)
+[<img src="/images/cv/file-pdf-regular-full.svg" style="width:25%; height:auto; margin-top:1%; margin-right:0%; margin-left:25%; margin-bottom:3%; float:right;">](/files/pdf/short_CV_Jordan_Van_Beeck.pdf)
 
 A comprehensive pdf version of my CV can be downloaded by clicking the filled PDF icon above.
 An abridged version is shown in the window below and can be downloaded by clicking the not-filled PDF icon above.
