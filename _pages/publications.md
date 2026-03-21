@@ -8,13 +8,17 @@ author_profile: true
 
 ## Check out my five most recent publications
 
-+ Ahlborn F., Joel Ong J. M., **Van Beeck J.**, Bellinger E. P., Hekker S., Basu S., Impact of near-degeneracy effects on linear rotational inversions for red giant stars, December 2025, A&A, 704, A230 (Nr. of citations: 1)
++ Müller J., Coppée Q., **Van Beeck J.**, van Lier T., Hekker S., Asymptotic power spectra and visibilities of damped mixed modes, March 2026, A&A, 707, A126 (Nr. of citations: 0)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202555537">10.1051/0004-6361/202555537</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2025A&A...704A.230A">2025A&A...704A.230A</a>, arXiv: <a href="https://arxiv.org/abs/2509.26319">2509.26319</a>*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202557877">10.1051/0004-6361/202557877</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2026A&A...707A.126M">2026A&A...707A.126M</a>, arXiv: <a href="https://arxiv.org/abs/2601.21745">2601.21745</a>*
 
 + Patil A. A., Aerts C., Wang N. Y. N., **Van Beeck J.**, Pedersen M. G., Beyond prewhitening: detection of gravity modes and their period spacings in slowly pulsating B stars using the multitaper F-test, December 2025, arXiv, arXiv:2512.10019 (Nr. of citations: 0)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.48550/arXiv.2512.10019">10.48550/arXiv.2512.10019</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251210019P">2025arXiv251210019P</a>, arXiv: <a href="https://arxiv.org/abs/2512.10019">2512.10019</a>*
+
++ Ahlborn F., Joel Ong J. M., **Van Beeck J.**, Bellinger E. P., Hekker S., Basu S., Impact of near-degeneracy effects on linear rotational inversions for red giant stars, December 2025, A&A, 704, A230 (Nr. of citations: 1)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202555537">10.1051/0004-6361/202555537</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2025A&A...704A.230A">2025A&A...704A.230A</a>, arXiv: <a href="https://arxiv.org/abs/2509.26319">2509.26319</a>*
 
 + Ahlborn F., Ong J., **Van Beeck J.**, Bellinger E., Hekker S., Basu S., Estimating internal rotation rates of red giants in the presence of interacting mixed modes, October 2025, tasc.conf, 94 (Nr. of citations: 0)
 
@@ -24,12 +28,8 @@ author_profile: true
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.5281/zenodo.17241657">10.5281/zenodo.17241657</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2025tasc.confE..70V">2025tasc.confE..70V</a>, arXiv: https://arxiv.org/abs/*
 
-+ **Van Beeck J.**, Van Hoolst T., Aerts C., Fuller J., Non-linear three-mode coupling of gravity modes in rotating slowly pulsating B stars. Stationary solutions and modeling potential, July 2024, A&A, 687, A265 (Nr. of citations: 9)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202348369">10.1051/0004-6361/202348369</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2024A&A...687A.265V">2024A&A...687A.265V</a>, arXiv: <a href="https://arxiv.org/abs/2311.02972">2311.02972</a>*
-
-
-(Last update: 21 February 2026)
+(Last update: 21 March 2026)
 
 ## Check out my key works (view the full publication list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA))
 
