@@ -8,7 +8,7 @@ author_profile: true
 
 ## Check out my five most recent publications
 
-+ Müller J., Coppée Q., **Van Beeck J.**, van Lier T., Hekker S., Asymptotic power spectra and visibilities of damped mixed modes, March 2026, A&A, 707, A126 (Nr. of citations: 0)
++ Müller J., Coppée Q., **Van Beeck J.**, van Lier T., Hekker S., Asymptotic power spectra and visibilities of damped mixed modes, March 2026, A&A, 707, A126 (Nr. of citations: 1)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.1051/0004-6361/202557877">10.1051/0004-6361/202557877</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2026A&A...707A.126M">2026A&A...707A.126M</a>, arXiv: <a href="https://arxiv.org/abs/2601.21745">2601.21745</a>*
 
@@ -29,7 +29,7 @@ author_profile: true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*DOI: <a href="https://doi.org/10.5281/zenodo.17241657">10.5281/zenodo.17241657</a>, NASA ADS: <a href="https://ui.adsabs.harvard.edu/abs/2025tasc.confE..70V">2025tasc.confE..70V</a>, arXiv: https://arxiv.org/abs/*
 
 
-(Last update: 21 May 2026)
+(Last update: 21 June 2026)
 
 ## Check out my key works (view the full publication list in my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/mrBh0XAqRuqabcPXhidMUA))
 
