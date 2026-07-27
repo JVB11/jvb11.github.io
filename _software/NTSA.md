@@ -23,9 +23,9 @@ gallery:
 
 _**Context**_
 
-*[Photometric light curves](https://en.wikipedia.org/wiki/Photometry_(astronomy)) measure the total brightness variation of a star over time.
+[Photometric light curves](https://en.wikipedia.org/wiki/Photometry_(astronomy)) measure the total brightness variation of a star over time.
 In order to extract information on these periodic brightness variations (i.e., the variability of a [variable star](https://en.wikipedia.org/wiki/Variable_star)) from this data product, various software suites can be used (which typically employ [harmonic analysis](https://en.wikipedia.org/wiki/Harmonic_analysis)).
-One such suite is the computational framework described on this page, [NTSA](https://github.com/JVB11/NTSA), which I started developing during my PhD.*
+One such suite is the computational framework described on this page, [NTSA](https://github.com/JVB11/NTSA), which I started developing during my PhD.
 
 _**Purpose**_
 
