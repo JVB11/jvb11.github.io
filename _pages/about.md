@@ -49,7 +49,8 @@ redirect_from:
 <img src="/images/about_me/transparent_word_cloud_website.svg" style="width:100%; height:auto; margin-top:1%; margin-right:0%; margin-left:0%; margin-bottom:3%; float:right;">
 I am a theoretical astrophysicist who investigates the dynamical processes happening inside stars by studying the waves in their interior.
 I became an [asteroseismologist](https://en.wikipedia.org/wiki/Asteroseismology) during my PhD and 3-month post-doctoral associate position at the [Institute of Astronomy](https://fys.kuleuven.be/ster/) at [KU Leuven](https://www.kuleuven.be/english/), under the watchful/supervisory eyes of my promoters [Prof. Conny Aerts](https://fys.kuleuven.be/ster/staff/conny-aerts), [Prof. Tim Van Hoolst](https://www.kuleuven.be/wieiswie/en/person/00012864) and my co-supervisor [Prof. Dominic Bowman](https://dbowman234.github.io).
-On the first of February, 2025, I joined the [Theory and Observations of Stars group](https://www.h-its.org/research/tos/) at the [Heidelberg Institute for Theoretical Studies](https://www.h-its.org), as a postdoctoral research associate.
+On the first of February, 2025, I joined the [Theory and Observations of Stars group](https://www.h-its.org/research/tos/) at the [Heidelberg Institute for Theoretical Studies](https://www.h-its.org), as a postdoctoral research associate, until March 2027.
+I am actively looking for a new challenge/on the job market!
 
 I am interested in/excited by what makes stars 'tick': what are causes of stellar [variability](https://en.wikipedia.org/wiki/Variable_star) (at different stages of [evolution](https://en.wikipedia.org/wiki/Stellar_evolution)) and how is this observed, what is the link with their [winds/outflows](https://en.wikipedia.org/wiki/Stellar_wind)/[activity](https://en.wikipedia.org/wiki/Stellar_magnetic_field#Surface_activity), how are waves/oscillation modes generated in their interior, how does rotation and magnetism affect these modes, and how do stars in [multiple star systems](https://en.wikipedia.org/wiki/Star_system#Multiple_star_systems) as well as multiple oscillation modes interact with each other, how can all of this knowledge be used to improve stellar [structure](https://en.wikipedia.org/wiki/Stellar_structure) models, and what does this imply for their evolution and [remnants](https://en.wikipedia.org/wiki/Stellar_evolution#Stellar_remnants).
 My work therefore spans different sub-fields of [asteroseismology](https://en.wikipedia.org/wiki/Asteroseismology), the study of waves/oscillation modes inside (variable) stars with the aim to constrain stellar structure and evolution models.
@@ -61,6 +62,6 @@ On a more personal level, I am also excited by a variety of sports, glorious foo
 
 <figure>
   <blockquote class="big-custom-blockquote">
-    <b><p>My CV may be downloaded on <a href="https://jvb11.github.io/cv/">this page</a> and contact details can be found by clicking on the 'contact me' button on top of this page or in the navigation bar on the left of this page (on wide screens).</p></b>
+    <b><p>I am on the job market/actively looking for a new position! My CV may be downloaded on <a href="https://jvb11.github.io/cv/">this page</a> and contact details can be found by clicking on the 'contact me' button on top of this page or in the navigation bar on the left of this page (on wide screens).</p></b>
   </blockquote>
 </figure>
