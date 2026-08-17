@@ -27,9 +27,16 @@ gallery:
   doc_url="https://jvb11.github.io/NTSA"
   doc_hover="Documentation of NTSA (work in progress)" %}
 
-**Work in Progress**  
-Please note that some of the documentation links above may not be fully functional yet as this project is under active development.
-{: .notice--warning}
+<div style="display: flex; align-items: flex-start; background-color: rgba(230, 126, 34, 0.06); border-left: 3px solid #d35400; border-radius: 6px; padding: 10px 14px; margin-top: 1.2rem; margin-bottom: 1.2rem; margin-left: 0.75rem;">
+  <!-- Warning symbol -->
+  <i class="fas fa-exclamation-triangle" style="color: #d35400; font-size: 0.95rem; margin-top: 3px; margin-right: 12px; flex-shrink: 0;"></i>
+  
+  <!-- Warning text -->
+  <div style="color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 0.8rem; line-height: 1.4;">
+    <strong style="color: #d35400; display: inline-block; margin-right: 4px;">Work in Progress:</strong>
+    Please note that some of the documentation links above may not be fully functional yet as this project is under active development.
+  </div>
+</div>
 
 _**Context**_
 
