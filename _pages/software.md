@@ -4,6 +4,19 @@ permalink: /software/
 title: "Software"
 excerpt: "This page contains a description of my view on research software. It also contains links to pages where I describe which scientific software suites I use for advancing my research, and which software suites I developed for this same purpose."
 author_profile: true
+
+feature_row:
+  - title: "Software suites I use"
+    excerpt: "external framework and environment built into my pipelines"
+    url: "/software/use/"
+    btn_class: "btn--info"
+    btn_label: "view the software suites I use"
+
+  - title: "Software suites I develop"
+    excerpt: "open-source packages, repositories I develop (many of which are in active development)"
+    url: "/software/develop/"
+    btn_class: "btn--info"
+    btn_label: "view the software suites I develop"    
 ---
 
 <style>
@@ -54,8 +67,10 @@ I also enjoy exploring the capabilities of the [Rust language](https://www.rust-
 
 To get an overview of the software I use and develop, check out:
 
-* **[Software suites I use](/software/use/)** - external framework and environments built into my pipelines,
-* **[Software suites I develop](/software/develop)** - open-source packages, repositories (many of which are in active development).
+{% include feature_row %}
+
+<!-- * **[Software suites I use](/software/use/)** - external framework and environments built into my pipelines,
+* **[Software suites I develop](/software/develop)** - open-source packages, repositories (many of which are in active development). -->
 
 <figure>
   <blockquote class="big-custom-blockquote">
@@ -63,39 +78,3 @@ To get an overview of the software I use and develop, check out:
   <p>If you share this passion and want to develop your own (research) software, I highly recommend reading and applying the FAIR (Findable, Accessible, Interoperable and Reusable) principles for Research Software (FAIR4RS principles, which are described in <a href="https://www.nature.com/articles/s41597-022-01710-x">this Nature publication</a>).</p>
   </blockquote>
 </figure>
-
-<!-- ## Scientific Software Suites I Like to Use
-
-> *Additional information about these scientific software suites can be found on their websites, which can be accessed by clicking on the logos or hyperlinks.*
-
-### Modules for Experiments in Stellar Astrophysics ([MESA](https://docs.mesastar.org/en/stable/)) + [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code
-
-[<img src="/images/software/user/mesa-logo.png" style="width:40%; height:auto; margin-top:1%; margin-right:0%; margin-left:3%; margin-bottom:3%; float:right;">](https://docs.mesastar.org/en/stable/)The publicly availabe large scientific software suite [MESA](https://docs.mesastar.org/en/stable/) is widely used by astrophysicists to simulate the evolution (life) of a star, and enables the user to specify a large variety of different hooks (that make a [MESA](https://docs.mesastar.org/en/stable/) run very customizable).
-It assumes certain widely used simplifications (for example, spherical symmetry) to be able to simulate how a star evolves from its birth to its death.
-I have used [MESA](https://docs.mesastar.org/en/stable/) to generate baseline models of the stellar structure at various moments throughout the evolution of star models of specific mass at starbirth.
-
-[<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin-top:1%; margin-right:3%; margin-left:0%; margin-bottom:0%; float:left;">](https://gyre.readthedocs.io/en/stable/)Such baseline models were then employed as input for the publicly available [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code to simulate waves propagating throughout the stellar interior. 
-[GYRE](https://gyre.readthedocs.io/en/stable/) can simulate non-interacting (linear) standing and tidal waves. 
-The models of these standing waves formed the input for the code suite that I developed, [AESolver](https://github.com/JVB11/AESolver/), which simulates non-linear interactions between oscillations. <br>
-
-### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
-
-[<img src="/images/software/user/wolfram.png" style="width:14%; height:auto; margin-top:1%; margin-right:0%; margin-left:3%; margin-bottom:1%; float:right;">](https://www.wolfram.com/mathematica/)Described on their website as *the world's definitive system for modern technical computing*, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of mathematical/theoretical frameworks.
-I have used it to check my own work (derivations written on paper) while developing the theoretical framework that forms the basis for my computational frameworks [AESolver](https://github.com/JVB11/AESolver/) and [dervish](https://github.com/JVB11/dervish).
-
-## Computational Frameworks I developed
-
-> To get a broad summary of the computational frameworks I developed, click on the hyperlinks or logos below.
-> More information on my computational frameworks can be found by accessing their respective software documentation pages.
-> The hyperlinks of those documentation pages can be found on the Github repositories and are provided for your convenience on the summary pages of this website.
-> If you think my software is interesting and could be beneficial to you, or if you have ideas on how to improve my software suites and their documentation, I encourage you to reach out/contact me.
-
-<nbsp>
-
-{% include base_path %}
-
-{% assign ordered_pages = site.software | sort:"order_number" %}
-
-{% for post in ordered_pages %}
-  {% include archive-single.html type="grid" %}
-{% endfor %} -->
