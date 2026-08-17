@@ -14,8 +14,7 @@ header:
   doc_url="https://jvb11.github.io/dervish/"
   doc_hover="Documentation of dervish (work in progress)" %}
 
-**Work in Progress**
-Please note that some of the documentation links above may not be fully functional yet as this project is under active development. {: .notice--warning}
+{% include work-in-progress-warning-links.html %}
 
 _**Context**_
 
