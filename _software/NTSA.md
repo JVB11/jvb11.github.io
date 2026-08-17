@@ -27,8 +27,9 @@ gallery:
   doc_url="https://jvb11.github.io/NTSA"
   doc_hover="Documentation of NTSA (work in progress)" %}
 
-**Work in Progress**
-Please note that some of the documentation links above may not be fully functional yet as this project is under active development. {: .notice--warning}
+**Work in Progress**  
+Please note that some of the documentation links above may not be fully functional yet as this project is under active development.
+{: .notice--warning}
 
 _**Context**_
 
