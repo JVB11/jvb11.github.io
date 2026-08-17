@@ -21,28 +21,11 @@ gallery:
       title: ""
 ---
 
-<style>
-  [data-hover]:relative { position: relative; }
-  [data-hover]::after {
-    content: attr(data-hover);
-    position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%);
-    background: #222; color: #fff; padding: 4px 8px; font-size: 0.75rem; white-space: nowrap;
-    border-radius: 6px;
-    opacity: 0; visibility: hidden; transition: 0.15s;
-  }
-  [data-hover]:hover::after { opacity: 1; visibility: visible; }
-</style>
-
-<div style="display: flex; justify-content: flex-start; align-items: center; gap: 2.5rem; margin-top: 0.5rem; margin-bottom:1.0rem; margin-left: 0.75rem;">
-  <!-- GitHub Repository link -->
-  <a href="https://github.com/JVB11/NTSA" target="_blank" rel="noopener" style="text-decoration: none; line-height: 1; position: relative" data-hover="GitHub repository of NTSA">
-    <i class="fab fa-github" style="color: #ffffff; font-size: 2.5rem;"></i>
-  </a>
-  <!-- Documentation link -->
-  <a href="https://github.com/JVB11/NTSA" target="_blank" rel="noopener" style="text-decoration: none; line-height: 1; display: flex; align-items: center;" title="Documentation of NTSA">
-    <img src="/images/software/readme-brands-solid-full.svg" alt="" style="height: 2.9rem; width: auto; filter: brightness(0) invert(1);">
-  </a>
-</div>
+{% include software-suite-links.html
+  repo_url="https://github.com/JVB11/NTSA"
+  repo_hover="GitHub repository of NTSA"
+  docs_url="https://github.com/JVB11/NTSA"
+  docs_hover="Documentation of NTSA" %}
 
 _**Context**_
 
