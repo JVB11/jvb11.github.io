@@ -2,7 +2,7 @@
 layout: archive
 permalink: /software/
 title: "Software"
-excerpt: "This page contains a description of my view on research software. It also describes which scientific software suites I for advancing my research, and which software suites I developed for this same purpose."
+excerpt: "This page contains a description of my view on research software. It also contains links to pages where I describe which scientific software suites I use for advancing my research, and which software suites I developed for this same purpose."
 author_profile: true
 ---
 
@@ -48,11 +48,14 @@ I have worked with different scientific software suites to interpret observed as
 Such vibrations/oscillations cause the star to periodically dim and brighten, which can be observed in astronomical data products, such as the [photometric](https://en.wikipedia.org/wiki/Photometry_(astronomy)) light curves (of specific variable stars) that I have studied in my doctoral dissertation - these were observed by the [NASA Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_space_telescope).
 
 I use several scientific software suites for my scientific endeavors - these software suites are typically [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (with the exception of [Wolfram Mathematica](https://www.wolfram.com/mathematica/)).
-An overview of what I regularly use can be found below in the [*scientific software suites I like to use*](#scientific-software-suites-i-like-to-use) section.
-
-I also develop computational frameworks for research purposes - check them out in the [*computational frameworks I developed*](#computational-frameworks-i-developed) section below.
+I also develop my own computational frameworks for research purposes.
 Most of my own code has been written in the [Python](https://www.python.org) and [Fortran](https://fortran-lang.org/) languages, and some of my frameworks make use of Python-interfaced modules written in [C++](https://isocpp.org/) and [Fortran](https://fortran-lang.org/), where the interface is written in [Cython](https://cython.org).
 I also enjoy exploring the capabilities of the [Rust language](https://www.rust-lang.org) and the [Julia language](https://julialang.org) for (future) scientific projects.
+
+To get an overview of the software I use and develop, check out:
+
+* **[Software suites I use](/software/use/)** - external framework and environments built into my pipelines,
+* **[Software suites I develop](/software/develop)** - open-source packages, repositories (many of which are in active development).
 
 <figure>
   <blockquote class="big-custom-blockquote">
@@ -61,7 +64,7 @@ I also enjoy exploring the capabilities of the [Rust language](https://www.rust-
   </blockquote>
 </figure>
 
-## Scientific Software Suites I Like to Use
+<!-- ## Scientific Software Suites I Like to Use
 
 > *Additional information about these scientific software suites can be found on their websites, which can be accessed by clicking on the logos or hyperlinks.*
 
@@ -95,4 +98,4 @@ I have used it to check my own work (derivations written on paper) while develop
 
 {% for post in ordered_pages %}
   {% include archive-single.html type="grid" %}
-{% endfor %}
+{% endfor %} -->
