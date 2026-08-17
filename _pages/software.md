@@ -3,18 +3,7 @@ layout: archive
 permalink: /software/
 title: "Software"
 excerpt: "This page contains a description of my view on research software. It also contains links to pages where I describe which scientific software suites I use for advancing my research, and which software suites I developed for this same purpose."
-author_profile: true
-
-feature_row:
-  - title: ""
-    url: "/software/use/"
-    btn_class: "btn--info"
-    btn_label: "Software suites I use"
-
-  - title: ""
-    url: "/software/develop/"
-    btn_class: "btn--info"
-    btn_label: "Software suites I develop"    
+author_profile: true   
 ---
 
 <style>
@@ -63,7 +52,19 @@ I also develop my own computational frameworks for research purposes.
 Most of my own code has been written in the [Python](https://www.python.org) and [Fortran](https://fortran-lang.org/) languages, and some of my frameworks make use of Python-interfaced modules written in [C++](https://isocpp.org/) and [Fortran](https://fortran-lang.org/), where the interface is written in [Cython](https://cython.org).
 I also enjoy exploring the capabilities of the [Rust language](https://www.rust-lang.org) and the [Julia language](https://julialang.org) for (future) scientific projects.
 
-{% include feature_row %}
+<div style="display: flex; justify-content: flex-start; align-items: center; gap: 1.5rem; margin-top: 1.5rem; margin-bottom: 2rem; margin-left: 0.75rem;">
+  
+  <!-- Software suites I use -->
+  <a href="/software/use/" style="display: inline-block; background-color: transparent; color: #52adc8; border: 1.5px solid #52adc8; padding: 10px 22px; border-radius: 25px; text-decoration: none; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.3px; transition: all 0.25s ease;" onmouseover="this.style.backgroundColor='rgba(82, 173, 200, 0.1)'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateY(0)';">
+    Software suites I use
+  </a>
+
+  <!-- Software suites I develop -->
+  <a href="/software/develop/" style="display: inline-block; background-color: transparent; color: #52adc8; border: 1.5px solid #52adc8; padding: 10px 22px; border-radius: 25px; text-decoration: none; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.3px; transition: all 0.25s ease;" onmouseover="this.style.backgroundColor='rgba(82, 173, 200, 0.1)'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='transparent'; this.style.transform='transparent'; this.style.transform='translateY(0)';">
+    Software suites I develop
+  </a>
+
+</div>
 
 <figure>
   <blockquote class="big-custom-blockquote">
