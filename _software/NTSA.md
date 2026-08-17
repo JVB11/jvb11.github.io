@@ -21,7 +21,7 @@ gallery:
       title: ""
 ---
 
-<div style="display: flex; justify-content: flex-start; align-items: center; gap: 0.5rem; margin-top: 0.5rem; margin-bottom:1.0rem;>
+<div style="display: flex; justify-content: flex-start; align-items: center; gap: 0.5rem; margin-top: 0.5rem; margin-bottom:1.0rem;">
   <!-- GitHub Repository link -->
   <a href="https://github.com/JVB11/NTSA" target="_blank" rel="noopener" style="text-decoration: none; line-height: 1;" title="GitHub repository of NTSA">
     <i class="fab fa-github" style="color: #ffffff; font-size: 2.5rem;"></i>
