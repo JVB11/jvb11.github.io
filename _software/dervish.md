@@ -8,6 +8,15 @@ header:
     og_image: "software/dervish/dervish_logo.png"
 ---
 
+{% include software-suite-links.html
+  repo_url="https://github.com/JVB11/dervish"
+  repo_hover="GitHub repository of dervish (work in progress)"
+  doc_url="https://jvb11.github.io/dervish/"
+  doc_hover="Documentation of dervish (work in progress)" %}
+
+**Work in Progress**
+Please note that some of the documentation links above may not be fully functional yet as this project is under active development. {: .notice--warning}
+
 _**Context**_
 
 The theoretical modeling of a specific kind of *(mixed)* stellar vibrations in evolved [red-giant stars](https://en.wikipedia.org/wiki/Red_giant) needs to be able to explain why observed *frequency splittings* (i.e., the lifting of degeneracy due to rotation and/or other symmetry-breaking effects) are asymmetric.

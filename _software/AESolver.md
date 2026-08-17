@@ -8,6 +8,12 @@ header:
     og_image: "software/aesolver/AE_solver_logo.png"
 ---
 
+{% include software-suite-links.html
+  repo_url="https://github.com/JVB11/AESolver"
+  repo_hover="GitHub repository of AESolver"
+  doc_url="https://jvb11.github.io/AESolver/"
+  doc_hover="Documentation of AESolver" %}
+
 _**Context**_
 
 The theoretical modeling of (standing) stellar vibrations - also known as stellar oscillation modes - has been the focus of my work for a large part of my (short) academic career.
