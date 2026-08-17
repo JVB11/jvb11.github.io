@@ -1,0 +1,54 @@
+<style>
+    .software-btn-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+        margin-left: 0.75rem;
+        width: calc(100% - 0.75rem);
+        max-width: 550px;
+    }
+
+    .software-nav-btn {
+        flex: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        color:#52adc8;
+        border: 1.5px solid #52adc8;
+        padding: 12px 16px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: clamp(0.75rem, 2.5v2, 0.95rem);
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        white-space: nowrap;
+        text-align: center;
+        transition: all 0.25s ease;
+    }
+
+    .software-nav-btn:hover {
+        background-color: rgba(82, 173, 200, 0.1);
+        transform: translateY(-1px);
+        color: #52adc8;
+        text-decoration: none;
+    }
+</style>
+
+
+<div class=""software-btn-container">
+  
+  <!-- Software suites I use -->
+  <a href="/software/use/" class="software-nav-btn">
+    Software suites I use
+  </a>
+
+  <!-- Software suites I develop -->
+  <a href="/software/develop/" class="software-nav-btn">
+    Software suites I develop
+  </a>
+
+</div>
