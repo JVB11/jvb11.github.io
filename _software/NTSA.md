@@ -53,5 +53,3 @@ An article describing the generic computational framework is still in developmen
 When using (part of) this code, you should therefore cite the application article, [Van Beeck et al. (2021)](https://www.aanda.org/articles/aa/full_html/2021/11/aa41572-21/aa41572-21.html).
 
 [^1]: See for example [this wikipedia page](https://en.wikipedia.org/wiki/Stellar_classification) to learn more about stellar classification.
-
-<!-- {% include gallery %} -->
