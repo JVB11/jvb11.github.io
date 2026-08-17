@@ -24,8 +24,8 @@ gallery:
 {% include software-suite-links.html
   repo_url="https://github.com/JVB11/NTSA"
   repo_hover="GitHub repository of NTSA"
-  docs_url="https://github.com/JVB11/NTSA"
-  docs_hover="Documentation of NTSA" %}
+  doc_url="https://github.com/JVB11/NTSA"
+  doc_hover="Documentation of NTSA" %}
 
 _**Context**_
 
