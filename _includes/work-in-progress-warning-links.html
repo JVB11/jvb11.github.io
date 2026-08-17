@@ -39,10 +39,10 @@
   /* INFO: BLUE */
   .alert-info {
     background-color: rgba(82, 173, 200, 0.06);
-    border-left: 3px solid #327286;
+    border-left: 3px solid #3195b4;
   }
-  .icon-info { color: #327286 !important; }
-  .title-info { color: #327286 !important; }
+  .icon-info { color: #3195b4 !important; }
+  .title-info { color: #3195b4 !important; }
 </style>
 
 <!-- CREATE HTML STRUCTURE -->
@@ -51,7 +51,7 @@
   <div class="custom-alert-box alert-warning">
     <i class="fas fa-exclamation-triangle custom-alert-icon icon-warning"></i>
     <div class="custom-alert-text">
-      <strong class="custom-alert-title title-warning">Work in Progress</strong>
+      <strong class="custom-alert-title title-warning">Work in Progress:</strong>
       {{ include.text }}
     </div>
   </div>
@@ -61,7 +61,7 @@
   <div class="custom-alert-box alert-info">
     <i class="fas fa-info-circle custom-alert-icon icon-info"></i>
     <div class="custom-alert-text">
-      <strong class="custom-alert-title title-info">Info</strong>
+      <strong class="custom-alert-title title-info">Info:</strong>
       {{ include.text }}
     </div>
   </div>

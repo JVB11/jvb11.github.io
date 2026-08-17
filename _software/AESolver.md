@@ -16,7 +16,7 @@ header:
 
 {% include work-in-progress-warning-links.html
    type="info"
-   text="The current public version is an &beta; version." %}
+   text="The current public version is a &beta; version." %}
 
 _**Context**_
 
