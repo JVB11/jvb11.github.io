@@ -1,15 +1,4 @@
-{% assign type = include.type | default: "warning" %}
-
-{% if type == "warning" %}
-  {% assign hex_color = "#f0883e" %}
-  {% assign bg_color = "rgba(240, 136, 62, 0.06)" %}
-  {% assign icon_class = "fas fa-exclamation-triangle" %}
-{% elif type == "info" %}
-  {% assign hex_color = "#52adc8" %}
-  {% assign bg_color = "rgba(82, 173, 200, 0.06)" %}
-  {% assign icon_class = "fas fa-info-circle" %}
-{% endif %}
-
+<!-- CREATE CSS STYLE -->
 <style>
   .custom-alert-box {
     display: flex;
@@ -38,12 +27,41 @@
     display: inline-block;
     margin-right: 4px;
   }
+  /* WARNING: ORANGE */
+  .alert-warning {
+    background-color: rgba(240,136, 62, 0.06);
+    border-left: 3px solid #f0883e;
+  }
+  .alert-warning .custom-alert-icon
+  .alert-warning .custom-alert-title { color: #f0883e; }
+  /* INFO: BLUE */
+  .alert-info {
+    background-color: rgba(82, 173, 200, 0.06);
+    border-left: 3px solid #327286;
+  }
+  .alert-info .custom-alert-icon
+  .alert-info .custom-alert-title { color: 327286; }
 </style>
 
-<div class="custom-alert-box" style="background-color: {{ bg_color }}; border-left: 3px solid {{ hex_color }};">
-  <i class="{{ icon_class }} custom-alert-icon" style="color: {{ hex_color }};"></i>
-  <div class="custom-alert-text">
-    <strong class="custom-alert-title" style="color: {{ hex_color }};">{{ include.title | default: "Notice: " }}</strong>
-    {{ include.text }}
+<!-- CREATE HTML STRUCTURE -->
+{% if include.type == "warning" %}
+
+  <div class="custom-alert-box alert-warning">
+    <i class="fas fa-exclamation-triangle custom-alert-icon"></i>
+    <div class="custom-alert-text">
+      <strong class="custom-alert-title">Work in Progress</strong>
+      {{ include.text }}
+    </div>
   </div>
-</div>
+
+{% else %}
+
+  <div class="custom-alert-box alert-info">
+    <i class="fas fa-info-circle custom-alert-icon"></i>
+    <div class="custom-alert-text">
+      <strong class="custom-alert-title">Info</strong>
+      {{ include.text }}
+    </div>
+  </div>
+
+{% endif %}

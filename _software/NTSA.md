@@ -29,7 +29,6 @@ gallery:
 
 {% include work-in-progress-warning-links.html
    type="warning"
-   title="Work in Progress"
    text="Please note that some of the links above may not be fully functional yet because NTSA is under active development." %}
 
 _**Context**_
