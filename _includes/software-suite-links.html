@@ -1,10 +1,43 @@
+<!-- CSS style-->
+<style>
+    .custom-tooltip-link {
+        position: relative !important;
+        display: inline-flex;
+        align-items: center;
+    }
+    .custom-tooltip-link::after {
+        content: attr(data-hover);
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%) translateY(5px);
+        background: #222222;
+        color: #ffffff;
+        padding: 5px 10px;
+        font-size: 0.75rem;
+        white-space: nowrap;
+        border-radius: 6px;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        z-index: 999;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        transition: opacity 0.15s ease, transform 0.15s ease;
+    }
+    .custom-tooltip-link:hover::after {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-50%) translateY(0px);
+    }
+</style>
+
 <div style="display: flex; justify-content: flex-start; align-items: center; gap: 1.5rem; margin-top: 0.5rem; margin-bottom:1.0rem; margin-left: 0.75rem;">
   <!-- GitHub Repository link -->
-  <a href="{{ include.repo_url }}" target="_blank" rel="noopener" style="text-decoration: none; line-height: 1; position: relative" data-hover="{{ include.repo_hover }}">
+  <a href="{{ include.repo_url }}" target="_blank" rel="noopener" class="custom-tooltip-link" style="text-decoration: none; line-height: 1; position: relative" data-hover="{{ include.repo_hover }}">
     <i class="fab fa-github" style="color: #ffffff; font-size: 2.5rem;"></i>
   </a>
   <!-- Documentation link -->
-  <a href="{{ include.doc_url }}" target="_blank" rel="noopener" style="text-decoration: none; line-height: 1; display: flex; align-items: center;" data-hover="{{ include.doc_hover }}">
+  <a href="{{ include.doc_url }}" target="_blank" rel="noopener" class="custom-tooltip-link" style="text-decoration: none; line-height: 1; display: flex; align-items: center;" data-hover="{{ include.doc_hover }}">
     <img src="/images/software/readme-brands-solid-full.svg" alt="" style="height: 2.9rem; width: auto; filter: brightness(0) invert(1);">
   </a>
 </div>
