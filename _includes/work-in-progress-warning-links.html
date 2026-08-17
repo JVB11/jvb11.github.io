@@ -1,55 +1,57 @@
 <!-- CREATE CSS STYLE -->
 <style>
   .custom-alert-box {
-    display: flex;
-    align-items: flex-start;
+    display: block;
     border-radius: 6px;
     padding: 10px 14px;
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
     margin-left: 0.75rem;
+    overflow: hidden;
   }
 
   .custom-alert-icon {
-    font-size: 0.95rem;
-    margin-top: 3px;
-    margin-right: 15px;
-    flex-shrink: 0;
+    font-size: 1.05rem;
+    float: left;
+    margin-top: 2px;
+    margin-right: 12px;
+    margin-bottom: 4px;
   }
 
   .custom-alert-text {
     color: #c9d1d9;
-    font-size: 0.8rem;
-    line-height: 1.4;
+    font-size: 0.82rem;
+    line-height: 1.5;
   }
 
   .custom-alert-title {
-    display: inline-block;
+    display: inline;
     margin-right: 4px;
+    font-weight: bold;
   }
   /* WARNING: ORANGE */
   .alert-warning {
     background-color: rgba(240,136, 62, 0.06);
     border-left: 3px solid #f0883e;
   }
-  .alert-warning .custom-alert-icon
-  .alert-warning .custom-alert-title { color: #f0883e; }
+  .icon-warning { color: #f0883e !important;}
+  .title-warning { color: #f0883e !important; }
   /* INFO: BLUE */
   .alert-info {
     background-color: rgba(82, 173, 200, 0.06);
     border-left: 3px solid #327286;
   }
-  .alert-info .custom-alert-icon
-  .alert-info .custom-alert-title { color: 327286; }
+  .icon-info { color: #327286 !important; }
+  .title-info { color: #327286 !important; }
 </style>
 
 <!-- CREATE HTML STRUCTURE -->
 {% if include.type == "warning" %}
 
   <div class="custom-alert-box alert-warning">
-    <i class="fas fa-exclamation-triangle custom-alert-icon"></i>
+    <i class="fas fa-exclamation-triangle custom-alert-icon icon-warning"></i>
     <div class="custom-alert-text">
-      <strong class="custom-alert-title">Work in Progress</strong>
+      <strong class="custom-alert-title title-warning">Work in Progress</strong>
       {{ include.text }}
     </div>
   </div>
@@ -57,9 +59,9 @@
 {% else %}
 
   <div class="custom-alert-box alert-info">
-    <i class="fas fa-info-circle custom-alert-icon"></i>
+    <i class="fas fa-info-circle custom-alert-icon icon-info"></i>
     <div class="custom-alert-text">
-      <strong class="custom-alert-title">Info</strong>
+      <strong class="custom-alert-title title-info">Info</strong>
       {{ include.text }}
     </div>
   </div>
