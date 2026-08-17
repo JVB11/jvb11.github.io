@@ -47,12 +47,12 @@ author_profile: true
 I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a ([variable](https://en.wikipedia.org/wiki/Variable_star)) star that vibrates in its natural frequencies.
 Such vibrations/oscillations cause the star to periodically dim and brighten, which can be observed in astronomical data products, such as the [photometric](https://en.wikipedia.org/wiki/Photometry_(astronomy)) light curves (of specific variable stars) that I have studied in my doctoral dissertation - these were observed by the [NASA Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_space_telescope).
 
-I use several scientific software suites for my scientific endeavors - these software suites are typically [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (with the exception of Wolfram [Mathematica](https://www.wolfram.com/mathematica/)).
-An overview of the suites I regularly use can be found below in the [*scientific software suites I like to use*](#scientific-software-suites-i-like-to-use) section.
+I use several scientific software suites for my scientific endeavors - these software suites are typically [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (with the exception of [Wolfram Mathematica](https://www.wolfram.com/mathematica/)).
+An overview of what I regularly use can be found below in the [*scientific software suites I like to use*](#scientific-software-suites-i-like-to-use) section.
 
 I also develop computational frameworks for research purposes - check them out in the [*computational frameworks I developed*](#computational-frameworks-i-developed) section below.
-Most of my own code has been written in the [Python](https://www.python.org) language, although parts of my frameworks make use of modules written in [C++](https://isocpp.org/), [Fortran](https://fortran-lang.org/) and [Cython](https://cython.org).
-More recently, I started exploring the capabilities of the [Rust language](https://www.rust-lang.org) and the [Julia language](https://julialang.org) for future scientific projects.
+Most of my own code has been written in the [Python](https://www.python.org) and [Fortran](https://fortran-lang.org/) languages, and some of my frameworks make use of Python-interfaced modules written in [C++](https://isocpp.org/) and [Fortran](https://fortran-lang.org/), where the interface is written in [Cython](https://cython.org).
+I also enjoy exploring the capabilities of the [Rust language](https://www.rust-lang.org) and the [Julia language](https://julialang.org) for (future) scientific projects.
 
 <figure>
   <blockquote class="big-custom-blockquote">
@@ -72,19 +72,20 @@ It assumes certain widely used simplifications (for example, spherical symmetry)
 I have used [MESA](https://docs.mesastar.org/en/stable/) to generate baseline models of the stellar structure at various moments throughout the evolution of star models of specific mass at starbirth.
 
 [<img src="/images/software/user/gyre-logo.png" style="width:40%; height:auto; margin-top:1%; margin-right:3%; margin-left:0%; margin-bottom:0%; float:left;">](https://gyre.readthedocs.io/en/stable/)Such baseline models were then employed as input for the publicly available [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code to simulate waves propagating throughout the stellar interior. 
-[GYRE](https://gyre.readthedocs.io/en/stable/) can simulate non-interacting (linear) waves. 
-The models of these waves formed the input for the code suite that I developed, [AESolver](https://github.com/JVB11/AESolver/), which simulates non-linear interactions between oscillations. <br>
+[GYRE](https://gyre.readthedocs.io/en/stable/) can simulate non-interacting (linear) standing and tidal waves. 
+The models of these standing waves formed the input for the code suite that I developed, [AESolver](https://github.com/JVB11/AESolver/), which simulates non-linear interactions between oscillations. <br>
 
 ### Wolfram [Mathematica](https://www.wolfram.com/mathematica/)
 
 [<img src="/images/software/user/wolfram.png" style="width:14%; height:auto; margin-top:1%; margin-right:0%; margin-left:3%; margin-bottom:1%; float:right;">](https://www.wolfram.com/mathematica/)Described on their website as *the world's definitive system for modern technical computing*, [Mathematica](https://www.wolfram.com/mathematica/) aids (typically theoretically-inclined) astrophysicists and scientists from other disciplines in the development of mathematical/theoretical frameworks.
-I have used it to check my own work (written on paper) while developing the theoretical framework that forms the basis for my computational framework [AESolver](https://github.com/JVB11/AESolver/).
+I have used it to check my own work (derivations written on paper) while developing the theoretical framework that forms the basis for my computational frameworks [AESolver](https://github.com/JVB11/AESolver/) and [dervish](https://github.com/JVB11/dervish).
 
 ## Computational Frameworks I developed
 
-Click on the hyperlinks or logos below to find out more about my computational frameworks!
-
-If you think my software is interesting and could be beneficial to you, or if you have ideas on how to improve my software suites and their documentation, I encourage you to reach out/contact me.
+> To get a broad summary of the computational frameworks I developed, click on the hyperlinks or logos below.
+> More information on my computational frameworks can be found by accessing their respective software documentation pages.
+> The hyperlinks of those documentation pages can be found on the Github repositories and are provided for your convenience on the summary pages of this website.
+> If you think my software is interesting and could be beneficial to you, or if you have ideas on how to improve my software suites and their documentation, I encourage you to reach out/contact me.
 
 <nbsp>
 
