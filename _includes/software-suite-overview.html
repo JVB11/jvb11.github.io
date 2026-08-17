@@ -1,0 +1,18 @@
+<style>
+    .hide-grid-titles .archive__item-title {
+        display: none !important;
+    }
+</style>
+
+<nbsp>
+
+{% include base_path %}
+
+{% assign ordered_pages = site.software | sort:"order_number" %}
+
+<!-- container for loop: NO TITLES -->
+ <div class="hide-grid-titles">
+    {% for post in ordered_pages %}
+        {% include archive-single.html type="grid" %}
+    {% endfor %}
+</div>
