@@ -21,9 +21,8 @@ gallery:
       title: ""
 ---
 
-[<img src="/images/software/ntsa/readme-brands-solid-full.svg" style="width:15%; color=#ffffff; height:auto; margin-top:1%; margin-right:25%; margin-left:10%; margin-bottom:3%; float:right;">](https://github.com/JVB11/NTSA)
-[<img src="/images/software/ntsa/file-code-regular-full.svg" style="width:15%; color=#ffffff; height:auto; margin-top:1%; margin-right:10%; margin-left:25%; margin-bottom:3%; float:right;">](https://github.com/JVB11/NTSA)
-<a href="https://github.com/JVB11/NTSA" target="_blank" rel="noopener"><i class="fab fa-github fa-2x" style="color: #ffffff; vertical-align: middle;">
+<a href="https://github.com/JVB11/NTSA" target="_blank" rel="noopener"><i class="fab fa-github fa-3x" style="color: #ffffff; vertical-align: middle;">
+[<img src="/images/software/readme-brands-solid-full.svg" style="width:15%; filter: brightness(0) invert(1); height:auto; margin-top:1%; margin-right:25%; margin-left:10%; margin-bottom:3%; float:right;">](https://github.com/JVB11/NTSA)
 
 _**Context**_
 
