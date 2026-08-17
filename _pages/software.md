@@ -6,17 +6,15 @@ excerpt: "This page contains a description of my view on research software. It a
 author_profile: true
 
 feature_row:
-  - title: "Software suites I use"
-    excerpt: "external framework and environment built into my pipelines"
+  - title: ""
     url: "/software/use/"
     btn_class: "btn--info"
-    btn_label: "view the software suites I use"
+    btn_label: "Software suites I use"
 
-  - title: "Software suites I develop"
-    excerpt: "open-source packages, repositories I develop (many of which are in active development)"
+  - title: ""
     url: "/software/develop/"
     btn_class: "btn--info"
-    btn_label: "view the software suites I develop"    
+    btn_label: "Software suites I develop"    
 ---
 
 <style>
@@ -65,12 +63,7 @@ I also develop my own computational frameworks for research purposes.
 Most of my own code has been written in the [Python](https://www.python.org) and [Fortran](https://fortran-lang.org/) languages, and some of my frameworks make use of Python-interfaced modules written in [C++](https://isocpp.org/) and [Fortran](https://fortran-lang.org/), where the interface is written in [Cython](https://cython.org).
 I also enjoy exploring the capabilities of the [Rust language](https://www.rust-lang.org) and the [Julia language](https://julialang.org) for (future) scientific projects.
 
-To get an overview of the software I use and develop, check out:
-
 {% include feature_row %}
-
-<!-- * **[Software suites I use](/software/use/)** - external framework and environments built into my pipelines,
-* **[Software suites I develop](/software/develop)** - open-source packages, repositories (many of which are in active development). -->
 
 <figure>
   <blockquote class="big-custom-blockquote">
