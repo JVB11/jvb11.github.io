@@ -44,13 +44,8 @@ author_profile: true
 }
 </style>
 
-I have worked with different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a ([variable](https://en.wikipedia.org/wiki/Variable_star)) star that vibrates in its natural frequencies.
+I have worked with and developed different scientific software suites to interpret observed astronomical data and generate theoretical models that describe the life of a ([variable](https://en.wikipedia.org/wiki/Variable_star)) star that vibrates in its natural frequencies.
 Such vibrations/oscillations cause the star to periodically dim and brighten, which can be observed in astronomical data products, such as the [photometric](https://en.wikipedia.org/wiki/Photometry_(astronomy)) light curves (of specific variable stars) that I have studied in my doctoral dissertation - these were observed by the [NASA Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_space_telescope).
-
-I use several scientific software suites for my scientific endeavors - these software suites are typically [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (with the exception of [Wolfram Mathematica](https://www.wolfram.com/mathematica/)).
-I also develop my own computational frameworks for research purposes.
-Most of my own code has been written in the [Python](https://www.python.org) and [Fortran](https://fortran-lang.org/) languages, and some of my frameworks make use of Python-interfaced modules written in [C++](https://isocpp.org/) and [Fortran](https://fortran-lang.org/), where the interface is written in [Cython](https://cython.org).
-I also enjoy exploring the capabilities of the [Rust language](https://www.rust-lang.org) and the [Julia language](https://julialang.org) for (future) scientific projects.
 
 <div style="display: flex; justify-content: flex-start; align-items: center; gap: 1.5rem; margin-top: 1.5rem; margin-bottom: 2rem; margin-left: 0.75rem;">
   

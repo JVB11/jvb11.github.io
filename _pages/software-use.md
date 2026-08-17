@@ -6,6 +6,8 @@ excerpt: "This page describes which scientific software suites I use for advanci
 author_profile: true
 ---
 
+I use several scientific software suites for my scientific endeavors - these software suites are typically [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (with the exception of [Wolfram Mathematica](https://www.wolfram.com/mathematica/)).
+
 > Additional information about the scientific software suites I use can be found on their websites, which can be accessed by clicking on the logos or hyperlinks.
 
 ## Modules for Experiments in Stellar Astrophysics ([MESA](https://docs.mesastar.org/en/stable/)) + [GYRE](https://gyre.readthedocs.io/en/stable/) stellar oscillation code
