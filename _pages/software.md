@@ -50,12 +50,12 @@ Such vibrations/oscillations cause the star to periodically dim and brighten, wh
 <div style="display: flex; justify-content: flex-start; align-items: center; gap: 1.5rem; margin-top: 1.5rem; margin-bottom: 2rem; margin-left: 0.75rem;">
   
   <!-- Software suites I use -->
-  <a href="/software/use/" style="display: inline-block; background-color: transparent; color: #52adc8; border: 1.5px solid #52adc8; padding: 10px 22px; border-radius: 25px; text-decoration: none; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.3px; transition: all 0.25s ease;" onmouseover="this.style.backgroundColor='rgba(82, 173, 200, 0.1)'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateY(0)';">
+  <a href="/software/use/" style="display: inline-block; background-color: transparent; color: #52adc8; border: 1.5px solid #52adc8; padding: 12px 26px; border-radius: 25px; text-decoration: none; font-size: 1.2rem; font-weight: 500; letter-spacing: 0.3px; transition: all 0.25s ease;" onmouseover="this.style.backgroundColor='rgba(82, 173, 200, 0.1)'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateY(0)';">
     Software suites I use
   </a>
 
   <!-- Software suites I develop -->
-  <a href="/software/develop/" style="display: inline-block; background-color: transparent; color: #52adc8; border: 1.5px solid #52adc8; padding: 10px 22px; border-radius: 25px; text-decoration: none; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.3px; transition: all 0.25s ease;" onmouseover="this.style.backgroundColor='rgba(82, 173, 200, 0.1)'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='transparent'; this.style.transform='transparent'; this.style.transform='translateY(0)';">
+  <a href="/software/develop/" style="display: inline-block; background-color: transparent; color: #52adc8; border: 1.5px solid #52adc8; padding: 12px 26px; border-radius: 25px; text-decoration: none; font-size: 1.2rem; font-weight: 500; letter-spacing: 0.3px; transition: all 0.25s ease;" onmouseover="this.style.backgroundColor='rgba(82, 173, 200, 0.1)'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='transparent'; this.style.transform='transparent'; this.style.transform='translateY(0)';">
     Software suites I develop
   </a>
 
