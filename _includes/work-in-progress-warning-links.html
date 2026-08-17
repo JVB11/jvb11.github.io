@@ -1,10 +1,49 @@
-<div style="display: flex; align-items: flex-start; background-color: rgba(230, 126, 34, 0.06); border-left: 3px solid #f0883e; border-radius: 6px; padding: 10px 14px; margin-top: 1.2rem; margin-bottom: 1.2rem; margin-left: 0.75rem;">
-  <!-- Warning symbol -->
-  <i class="fas fa-exclamation-triangle" style="color: #f0883e; font-size: 0.95rem; margin-top: 3px; margin-right: 12px; flex-shrink: 0;"></i>
-  
-  <!-- Warning text -->
-  <div style="color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 0.8rem; line-height: 1.4;">
-    <strong style="color: #f0883e; display: inline-block; margin-right: 4px;">Work in Progress:</strong>
-    Please note that some of the links above may not be fully functional yet as this project is under active development.
+{% assign type = include.type | default: "warning" %}
+
+{% if type == "warning" %}
+  {% assign hex_color = "#f0883e" %}
+  {% assign bg_color = "rgba(240, 136, 62, 0.06)" %}
+  {% assign icon_class = "fas fa-exclamation-triangle" %}
+{% elif type == "info" %}
+  {% assign hex_color = "#52adc8" %}
+  {% assign bg_color = "rgba(82, 173, 200, 0.06)" %}
+  {% assign icon_class = "fas fa-info-circle" %}
+{% endif %}
+
+<style>
+  .custom-alert-box {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-left: 0.75rem;
+  }
+
+  .custom-alert-icon {
+    font-size: 0.95rem;
+    margin-top: 3px;
+    margin-right: 15px;
+    flex-shrink: 0;
+  }
+
+  .custom-alert-text {
+    color: #c9d1d9;
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .custom-alert-title {
+    display: inline-block;
+    margin-right: 4px;
+  }
+</style>
+
+<div class="custom-alert-box" style="background-color: {{ bg_color }}; border-left: 3px solid {{ hex_color }};">
+  <i class="{{ icon_class }} custom-alert-icon" style="color: {{ hex_color }};"></i>
+  <div class="custom-alert-text">
+    <strong class="custom-alert-title" style="color: {{ hex_color }};">{{ include.title | default: "Notice: " }}</strong>
+    {{ include.text }}
   </div>
 </div>
