@@ -21,8 +21,16 @@ gallery:
       title: ""
 ---
 
-<a href="https://github.com/JVB11/NTSA" target="_blank" rel="noopener"><i class="fab fa-github fa-3x" style="color: #ffffff; vertical-align: middle;">
-[<img src="/images/software/readme-brands-solid-full.svg" style="width:15%; filter: brightness(0) invert(1); height:auto; margin-top:1%; margin-right:25%; margin-left:10%; margin-bottom:3%; float:right;">](https://github.com/JVB11/NTSA)
+<div style="display: flex; justify-content: flex-start; align-items: center; gap: 0.5rem; margin-top: 0.5rem; margin-bottom:1.0rem;>
+  <!-- GitHub Repository link -->
+  <a href="https://github.com/JVB11/NTSA" target="_blank" rel="noopener" style="text-decoration: none; line-height: 1;" title="GitHub repository of NTSA">
+    <i class="fab fa-github" style="color: #ffffff; font-size: 2.5rem;"></i>
+  </a>
+  <!-- Documentation link -->
+  <a href="https://github.com/JVB11/NTSA" target="_blank" rel="noopener" style="text-decoration: none; line-height: 1; display: flex; align-items: center;" title="Documentation of NTSA">
+    <img src="/images/software/readme-brands-solid-full.svg" alt="" style="height: 2.5rem; width: auto; filter: brightness(0) invert(1);">
+  </a>
+</div>
 
 _**Context**_
 
